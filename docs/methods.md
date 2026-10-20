@@ -1,5 +1,7 @@
 # Methods and limitations
 
+For the new aligned-coordinate export, see the [input/output contract and failure behavior](practical-use.md). The [rapid review](literature-review.md) records the evidence and software inspection behind that addition. Exporting applies the already computed proper rigid transform to all predicted atoms and does not change the fit, the baseline results, or their scientific interpretation.
+
 ## Fixed inputs, not an unrestricted structure matcher
 
 This analysis is deliberately specific to UniProt P00918, experimental 2CBA chain A, and AlphaFold DB model v6. Every source file is fingerprinted in `data/provenance.json`; analysis stops if a byte differs. JSON API snapshots were serialized with `json.dumps(parsed_json, indent=2)`; coordinate files and the AlphaFold confidence sidecar retain their downloaded bytes. A checksum establishes file identity, not scientific accuracy.

@@ -278,4 +278,5 @@ def comparison(data_dir: Path, fit_min_plddt: float = 0.0) -> dict:
         "interpretation": "Descriptive comparison of overlapping Cα coordinates after a rigid fit; not independent benchmarking, function validation, binding affinity, or activity measurement.",
     }
     return {"summary": summary, "residues": rows, "fit_sensitivity": sensitivity, "zinc_geometry": sorted(zinc_rows, key=lambda r:r["uniprot_position"]),
-            "experimental_xyz": y, "aligned_predicted_xyz": aligned, "matched_positions": positions, "experimental_zinc_xyz": zinc[0].xyz}
+            "experimental_xyz": y, "aligned_predicted_xyz": aligned, "matched_positions": positions, "experimental_zinc_xyz": zinc[0].xyz,
+            "rotation": rotation, "translation": translation}

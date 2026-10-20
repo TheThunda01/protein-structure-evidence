@@ -1,5 +1,7 @@
 # References and the claims they support
 
+The advancement round's source appraisal and exact search record are in the [rapid literature review](literature-review.md). It includes the current AFDB update, SIFTS mapping paper, US-align comparison, wwPDB file-format specification, and EMBL-EBI confidence guide, with access limits and implementation consequences.
+
 Sources were checked on 20 October 2026. Database records and their downloaded file versions should also be recorded in the analysis provenance. A database's coverage or a method's average performance does not validate an individual protein comparison.
 
 ## Biochemical identity and background

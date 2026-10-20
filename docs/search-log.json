@@ -1,0 +1,470 @@
+{
+  "search_date": "2026-10-20",
+  "scope": "Bounded rapid review: reproducible human CAII structure comparison, residue mapping, confidence interpretation, and audited export of a rigidly aligned existing model. Publication window 2022-01-01 through 2026-10-20; existing foundational citations retained.",
+  "inclusion_criteria": [
+    "Primary database or method papers directly supporting mapping, confidence or structural comparison; official format and software sources for implementation behavior.",
+    "English text/metadata available through PubMed or official sites; dated window for discovery, with a seeded known 2023 mapping paper."
+  ],
+  "exclusion_criteria": [
+    "Protein-specific activity, affinity, engineering or pathogen studies that do not establish the generic implementation contract.",
+    "Reviews/preprints not used as primary efficacy evidence; superseded database updates not reappraised.",
+    "No inference that structural overlap validates function, accuracy or independent generalization."
+  ],
+  "searches": [
+    {
+      "id": "P0",
+      "source": "PubMed connector",
+      "query": "(\"AlphaFold\"[Title/Abstract]) AND (\"local confidence\"[Title/Abstract] OR \"structural comparison\"[Title/Abstract]) AND (\"2022/01/01\"[Date - Publication] : \"2026/10/20\"[Date - Publication])",
+      "sort": "publication_date",
+      "max_results": 20,
+      "offset": 0,
+      "total_count": 22,
+      "returned_count": 20,
+      "retrieved_pmids": [
+        "42113646",
+        "42705565",
+        "42341425",
+        "42500660",
+        "42297733",
+        "42229649",
+        "42039469",
+        "41440913",
+        "41398311",
+        "40521868",
+        "40286848",
+        "40496892",
+        "39858848",
+        "39467848",
+        "38832788",
+        "38764661",
+        "38006624",
+        "37972533",
+        "37945678",
+        "36639029"
+      ],
+      "note": "Initial successful execution; repeated as P1 to retain structured metadata. Duplicate records counted once."
+    },
+    {
+      "id": "P1",
+      "source": "PubMed connector",
+      "query": "(\"AlphaFold\"[Title/Abstract]) AND (\"local confidence\"[Title/Abstract] OR \"structural comparison\"[Title/Abstract]) AND (\"2022/01/01\"[Date - Publication] : \"2026/10/20\"[Date - Publication])",
+      "query_translation": "\"AlphaFold\"[Title/Abstract] AND (\"local confidence\"[Title/Abstract] OR \"structural comparison\"[Title/Abstract]) AND 2022/01/01:2026/10/20[Date - Publication]",
+      "sort": "publication_date",
+      "max_results": 20,
+      "offset": 0,
+      "total_count": 22,
+      "returned_count": 20,
+      "retrieved_pmids": [
+        "42113646",
+        "42705565",
+        "42341425",
+        "42500660",
+        "42297733",
+        "42229649",
+        "42039469",
+        "41440913",
+        "41398311",
+        "40521868",
+        "40286848",
+        "40496892",
+        "39858848",
+        "39467848",
+        "38832788",
+        "38764661",
+        "38006624",
+        "37972533",
+        "37945678",
+        "36639029"
+      ],
+      "has_more": true,
+      "limit": "At most 20 per call. Only P1 required continuation; P2 completes it."
+    },
+    {
+      "id": "P2",
+      "source": "PubMed connector",
+      "query": "(\"AlphaFold\"[Title/Abstract]) AND (\"local confidence\"[Title/Abstract] OR \"structural comparison\"[Title/Abstract]) AND (\"2022/01/01\"[Date - Publication] : \"2026/10/20\"[Date - Publication])",
+      "query_translation": "\"AlphaFold\"[Title/Abstract] AND (\"local confidence\"[Title/Abstract] OR \"structural comparison\"[Title/Abstract]) AND 2022/01/01:2026/10/20[Date - Publication]",
+      "sort": "publication_date",
+      "max_results": 20,
+      "offset": 20,
+      "total_count": 22,
+      "returned_count": 2,
+      "retrieved_pmids": [
+        "36419248",
+        "36699367"
+      ],
+      "has_more": false,
+      "limit": "At most 20 per call. Only P1 required continuation; P2 completes it."
+    },
+    {
+      "id": "P3",
+      "source": "PubMed connector",
+      "query": "SIFTS[Title] AND (\"2022/01/01\"[Date - Publication] : \"2026/10/20\"[Date - Publication])",
+      "query_translation": "\"SIFTS\"[Title] AND 2022/01/01:2026/10/20[Date - Publication]",
+      "sort": "publication_date",
+      "max_results": 20,
+      "offset": 0,
+      "total_count": 1,
+      "returned_count": 1,
+      "retrieved_pmids": [
+        "42146588"
+      ],
+      "has_more": false,
+      "limit": "At most 20 per call. Only P1 required continuation; P2 completes it."
+    },
+    {
+      "id": "P4",
+      "source": "PubMed connector",
+      "query": "(\"AlphaFold Protein Structure Database\"[Title] OR \"US-align\"[Title]) AND (\"2022/01/01\"[Date - Publication] : \"2026/10/20\"[Date - Publication])",
+      "query_translation": "(\"AlphaFold Protein Structure Database\"[Title] OR \"US-align\"[Title]) AND 2022/01/01:2026/10/20[Date - Publication]",
+      "sort": "publication_date",
+      "max_results": 20,
+      "offset": 0,
+      "total_count": 9,
+      "returned_count": 9,
+      "retrieved_pmids": [
+        "40604267",
+        "41273079",
+        "40133787",
+        "39500192",
+        "37933859",
+        "36382391",
+        "37484534",
+        "36038728",
+        "34791371"
+      ],
+      "has_more": false,
+      "limit": "At most 20 per call. Only P1 required continuation; P2 completes it."
+    },
+    {
+      "id": "P5",
+      "source": "PubMed connector",
+      "query": "\"Unified access to up-to-date residue-level annotations\"[Title] AND (\"2022/01/01\"[Date - Publication] : \"2026/10/20\"[Date - Publication])",
+      "query_translation": "\"Unified access to up-to-date residue-level annotations\"[Title] AND (\"2022/01/01\"[Date - Publication] : \"2026/10/20\"[Date - Publication])",
+      "sort": "publication_date",
+      "max_results": 20,
+      "offset": 0,
+      "total_count": 0,
+      "returned_count": 0,
+      "retrieved_pmids": [],
+      "has_more": false,
+      "limit": "At most 20 per call. Only P1 required continuation; P2 completes it."
+    }
+  ],
+  "screening": {
+    "counts": {
+      "pubmed_unique_search_hits": 32,
+      "pubmed_direct_seed_records": 1,
+      "pubmed_unique_titles_screened": 33,
+      "pubmed_records_retrieved_separately": 5,
+      "pubmed_papers_included": 3,
+      "pubmed_full_text_complete": 2,
+      "pubmed_included_abstract_only": 1
+    },
+    "decisions": [
+      {
+        "pmid": "42113646",
+        "title": "The crystal structure of the Borrelia burgdorferi nicotinamidase BBE22 resolves a long-standing annotation error.",
+        "doi": "10.1002/2211-5463.70268",
+        "decision": "Exclude: organism-specific enzyme annotation; outside pinned human CAII and general interoperability scope."
+      },
+      {
+        "pmid": "42705565",
+        "title": "Evolutionary characterization and structure-guided discovery of the β-barrel assembly machinery in Treponema pallidum subsp. pallidum reveals a putative BamD-like protein.",
+        "doi": "10.1016/j.ijbiomac.2026.154347",
+        "decision": "Exclude: pathogen-specific interaction study; outside scope."
+      },
+      {
+        "pmid": "42341425",
+        "title": "AI-enabled structural bioinformatics identifies repositioned kinase inhibitor against Poxviridae kinases.",
+        "doi": "10.1016/j.compbiomed.2026.111827",
+        "decision": "Exclude: antiviral screening/design workflow; outside scope."
+      },
+      {
+        "pmid": "42500660",
+        "title": "Translating viral genetic data to PRRSV-2 cross-neutralization using machine learning.",
+        "doi": "10.3389/fimmu.2026.1875393",
+        "decision": "Exclude: viral neutralization prediction; outside scope."
+      },
+      {
+        "pmid": "42297733",
+        "title": "Characterization and Identification of Potential Allergenic Proteins in Sophora japonica L. Pollen.",
+        "doi": "10.1021/acs.jproteome.6c00005",
+        "decision": "Exclude: allergen characterization; outside scope."
+      },
+      {
+        "pmid": "42229649",
+        "title": "Conserved non-canonical recognition with distinct structural solutions underlies dual-HLA recognition of HIV-1 Gag TL9.",
+        "doi": "10.1016/j.ijbiomac.2026.152866",
+        "decision": "Exclude: viral antigen/TCR recognition; outside scope."
+      },
+      {
+        "pmid": "42039469",
+        "title": "FlyPredictome: A structural atlas of predicted protein-protein interactions in Drosophila.",
+        "doi": "10.64898/2026.04.14.718529",
+        "decision": "Exclude: interaction-atlas preprint; different task and not peer-reviewed."
+      },
+      {
+        "pmid": "41440913",
+        "title": "A CALB-like Cold-Active Lipolytic Enzyme from Pseudonocardia antarctica: Expression, Biochemical Characterization, and AlphaFold-Guided Dynamics.",
+        "doi": "10.3390/md23120480",
+        "decision": "Exclude: organism-specific lipolytic enzyme characterization; outside scope."
+      },
+      {
+        "pmid": "41398311",
+        "title": "Structural basis of dimerization and cascade formation by Cas5.",
+        "doi": "10.1038/s41598-025-32766-5",
+        "decision": "Exclude: Cas-complex structural study; outside scope."
+      },
+      {
+        "pmid": "40521868",
+        "title": "Structural and Functional Analysis of Plant Oil-Body Lipase Eg LIP1 From Elaeis guineensis.",
+        "doi": "10.1002/prot.26852",
+        "decision": "Exclude: plant lipase characterization; outside scope."
+      },
+      {
+        "pmid": "40286848",
+        "title": "Discovery and biochemical characterization of the D-aspartyl endopeptidase activity of the serine protease LACTB.",
+        "doi": "10.1016/j.jbc.2025.108549",
+        "decision": "Exclude: LACTB activity study; different protein and question."
+      },
+      {
+        "pmid": "40496892",
+        "title": "Bridging prediction and reality: Comprehensive analysis of experimental and AlphaFold 2 full-length nuclear receptor structures.",
+        "doi": "10.1016/j.csbj.2025.05.010",
+        "decision": "Exclude after abstract appraisal: nuclear-receptor family comparison; cannot transfer its effect sizes to CAII."
+      },
+      {
+        "pmid": "39858848",
+        "title": "The Structural, Biophysical, and Antigenic Characterization of the Goose Parvovirus Capsid.",
+        "doi": "10.3390/microorganisms13010080",
+        "decision": "Exclude: viral capsid study; outside scope."
+      },
+      {
+        "pmid": "39467848",
+        "title": "Cognitive Impact of Neurotropic Pathogens: Investigating Molecular Mimicry through Computational Methods.",
+        "doi": "10.1007/s10571-024-01509-x",
+        "decision": "Exclude: pathogen molecular mimicry; outside scope."
+      },
+      {
+        "pmid": "38832788",
+        "title": "Mriyaviruses: small relatives of giant viruses.",
+        "doi": "10.1128/mbio.01035-24",
+        "decision": "Exclude: viral taxonomy/structure study; outside scope."
+      },
+      {
+        "pmid": "38764661",
+        "title": "Insights into the Mechanism of Catalytic Activity of Plasmodium Parasite Malate-Quinone Oxidoreductase.",
+        "doi": "10.1021/acsomega.4c02614",
+        "decision": "Exclude: parasite enzyme activity; outside scope."
+      },
+      {
+        "pmid": "38006624",
+        "title": "GPR101: Modeling a constitutively active receptor linked to X-linked acrogigantism.",
+        "doi": "10.1016/j.jmgm.2023.108676",
+        "decision": "Exclude: receptor modeling and ligand question; outside scope."
+      },
+      {
+        "pmid": "37972533",
+        "title": "Utilization of AlphaFold models for drug discovery: Feasibility and challenges. Histone deacetylase 11 as a case study.",
+        "doi": "10.1016/j.compbiomed.2023.107700",
+        "decision": "Exclude: HDAC11 ligand/docking workflow; outside scope."
+      },
+      {
+        "pmid": "37945678",
+        "title": "Cloning, computational analysis and expression profiling of steroid 5 alpha-reductase 1 (SRD5A1) gene during reproductive phases and ovatide stimulation in endangered catfish, Clarias magur.",
+        "doi": "10.1038/s41598-023-46969-1",
+        "decision": "Exclude: fish enzyme expression/modeling; outside scope."
+      },
+      {
+        "pmid": "36639029",
+        "title": "Pseudophosphorylation of Arabidopsis jasmonate biosynthesis enzyme lipoxygenase 2 via mutation of Ser600 inhibits enzyme activity.",
+        "doi": "10.1016/j.jbc.2023.102898",
+        "decision": "Exclude: plant enzyme mutation/activity; outside scope."
+      },
+      {
+        "pmid": "36419248",
+        "title": "DALI shines a light on remote homologs: One hundred discoveries.",
+        "doi": "10.1002/pro.4519",
+        "decision": "Exclude at title: DALI discovery applications; not needed for fixed residue mapping and export."
+      },
+      {
+        "pmid": "36699367",
+        "title": "OAF: a new member of the BRICHOS family.",
+        "doi": "10.1093/bioadv/vbac087",
+        "decision": "Exclude: family-membership annotation; outside scope."
+      },
+      {
+        "pmid": "42146588",
+        "title": "PDBe-SIFTS: an open-source tool for Structure Integration with Function, Taxonomy, and Sequences, featuring improved alignment, scoring scheme, and accelerated search.",
+        "doi": "10.64898/2026.04.30.721839",
+        "decision": "Exclude at title: 2026 preprint, not peer-reviewed; current pinned mapping is retained."
+      },
+      {
+        "pmid": "40604267",
+        "title": "A graphic and command line protocol for quick and accurate comparisons of protein and nucleic acid structures with US-align.",
+        "doi": "10.1038/s41596-025-01189-x",
+        "decision": "Supplementary context only: protocol/review, abstract inspected; official code inspected instead for exact export behavior."
+      },
+      {
+        "pmid": "41273079",
+        "title": "AlphaFold Protein Structure Database 2025: a redesigned interface and updated structural coverage.",
+        "doi": "10.1093/nar/gkaf1226",
+        "decision": "Include: current primary database update; full text inspected."
+      },
+      {
+        "pmid": "40133787",
+        "title": "AlphaFold Protein Structure Database and 3D-Beacons: New Data and Capabilities.",
+        "doi": "10.1016/j.jmb.2025.168967",
+        "decision": "Exclude at title: overlapping database update; choose later detailed update 41273079."
+      },
+      {
+        "pmid": "39500192",
+        "title": "Structure-guided discovery and rational design of a new poly(ethylene terephthalate) hydrolase from AlphaFold protein structure database.",
+        "doi": "10.1016/j.jhazmat.2024.136389",
+        "decision": "Exclude: enzyme design application; outside scope."
+      },
+      {
+        "pmid": "37933859",
+        "title": "AlphaFold Protein Structure Database in 2024: providing structure coverage for over 214 million protein sequences.",
+        "doi": "10.1093/nar/gkad1011",
+        "decision": "Exclude at title: previous database update; current update selected."
+      },
+      {
+        "pmid": "36382391",
+        "title": "The impact of AlphaFold Protein Structure Database on the fields of life sciences.",
+        "doi": "10.1002/pmic.202200128",
+        "decision": "Exclude at title: broad impact review; primary update selected."
+      },
+      {
+        "pmid": "37484534",
+        "title": "Automated identification of chalcogen bonds in AlphaFold protein structure database files: is it possible?",
+        "doi": "10.3389/fmolb.2023.1155629",
+        "decision": "Exclude at title: chalcogen-bond detection application; outside scope."
+      },
+      {
+        "pmid": "36038728",
+        "title": "US-align: universal structure alignments of proteins, nucleic acids, and macromolecular complexes.",
+        "doi": "10.1038/s41592-022-01585-1",
+        "decision": "Include: primary structural-alignment method; abstract-only appraisal plus official source inspection."
+      },
+      {
+        "pmid": "34791371",
+        "title": "AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models.",
+        "doi": "10.1093/nar/gkab1061",
+        "decision": "Foundational citation already in reference guide; not separately appraised in advancement review."
+      },
+      {
+        "pmid": "37045837",
+        "title": "Unified access to up-to-date residue-level annotations from UniProtKB and other biological databases for PDB data.",
+        "doi": "10.1038/s41597-023-02101-6",
+        "decision": "Include: directly retrieved from pre-existing verified reference; full text retrieved in two chunks."
+      }
+    ],
+    "direct_retrieval": {
+      "pmids": [
+        "41273079",
+        "36038728",
+        "40604267",
+        "37045837",
+        "40496892"
+      ],
+      "seed_reason": "PMID 37045837 was already verified in docs/references.md; an exact-title-prefix query returned zero. Direct retrieval retained it, without claiming discovery through that query."
+    },
+    "full_text": [
+      {
+        "pmcid": "PMC12807749",
+        "pmid": "41273079",
+        "available": true,
+        "total_text_chars": 7852,
+        "text_offsets": [
+          0
+        ],
+        "truncated": false
+      },
+      {
+        "pmcid": "PMC10097656",
+        "pmid": "37045837",
+        "available": true,
+        "total_text_chars": 34268,
+        "text_offsets": [
+          0,
+          20000
+        ],
+        "truncated": false
+      }
+    ],
+    "notes": [
+      "Search responses provide full abstracts but only titles were screened for most exclusions; five records were separately retrieved for abstract appraisal.",
+      "No pooled effect estimates, formal risk-of-bias instrument, dual screening or citation chaining. This is not a complete systematic review.",
+      "Author-list pagination in two database-paper records was not followed because complete authorship was not required for scope screening."
+    ]
+  },
+  "supplementary_searches": [
+    {
+      "source": "Web search",
+      "query": "site.wwpdb.org documentation file-format coordinate ATOM orthogonal Angstrom",
+      "total_count": null,
+      "total_count_note": "Search engine total not supplied; not interpreted as exhaustive.",
+      "selected_urls": [
+        "https://www.wwpdb.org/documentation/file-format-content/format33/sect9.html",
+        "https://www.wwpdb.org/documentation/file-format-content/format33/sect8.html"
+      ]
+    },
+    {
+      "source": "Web search",
+      "query": "US-align github pylelab license",
+      "total_count": null,
+      "selected_urls": [
+        "https://github.com/pylelab/USalign"
+      ]
+    },
+    {
+      "source": "Web search",
+      "query": "site.wwpdb.org/documentation/file-format-content/format33/sect9.html",
+      "total_count": null,
+      "selected_urls": [
+        "https://www.wwpdb.org/documentation/file-format-content/format33/sect9.html"
+      ]
+    },
+    {
+      "source": "Official documentation direct open",
+      "url": "https://www.ebi.ac.uk/training/online/courses/alphafold/inputs-and-outputs/evaluating-alphafolds-predicted-structures-using-confidence-scores/plddt-understanding-local-confidence/",
+      "access": "Full page inspected",
+      "version": "Undated page accessed 2026-10-20"
+    },
+    {
+      "source": "Official FAQ direct open",
+      "url": "https://alphafold.ebi.ac.uk/faq",
+      "access": "Rendered shell only; substantive FAQ content unavailable through retrieved page, not used for new claims."
+    },
+    {
+      "source": "GitHub connector",
+      "repository": "pylelab/USalign",
+      "commit": "23f14ffcf8647f2dc1c0e01043db3a7f3a661c28",
+      "version": "20261019",
+      "files": [
+        "readme.txt",
+        "LICENSE",
+        "USalign.cpp"
+      ],
+      "license": "Custom permissive notice requiring retention of notices and references; not relabeled as MIT/BSD",
+      "access": "Pinned source and license inspected; no execution, benchmarking, or copied code."
+    }
+  ],
+  "retrieval_failures": [
+    {
+      "source": "PubMed tool argument probing",
+      "detail": "Empty query and unsupported sort pub_date rejected before execution; corrected to publication_date. Not counted as database searches."
+    },
+    {
+      "source": "GitHub connector",
+      "detail": "zhanggroup/USalign master returned 404; official pylelab/USalign master resolved and pinned."
+    }
+  ],
+  "baseline": {
+    "head": "f45228f8e8ab4d5a9c7681d479a8159ef2661fad",
+    "file": "/workspace/scratch/64c10851f2fb/advancement-baseline.json",
+    "rule": "Preserve all source snapshots and checked-in baseline scientific results."
+  }
+}

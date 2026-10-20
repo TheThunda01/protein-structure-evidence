@@ -3,3 +3,5 @@ __pycache__/
 .venv/
 .DS_Store
 .structure_results_*/
+.alignment_export_*/
+derived/

@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "source_manifest_sha256": "03969a576ba2b0259fbadb568195a618f5931a519b18e8ae3359fbf3d6cd5527",
+  "source_sha256": {
+    "2cba.pdb": "7862c050b41ed8a867555699c6a0266c7997c06f7552593febf2af9c92c6e5a8",
+    "AF-P00918-F1-model_v6.pdb": "b8b736bf9d72c8357054523386e2f8e30d526ba074e135760981510cfda90d53",
+    "AF-P00918-F1-confidence_v6.json": "6ecf34eff47c0371b8f1ca909a20ab75a3b008cb0cc5b1621c791bfc53845e54",
+    "2cba_entry.json": "75105d9fb6d752c8a9775c3ea6f3793c32c62cca41d8be2ae823c8a531b0a40b",
+    "2cba_polymer_entity_1.json": "63ae9b5864b199496a4cc71e4e569f5c4784465b297e092185cc77f9b72d0c0a",
+    "2cba_chain_A.json": "b3bc07d50254503489b01d0fd00e4db7980a6a1da45ff6ef32cdeed6ebed92fc",
+    "uniprot_P00918.json": "ede688c897856251028c8cb137d64a29b99c9c97499887376fdf2a1224edfc03",
+    "alphafold_P00918.json": "15c77df917afdc6ba7e4289b20834c8c60da36a4c62bbd501e1cd60b2ef0cd15"
+  },
+  "code_sha256": {
+    "export_alignment.py": "a1fcfade82ed0407bcedb8906ec18ae3abfee959a2cb30261464adafb499f820",
+    "structure_evidence.py": "ea6b546deb81a2f9c4e2f19c925d9750a5996198b013592c77806c12569d4276"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "derived_files": {
+    "aligned_prediction.pdb": {
+      "sha256": "fe08d39f35b5afc9792a97ace7f314efcfa7f94dbfd958b3f6fa10f4ddb26b07",
+      "bytes": 173124
+    },
+    "transform.json": {
+      "sha256": "9d9f1f9cec215d2564d13dc16a8dcc0080a9296eeea315dd617c79dcf7bb0bf7",
+      "bytes": 5587
+    }
+  },
+  "notes": [
+    "Only coordinate columns change in ATOM/HETATM records; original pLDDT is retained.",
+    "Original source files are never overwritten.",
+    "The exported model has no zinc; no atoms or residues were added.",
+    "Training/template overlap cannot be excluded; this is not independent validation.",
+    "Reuse derived AlphaFold data with source attribution under CC BY 4.0; see data/README.md."
+  ]
+}
