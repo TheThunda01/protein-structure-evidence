@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "verified": true,
+  "source_manifest_sha256": "03969a576ba2b0259fbadb568195a618f5931a519b18e8ae3359fbf3d6cd5527",
+  "verified_bundle_sha256": {
+    "aligned_prediction.pdb": "fe08d39f35b5afc9792a97ace7f314efcfa7f94dbfd958b3f6fa10f4ddb26b07",
+    "receipt.json": "3475bd70e052343a0c8cee4ce4847998b21cb8f95f3a1e4cd7e0f553f18c250e",
+    "transform.json": "9d9f1f9cec215d2564d13dc16a8dcc0080a9296eeea315dd617c79dcf7bb0bf7"
+  },
+  "predicted_atoms": 2073,
+  "fit_residues": 258,
+  "evaluation_residues": 258,
+  "fit_min_plddt": 0.0,
+  "numeric_recomputation_tolerance": 1e-10,
+  "recorded_runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "current_runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "runtime_matches_current": true,
+  "runtime_metadata_authenticated": false,
+  "strict_runtime_requested": false,
+  "limits": "Checks pinned-case file integrity and computational consistency; not authorship, a digital signature, independent method validation, or biological function. An optional README is not verified."
+}

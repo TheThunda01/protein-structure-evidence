@@ -1,0 +1,185 @@
+{
+  "search_date": "2026-10-20",
+  "round": 2,
+  "scope": "Same-day second scope: verify exported existing CAII alignment bundles against pinned source data, including residue selection, rigid transform, coordinates and receipts. No new protein modeling or biological claims.",
+  "inclusion_criteria": [
+    "Primary data-representation papers supporting model provenance/interchange; official file-format and Python hashing/JSON documentation supporting implementation behavior.",
+    "Publication discovery restricted to 2022-01-01 through 2026-10-20; older existing foundations retained without repeating the round-1 review."
+  ],
+  "exclusion_criteria": [
+    "Protein design/watermarking, drug discovery and unrelated experimental applications.",
+    "Broad reviews not needed for the bounded implementation; no claim that a provenance format validates the correctness of this code."
+  ],
+  "searches": [
+    {
+      "id": "R2-P1",
+      "source": "PubMed connector",
+      "query": "(\"protein structure\"[Title/Abstract]) AND (reproducibility[Title/Abstract] OR provenance[Title/Abstract]) AND (\"2022/01/01\"[Date - Publication] : \"2026/10/20\"[Date - Publication])",
+      "query_translation": "\"protein structure\"[Title/Abstract] AND (\"reproducibility\"[Title/Abstract] OR \"provenance\"[Title/Abstract]) AND 2022/01/01:2026/10/20[Date - Publication]",
+      "sort": "publication_date",
+      "max_results": 10,
+      "offset": 0,
+      "total_count": 31,
+      "returned_count": 10,
+      "returned_pmids": [
+        "42816606",
+        "42817087",
+        "42883214",
+        "41580068",
+        "42360459",
+        "41734662",
+        "42356532",
+        "41577021",
+        "41989469",
+        "41758193"
+      ],
+      "has_more": true,
+      "pagination_policy": "Bounded first 10 only; remaining 21 not retrieved or screened."
+    },
+    {
+      "id": "R2-P2",
+      "source": "PubMed connector",
+      "query": "ModelCIF[Title] AND (\"2022/01/01\"[Date - Publication] : \"2026/10/20\"[Date - Publication])",
+      "query_translation": "\"ModelCIF\"[Title] AND 2022/01/01:2026/10/20[Date - Publication]",
+      "sort": "publication_date",
+      "max_results": 10,
+      "offset": 0,
+      "total_count": 2,
+      "returned_count": 2,
+      "returned_pmids": [
+        "41580068",
+        "36828268"
+      ],
+      "has_more": false,
+      "pagination_policy": "All 2 retrieved; no continuation."
+    }
+  ],
+  "screening": {
+    "unique_titles_screened": 11,
+    "included_primary_papers": 1,
+    "abstracts_separately_retrieved": [
+      "41580068"
+    ],
+    "full_text": [
+      {
+        "pmid": "41580068",
+        "pmcid": "PMC13495685",
+        "available": true,
+        "text_offsets": [
+          0,
+          20000
+        ],
+        "total_text_chars": 21590,
+        "complete": true
+      }
+    ],
+    "decisions": [
+      {
+        "pmid": "42816606",
+        "title": "Function-preserving watermarking of AI-generated proteins.",
+        "doi": "10.1038/s41586-026-10965-y",
+        "decision": "Exclude at title: protein watermarking/design, outside pinned-model verification."
+      },
+      {
+        "pmid": "42817087",
+        "title": "Revolution of Computer-assisted Drug Design: The Transformative Role of Artificial Intelligence.",
+        "doi": "10.2174/0115734099491620260915174557",
+        "decision": "Exclude at title: broad drug-design review."
+      },
+      {
+        "pmid": "42883214",
+        "title": "Peroxidase Sensor Based on Electroactive Ce3+-Phytic Acid-Cu2+@Cu Composite.",
+        "doi": "10.3390/molecules31193448",
+        "decision": "Exclude at title: electrochemical sensor study."
+      },
+      {
+        "pmid": "41580068",
+        "title": "ModelCIF Update: Supporting Emerging Classes of Computational Macromolecular Models.",
+        "doi": "10.1016/j.jmb.2026.169658",
+        "decision": "Include: primary ModelCIF update; abstract plus complete full text inspected; metadata/provenance claim only."
+      },
+      {
+        "pmid": "42360459",
+        "title": "Sulfur valence normalization to expand quantitative peptide selection in protein metrology.",
+        "doi": "10.1007/s00216-026-06617-9",
+        "decision": "Exclude at title: peptide measurement normalization."
+      },
+      {
+        "pmid": "41734662",
+        "title": "Next-generation computational strategies for neurodegenerative biomarkers: Multi-omics integration, AI, and molecular modeling.",
+        "doi": "10.1016/j.compbiolchem.2026.108973",
+        "decision": "Exclude at title: biomarker/multi-omics review."
+      },
+      {
+        "pmid": "42356532",
+        "title": "AI in Drug Discovery: Clinical Failures, Regulatory Reality, and the Validation Crisis Behind the Hype.",
+        "doi": "10.3390/ph19060916",
+        "decision": "Exclude at title: broad AI drug-discovery discussion."
+      },
+      {
+        "pmid": "41577021",
+        "title": "Advances in NMR Spectroscopy for biological systems: Principles, techniques, and their growing scope.",
+        "doi": "10.1016/j.biotechadv.2026.108809",
+        "decision": "Exclude at title: general NMR review."
+      },
+      {
+        "pmid": "41989469",
+        "title": "The Rieske dioxygenase system in Achromobacter: in silico studies of the protein structure and substrate interactions.",
+        "doi": "10.1007/s00203-026-04905-7",
+        "decision": "Exclude at title: organism-specific substrate modeling."
+      },
+      {
+        "pmid": "41758193",
+        "title": "Trust, Reproducibility, and Progress: The Roles of Independent Blind Prediction and Assessment and Benchmarking in Computational Biology.",
+        "doi": "10.1142/9789819824755_0065",
+        "decision": "Exclude at title: broad independent assessment/benchmarking context; existing no-independent-benchmark caveat retained."
+      },
+      {
+        "pmid": "36828268",
+        "title": "ModelCIF: An Extension of PDBx/mmCIF Data Representation for Computed Structure Models.",
+        "doi": "10.1016/j.jmb.2023.168021",
+        "decision": "Foundational ModelCIF paper identified; prior/current representation context, not separately appraised because the newer update was selected."
+      }
+    ],
+    "limitations": [
+      "The initial query was bounded at 10 of 31; the review is not exhaustive.",
+      "Single-reviewer title screening; only the included update had abstract/full-text appraisal.",
+      "This is a new implementation scope on the same date as round 1, not elapsed-time surveillance."
+    ]
+  },
+  "supplementary_sources": [
+    {
+      "url": "https://docs.python.org/3.12/library/hashlib.html",
+      "source": "Official Python documentation",
+      "inspected_version": "3.12.15",
+      "access": "Relevant hashing API text inspected",
+      "claim": "SHA-256 provides a digest of input bytes; no claim that an unsigned digest authenticates the sender."
+    },
+    {
+      "url": "https://docs.python.org/3.12/library/hmac.html",
+      "source": "Official Python documentation",
+      "inspected_version": "3.12.15",
+      "access": "Relevant keyed-message-authentication text inspected",
+      "claim": "Keyed message authentication is distinct from the unkeyed receipt hashes used here; no HMAC implementation added."
+    },
+    {
+      "url": "https://docs.python.org/3.12/library/json.html",
+      "source": "Official Python documentation",
+      "inspected_version": "3.12.15",
+      "access": "Relevant JSON parsing/size and hook text inspected",
+      "claim": "Use bounded inputs and explicit handling of duplicate keys/nonfinite values."
+    },
+    {
+      "url": "https://www.wwpdb.org/documentation/file-format-content/format33/sect9.html",
+      "source": "Official wwPDB coordinate format",
+      "inspected_version": "3.3",
+      "access": "Relevant coordinate field definitions revisited",
+      "claim": "Preserve fixed-width atom identity, occupancy and B-column values when checking derived coordinates."
+    }
+  ],
+  "original_log_policy": "docs/search-log.json unchanged; prior screening and conclusions retained.",
+  "baseline": {
+    "head": "b8e407858a8b5519d9a99d90462d3c0f9dd69969",
+    "file": "advancement-round2-baseline.json"
+  }
+}

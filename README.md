@@ -36,9 +36,10 @@ To inspect the fitted model in a molecular viewer, choose a new output directory
 
 ```sh
 python export_alignment.py --output-dir derived/inspection-001
+python verify_alignment.py --bundle-dir derived/inspection-001
 ```
 
-The export refuses an existing destination. Open `aligned_prediction.pdb` alongside `data/2cba.pdb` without applying another fit. See [the worked use case](docs/practical-use.md) for the exact contract and [the checked-in export example](examples/alignment/README.md).
+The export refuses an existing destination. Verification reads the bundle, checks its hashes against pinned inputs, recomputes the fit, and checks every transformed atom. It writes no changes to the bundle; use `--json` for a machine-readable report. Open `aligned_prediction.pdb` alongside `data/2cba.pdb` without applying another fit. See [the worked use case](docs/practical-use.md) for the exact contract and [the checked-in export example](examples/alignment/README.md).
 
 ## Example results
 
@@ -50,6 +51,7 @@ The export refuses an existing destination. Open `aligned_prediction.pdb` alongs
 | [Zinc geometry](results/zinc_geometry.csv) | Three experimental Zn–histidine atom distances; no predicted zinc is added. |
 | [Evidence profiles](results/evidence_profiles.png) / [backbone overlay](results/backbone_overlay.png) | Distinct evidence panels and matched Cα traces. |
 | [Exported model](examples/alignment/aligned_prediction.pdb), [transform](examples/alignment/transform.json), [receipt](examples/alignment/receipt.json) | Full predicted model in the experimental coordinate frame, plus reproducible fit selection and integrity metadata. |
+| [Verification report](examples/verification/report.json) | Read-only check of the saved bundle against pinned inputs; includes fit counts, file hashes, and runtime-metadata limits. |
 
 The default fit uses **258 Cα pairs**, with RMSD **0.531 Å**. The largest displacement is **6.499 Å** at canonical residue **3**, where pLDDT is **69.06** and experimental Cα occupancy is **0.50**. Inspecting these observations together is useful; this analysis cannot establish the cause of their disagreement.
 
@@ -64,6 +66,7 @@ This is a small, inspectable example for learning residue joins, numerical geome
 - Cα agreement does not validate side chains, waters, dynamics, catalytic activity, or binding affinity.
 - The experimental model contains zinc; this AlphaFold monomer file does not. The export neither adds a cofactor nor repairs a structure.
 - Exported PDB coordinates are rounded to three decimals. Unit-cell and coordinate-frame placeholders are removed; the export is for inspection, not crystallographic refinement or deposition.
+- A verified bundle is computationally consistent with the pinned case; it does not authenticate an author or establish biological validity. Runtime metadata is reported separately; `--strict-runtime` can require version agreement.
 
 ## Documentation
 
@@ -79,6 +82,6 @@ This is a small, inspectable example for learning residue joins, numerical geome
 
 ## Development and reuse
 
-The 26 tests check mapping, geometry, confidence semantics, failure cases, deterministic outputs, and exported coordinates. CI runs the analysis and export on Python 3.12. See [contributing](CONTRIBUTING.md) for development expectations.
+The 35 tests check mapping, geometry, confidence semantics, failure cases, deterministic outputs, exported coordinates, and altered bundles. CI runs the analysis, export, and verification on Python 3.12. See [contributing](CONTRIBUTING.md) for development expectations.
 
 Code is MIT licensed. Source data and derived model coordinates retain their [reuse conditions and attribution](data/README.md). No code was copied from related tools.

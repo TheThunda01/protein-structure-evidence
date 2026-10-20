@@ -8,7 +8,7 @@ The implementation now includes a viewer-oriented export. Saving the applied tra
 
 ## Input and output contract
 
-Both commands accept the pinned `data/` directory. Before calculation, the code verifies its manifest and eight input fingerprints, then checks sequence identity, SIFTS correspondence, atom availability, and prediction confidence. The data are identified as P00918, 2CBA chain A, and AF-P00918-F1 version 6. A changed file, infeasible fit, malformed coordinate field, or inconsistent sequence stops the run.
+Analysis, export, and verification accept the pinned `data/` directory. Before calculation, the code verifies its manifest and eight input fingerprints, then checks sequence identity, SIFTS correspondence, atom availability, and prediction confidence. The data are identified as P00918, 2CBA chain A, and AF-P00918-F1 version 6. A changed file, infeasible fit, malformed coordinate field, or inconsistent sequence stops the run.
 
 `analyze.py` produces the documented reports and plots. Its existing outputs and scientific results are unchanged by the export feature.
 
@@ -26,6 +26,12 @@ The export writes a new complete directory and refuses an existing destination o
 
 Coordinates use the PDB 8.3 fields, so saved values differ from full precision by at most 0.0005 Å per component, apart from floating-point tolerance. Coordinate overflow fails. The transform JSON retains full floating-point precision; a viewer's own fit may choose a different subset and produce a different overlay.
 
+`verify_alignment.py --bundle-dir DIRECTORY` verifies all three required files without changing the bundle. The source-manifest SHA-256 is fixed in the verifier, so replacing both a source and its local manifest does not pass. Receipt source/code hashes must match; file hashes must match the receipt; and the selected fit is recomputed from original coordinates using the existing analysis code. All transform fields are checked, with an absolute tolerance of `1e-10` only for floating-point recomputation. The PDB bytes must exactly match regeneration from the recorded, verified transform, including unchanged non-coordinate atom fields. Changes inconsistent with the pinned sources and selected fit fail even when their stored digests are updated.
+
+Version 1 accepts only the model, transform, receipt, and an optional `README.md`; the optional README is not verified. Required members must be regular files, not symlinks, and at most 2 MiB each. Duplicate JSON keys, nonfinite values, unknown fields, and incorrect types fail. Status 0 means the checks passed; status 2 means validation failed. `--json` sends a structured report to stdout. That report includes current hashes of the three checked files and the fit/evaluation counts.
+
+Runtime version strings are unsigned claims. They are compared with the current environment and reported, not authenticated; `--strict-runtime` additionally fails when they differ. The verifier checks the current exporter and analysis code hashes, so a bundle from a changed implementation needs its corresponding reviewed checkout. It cannot establish who produced a mathematically consistent re-export or why they chose a valid cutoff. A checksum is not a digital signature ([Python hashing and authentication APIs](https://docs.python.org/3.12/library/hmac.html)).
+
 ## Worked use case
 
 From the repository root, with dependencies installed:
@@ -33,6 +39,7 @@ From the repository root, with dependencies installed:
 ```sh
 python analyze.py --output-dir /tmp/caii-review-results
 python export_alignment.py --output-dir derived/inspection-001
+python verify_alignment.py --bundle-dir derived/inspection-001 --json
 ```
 
 Choose a fresh export directory each time. Open its `aligned_prediction.pdb` alongside `data/2cba.pdb` in a local molecular viewer. Avoid an automatic second alignment if you want to inspect the saved fit. Color predicted confidence and experimental B factors separately. [EMBL-EBI's confidence guide](https://www.ebi.ac.uk/training/online/courses/alphafold/inputs-and-outputs/evaluating-alphafolds-predicted-structures-using-confidence-scores/plddt-understanding-local-confidence/) explains why local confidence does not establish interdomain orientation.
@@ -43,7 +50,7 @@ The default export records 258 fitted and evaluated positions and RMSD 0.5312317
 
 The code checks input identities and hashes, a proper rotation, available mapped atoms, and file-format limits. Tests also compare every exported atom against the recorded transform and check that its confidence and occupancy are unchanged.
 
-The operator still needs to keep the receipt with the exported model, verify hashes after moving files, inspect which positions entered the fit, and preserve [data attribution](../data/README.md). A receipt detects accidental changes when its recorded hashes are checked; it is not a cryptographic signature or an independent validator. Confirm source versions and chemistry before interpreting a different case outside this repository.
+The operator still needs to keep the receipt with the exported model, run verification after moving files, inspect which positions entered the fit, and preserve [data attribution](../data/README.md). A passing report checks computational consistency, not authorship or an independently validated fitting method. Confirm source versions and chemistry before interpreting a different case outside this repository.
 
 ## Known limits
 
@@ -53,7 +60,7 @@ The exporter supports this single-chain PDB snapshot, not general mmCIF, assembl
 
 ## Next improvements
 
-1. **Receipt verification command:** accept a bundle and its pinned source directory; fail for any altered model, transform, missing file, or inconsistent fit selection. Test each corruption independently.
-2. **mmCIF export:** use a maintained parser and preserve author/entity/UniProt identifiers and units; require round-trip tests before accepting inputs beyond this case.
-3. **Independent viewer checks:** pin at least two viewer versions and document successful loading plus coordinate agreement without a second fit. No claim of tested viewer compatibility until those checks exist.
+1. **mmCIF export:** use a maintained parser and preserve author/entity/UniProt identifiers and units; require round-trip tests before accepting inputs beyond this case.
+2. **Independent viewer checks:** pin at least two viewer versions and document successful loading plus coordinate agreement without a second fit. No claim of tested viewer compatibility until those checks exist.
+3. **Independent fit implementation:** reproduce the fixed atom selection with separately maintained numerical code and document tolerances; do not describe reuse of the current fitter as independent validation.
 4. **More case studies:** add a benign, independently justified structure pair with documented chemistry and evaluation cutoff. Require explicit checks for possible training/template overlap; do not pool RMSDs across unrelated proteins as a performance score.
