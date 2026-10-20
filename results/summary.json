@@ -1,0 +1,27 @@
+{
+  "case": "P00918 versus 2CBA chain A and AF-P00918-F1 model v6",
+  "reference_length": 260,
+  "mapped_entity_residues": 259,
+  "matched_ca_residues": 258,
+  "fit_min_plddt": 0,
+  "fit_residues": 258,
+  "fit_rmsd_A": 0.531232,
+  "all_matched_ca_rmsd_A": 0.531232,
+  "median_ca_displacement_A": 0.260633,
+  "max_ca_displacement_A": 6.499141,
+  "max_displacement_uniprot_position": 3,
+  "experimental_ca_missing_uniprot_positions": [
+    1,
+    2
+  ],
+  "predicted_mean_plddt": 97.370615,
+  "experimental_resolution_A": 1.54,
+  "experimental_nonwater_ligands": [
+    "ZN"
+  ],
+  "prediction_heteroatom_count": 0,
+  "rotation_determinant": 1.0,
+  "interpretation": "Descriptive comparison of overlapping C\u03b1 coordinates after a rigid fit; not independent benchmarking, function validation, binding affinity, or activity measurement.",
+  "source_manifest_sha256": "03969a576ba2b0259fbadb568195a618f5931a519b18e8ae3359fbf3d6cd5527",
+  "plots_generated": true
+}

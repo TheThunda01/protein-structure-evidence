@@ -1,0 +1,26 @@
+# Project context
+
+## Background and rationale
+
+A protein structure is evidence about an atomic model, not a direct readout of everything a protein does. Experimental models, predicted coordinates, sequence annotations, and confidence scores answer related but different questions. This project brings those sources together for human carbonic anhydrase II, a familiar zinc-containing enzyme, so the assumptions are visible rather than hidden inside one similarity score.
+
+The question is deliberately narrow: **which residues can be compared, how similar are their backbone positions after a rigid fit, and what does the available evidence leave unresolved?** The [biology guide](biology-and-concepts.md) explains the enzyme and the structural concepts in plain language.
+
+## What it does
+
+The analysis compares a pinned [AlphaFold DB prediction](https://alphafold.ebi.ac.uk/entry/P00918) with [experimental structure 2CBA](https://www.rcsb.org/structure/2CBA). It maps author residue numbers through the deposited sequence to UniProt positions, checks amino-acid identities, and compares overlapping Cα coordinates. Separate outputs show missing positions, predicted pLDDT, experimental B factors, fitting sensitivity, and a few experimental zinc-neighbor distances.
+
+## Why it matters
+
+This case has a useful complication: author numbering skips a number even though the canonical sequence does not. It also has a different N-terminal chemical state and positions without comparable experimental coordinates. Handling those details correctly matters more than producing an attractive overlay.
+
+The work demonstrates provenance tracking, careful joins between biological databases, numerical geometry, testing, and evidence-aware interpretation. It also shows why a low RMSD cannot be used as a shortcut to claims about activity or affinity.
+
+## Main themes
+
+- **Correspondence:** compare the same residues before comparing coordinates.
+- **Evidence types:** keep predictions, measurements, and annotations distinct.
+- **Reproducibility:** preserve source versions, mappings, and fit selections.
+- **Limits:** report what is not represented or independently tested.
+
+The historical experimental structure may overlap AlphaFold training data or templates. This is a worked comparison, not an independent benchmark of prediction accuracy or a validation of biological function.

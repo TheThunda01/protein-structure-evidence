@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the underlying scientific sources as well as this educational software."
+title: "Protein Structure Evidence"
+type: software
+version: 0.1.0
+date-released: 2026-10-20
+authors:
+  - family-names: Huynh
+    given-names: Brandon J.
+license: MIT

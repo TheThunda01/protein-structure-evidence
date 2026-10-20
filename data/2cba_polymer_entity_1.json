@@ -1,0 +1,5164 @@
+{
+  "entity_poly": {
+    "nstd_linkage": "no",
+    "nstd_monomer": "yes",
+    "pdbx_seq_one_letter_code": "(ACE)SHHWGYGKHNGPEHWHKDFPIAKGERQSPVDIDTHTAKYDPSLKPLSVSYDQATSLRILNNGHAFNVEFDDSQDKAVLKGGPLDGTYRLIQFHFHWGSLDGQGSEHTVDKKKYAAELHLVHWNTKYGDFGKAVQQPDGLAVLGIFLKVGSAKPGLQKVVDVLDSIKTKGKSADFTNFDPRGLLPESLDYWTYPGSLTTPPLLECVTWIVLKEPISVSSEQVLKFRKLNFNGEGEPEELMVDNWRPAQPLKNRQIKASFK",
+    "pdbx_seq_one_letter_code_can": "XSHHWGYGKHNGPEHWHKDFPIAKGERQSPVDIDTHTAKYDPSLKPLSVSYDQATSLRILNNGHAFNVEFDDSQDKAVLKGGPLDGTYRLIQFHFHWGSLDGQGSEHTVDKKKYAAELHLVHWNTKYGDFGKAVQQPDGLAVLGIFLKVGSAKPGLQKVVDVLDSIKTKGKSADFTNFDPRGLLPESLDYWTYPGSLTTPPLLECVTWIVLKEPISVSSEQVLKFRKLNFNGEGEPEELMVDNWRPAQPLKNRQIKASFK",
+    "pdbx_strand_id": "A",
+    "rcsb_artifact_monomer_count": 0,
+    "rcsb_conflict_count": 0,
+    "rcsb_deletion_count": 0,
+    "rcsb_entity_polymer_type": "Protein",
+    "rcsb_insertion_count": 0,
+    "rcsb_mutation_count": 0,
+    "rcsb_non_std_monomer_count": 1,
+    "rcsb_non_std_monomers": [
+      "ACE"
+    ],
+    "rcsb_sample_sequence_length": 260,
+    "type": "polypeptide(L)"
+  },
+  "entity_src_gen": [
+    {
+      "gene_src_common_name": "human",
+      "gene_src_genus": "Homo",
+      "pdbx_alt_source_flag": "sample",
+      "pdbx_gene_src_ncbi_taxonomy_id": "9606",
+      "pdbx_gene_src_scientific_name": "Homo sapiens",
+      "pdbx_src_id": 1
+    }
+  ],
+  "rcsb_entity_host_organism": [
+    {
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data"
+    }
+  ],
+  "rcsb_entity_source_organism": [
+    {
+      "common_name": "human",
+      "ncbi_common_names": [
+        "human"
+      ],
+      "ncbi_parent_scientific_name": "Eukaryota",
+      "ncbi_scientific_name": "Homo sapiens",
+      "ncbi_taxonomy_id": 9606,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Homo sapiens",
+      "source_type": "genetically engineered",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "eukaryotes"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "Opisthokonta"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "Fungi/Metazoa group"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "opisthokonts"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "Metazoa"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "Animalia"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "animals"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "metazoans"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "multicellular animals"
+        },
+        {
+          "depth": 5,
+          "id": "6072",
+          "name": "Eumetazoa"
+        },
+        {
+          "depth": 6,
+          "id": "33213",
+          "name": "Bilateria"
+        },
+        {
+          "depth": 7,
+          "id": "33511",
+          "name": "Deuterostomia"
+        },
+        {
+          "depth": 7,
+          "id": "33511",
+          "name": "deuterostomes"
+        },
+        {
+          "depth": 8,
+          "id": "7711",
+          "name": "Chordata"
+        },
+        {
+          "depth": 8,
+          "id": "7711",
+          "name": "chordates"
+        },
+        {
+          "depth": 9,
+          "id": "89593",
+          "name": "Craniata"
+        },
+        {
+          "depth": 10,
+          "id": "7742",
+          "name": "Vertebrata"
+        },
+        {
+          "depth": 10,
+          "id": "7742",
+          "name": "vertebrates"
+        },
+        {
+          "depth": 11,
+          "id": "7776",
+          "name": "Gnathostomata"
+        },
+        {
+          "depth": 11,
+          "id": "7776",
+          "name": "jawed vertebrates"
+        },
+        {
+          "depth": 12,
+          "id": "117570",
+          "name": "Teleostomi"
+        },
+        {
+          "depth": 13,
+          "id": "117571",
+          "name": "Euteleostomi"
+        },
+        {
+          "depth": 13,
+          "id": "117571",
+          "name": "bony vertebrates"
+        },
+        {
+          "depth": 14,
+          "id": "8287",
+          "name": "Sarcopterygii"
+        },
+        {
+          "depth": 15,
+          "id": "1338369",
+          "name": "Dipnotetrapodomorpha"
+        },
+        {
+          "depth": 16,
+          "id": "32523",
+          "name": "Tetrapoda"
+        },
+        {
+          "depth": 16,
+          "id": "32523",
+          "name": "tetrapods"
+        },
+        {
+          "depth": 17,
+          "id": "32524",
+          "name": "Amniota"
+        },
+        {
+          "depth": 17,
+          "id": "32524",
+          "name": "amniotes"
+        },
+        {
+          "depth": 18,
+          "id": "40674",
+          "name": "Mammalia"
+        },
+        {
+          "depth": 18,
+          "id": "40674",
+          "name": "mammals"
+        },
+        {
+          "depth": 19,
+          "id": "32525",
+          "name": "Theria"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "Eutheria"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "Placentalia"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "eutherian mammals"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "placental mammals"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "placentals"
+        },
+        {
+          "depth": 21,
+          "id": "1437010",
+          "name": "Boreoeutheria"
+        },
+        {
+          "depth": 21,
+          "id": "1437010",
+          "name": "Boreotheria"
+        },
+        {
+          "depth": 22,
+          "id": "314146",
+          "name": "Euarchontoglires"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "Primates"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "Primata"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "primate"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "primates"
+        },
+        {
+          "depth": 24,
+          "id": "376913",
+          "name": "Haplorrhini"
+        },
+        {
+          "depth": 25,
+          "id": "314293",
+          "name": "Simiiformes"
+        },
+        {
+          "depth": 25,
+          "id": "314293",
+          "name": "Anthropoidea"
+        },
+        {
+          "depth": 26,
+          "id": "9526",
+          "name": "Catarrhini"
+        },
+        {
+          "depth": 27,
+          "id": "314295",
+          "name": "Hominoidea"
+        },
+        {
+          "depth": 27,
+          "id": "314295",
+          "name": "ape"
+        },
+        {
+          "depth": 27,
+          "id": "314295",
+          "name": "apes"
+        },
+        {
+          "depth": 28,
+          "id": "9604",
+          "name": "Hominidae"
+        },
+        {
+          "depth": 28,
+          "id": "9604",
+          "name": "Pongidae"
+        },
+        {
+          "depth": 28,
+          "id": "9604",
+          "name": "great apes"
+        },
+        {
+          "depth": 29,
+          "id": "207598",
+          "name": "Homininae"
+        },
+        {
+          "depth": 29,
+          "id": "207598",
+          "name": "Homo/Pan/Gorilla group"
+        },
+        {
+          "depth": 30,
+          "id": "9605",
+          "name": "Homo"
+        },
+        {
+          "depth": 30,
+          "id": "9605",
+          "name": "humans"
+        },
+        {
+          "depth": 31,
+          "id": "9606",
+          "name": "Homo sapiens"
+        },
+        {
+          "depth": 31,
+          "id": "9606",
+          "name": "human"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity": {
+    "formula_weight": 29.184,
+    "pdbx_description": "CARBONIC ANHYDRASE II",
+    "pdbx_ec": "4.2.1.1",
+    "pdbx_number_of_molecules": 1,
+    "rcsb_multiple_source_flag": "N",
+    "rcsb_source_part_count": 1,
+    "rcsb_source_taxonomy_count": 1,
+    "src_method": "man",
+    "rcsb_ec_lineage": [
+      {
+        "depth": 1,
+        "id": "4",
+        "name": "Lyases"
+      },
+      {
+        "depth": 2,
+        "id": "4.2",
+        "name": "Carbon-oxygen lyases"
+      },
+      {
+        "depth": 3,
+        "id": "4.2.1",
+        "name": "Hydro-lyases"
+      },
+      {
+        "depth": 4,
+        "id": "4.2.1.1",
+        "name": "carbonic anhydrase"
+      },
+      {
+        "depth": 1,
+        "id": "4",
+        "name": "Lyases"
+      },
+      {
+        "depth": 2,
+        "id": "4.2",
+        "name": "Carbon-oxygen lyases"
+      },
+      {
+        "depth": 3,
+        "id": "4.2.1",
+        "name": "Hydro-lyases"
+      },
+      {
+        "depth": 4,
+        "id": "4.2.1.69",
+        "name": "cyanamide hydratase"
+      }
+    ],
+    "rcsb_macromolecular_names_combined": [
+      {
+        "name": "CARBONIC ANHYDRASE II",
+        "provenance_code": "ECO:0000304",
+        "provenance_source": "PDB Preferred Name"
+      }
+    ],
+    "rcsb_enzyme_class_combined": [
+      {
+        "depth": 4,
+        "ec": "4.2.1.1",
+        "provenance_source": "PDB Primary Data"
+      },
+      {
+        "depth": 4,
+        "ec": "4.2.1.69",
+        "provenance_source": "UniProt"
+      }
+    ],
+    "rcsb_polymer_name_combined": {
+      "names": [
+        "Carbonic anhydrase 2"
+      ],
+      "provenance_source": "UniProt Name"
+    }
+  },
+  "rcsb_polymer_entity_align": [
+    {
+      "provenance_source": "SIFTS",
+      "reference_database_accession": "P00918",
+      "reference_database_name": "UniProt",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 2,
+          "length": 259,
+          "ref_beg_seq_id": 2
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_annotation": [
+    {
+      "annotation_id": "PF00194",
+      "assignment_version": "34.0",
+      "name": "Eukaryotic-type carbonic anhydrase (Carb_anhydrase)",
+      "provenance_source": "Pfam",
+      "type": "Pfam"
+    },
+    {
+      "annotation_id": "GO:0018820",
+      "name": "cyanamide hydratase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0018820",
+          "name": "cyanamide hydratase activity"
+        },
+        {
+          "id": "GO:0016836",
+          "name": "hydro-lyase activity"
+        },
+        {
+          "id": "GO:0016829",
+          "name": "lyase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0016835",
+          "name": "carbon-oxygen lyase activity"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:2001150",
+      "name": "positive regulation of dipeptide transmembrane transport",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0032879",
+          "name": "regulation of localization"
+        },
+        {
+          "id": "GO:0071705",
+          "name": "nitrogen compound transport"
+        },
+        {
+          "id": "GO:2001148",
+          "name": "regulation of dipeptide transmembrane transport"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0090089",
+          "name": "regulation of dipeptide transport"
+        },
+        {
+          "id": "GO:0006810",
+          "name": "transport"
+        },
+        {
+          "id": "GO:0048518",
+          "name": "positive regulation of biological process"
+        },
+        {
+          "id": "GO:0035672",
+          "name": "oligopeptide transmembrane transport"
+        },
+        {
+          "id": "GO:0051179",
+          "name": "localization"
+        },
+        {
+          "id": "GO:0042938",
+          "name": "dipeptide transport"
+        },
+        {
+          "id": "GO:0090088",
+          "name": "regulation of oligopeptide transport"
+        },
+        {
+          "id": "GO:0034764",
+          "name": "positive regulation of transmembrane transport"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:2001150",
+          "name": "positive regulation of dipeptide transmembrane transport"
+        },
+        {
+          "id": "GO:0048522",
+          "name": "positive regulation of cellular process"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0051049",
+          "name": "regulation of transport"
+        },
+        {
+          "id": "GO:0006857",
+          "name": "oligopeptide transport"
+        },
+        {
+          "id": "GO:0090087",
+          "name": "regulation of peptide transport"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0051234",
+          "name": "establishment of localization"
+        },
+        {
+          "id": "GO:0015833",
+          "name": "peptide transport"
+        },
+        {
+          "id": "GO:0055085",
+          "name": "transmembrane transport"
+        },
+        {
+          "id": "GO:0034762",
+          "name": "regulation of transmembrane transport"
+        },
+        {
+          "id": "GO:0051050",
+          "name": "positive regulation of transport"
+        },
+        {
+          "id": "GO:2000880",
+          "name": "positive regulation of dipeptide transport"
+        },
+        {
+          "id": "GO:2000878",
+          "name": "positive regulation of oligopeptide transport"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0035442",
+          "name": "dipeptide transmembrane transport"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR018338",
+      "name": "Carbonic anhydrase, alpha-class, conserved site",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR018338",
+          "name": "Carbonic anhydrase, alpha-class, conserved site"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR001148",
+      "name": "Alpha carbonic anhydrase domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR001148",
+          "name": "Alpha carbonic anhydrase domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0043209",
+      "name": "myelin sheath",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0043209",
+          "name": "myelin sheath"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0045177",
+      "name": "apical part of cell",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0045177",
+          "name": "apical part of cell"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR036398",
+      "name": "Alpha carbonic anhydrase domain superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR036398",
+          "name": "Alpha carbonic anhydrase domain superfamily"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0070062",
+      "name": "extracellular exosome",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0070062",
+          "name": "extracellular exosome"
+        },
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:1903561",
+          "name": "extracellular vesicle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0043230",
+          "name": "extracellular organelle"
+        },
+        {
+          "id": "GO:0005576",
+          "name": "extracellular region"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0031982",
+          "name": "vesicle"
+        },
+        {
+          "id": "GO:0065010",
+          "name": "extracellular membrane-bounded organelle"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR023561",
+      "name": "Carbonic anhydrase, alpha-class",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR023561",
+          "name": "Carbonic anhydrase, alpha-class"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005829",
+      "name": "cytosol",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0005829",
+          "name": "cytosol"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005886",
+      "name": "plasma membrane",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0071944",
+          "name": "cell periphery"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005886",
+          "name": "plasma membrane"
+        },
+        {
+          "id": "GO:0016020",
+          "name": "membrane"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0044070",
+      "name": "regulation of monoatomic anion transport",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0032879",
+          "name": "regulation of localization"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0006810",
+          "name": "transport"
+        },
+        {
+          "id": "GO:0051049",
+          "name": "regulation of transport"
+        },
+        {
+          "id": "GO:0043269",
+          "name": "regulation of monoatomic ion transport"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0051234",
+          "name": "establishment of localization"
+        },
+        {
+          "id": "GO:0051179",
+          "name": "localization"
+        },
+        {
+          "id": "GO:0044070",
+          "name": "regulation of monoatomic anion transport"
+        },
+        {
+          "id": "GO:0006820",
+          "name": "monoatomic anion transport"
+        },
+        {
+          "id": "GO:0006811",
+          "name": "monoatomic ion transport"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0004064",
+      "name": "arylesterase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0016788",
+          "name": "hydrolase activity, acting on ester bonds"
+        },
+        {
+          "id": "GO:0004064",
+          "name": "arylesterase activity"
+        },
+        {
+          "id": "GO:0052689",
+          "name": "carboxylic ester hydrolase activity"
+        },
+        {
+          "id": "GO:0016787",
+          "name": "hydrolase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0051453",
+      "name": "regulation of intracellular pH",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0042592",
+          "name": "homeostatic process"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0051453",
+          "name": "regulation of intracellular pH"
+        },
+        {
+          "id": "GO:0019725",
+          "name": "cellular homeostasis"
+        },
+        {
+          "id": "GO:0048878",
+          "name": "chemical homeostasis"
+        },
+        {
+          "id": "GO:0030003",
+          "name": "intracellular monoatomic cation homeostasis"
+        },
+        {
+          "id": "GO:0006885",
+          "name": "regulation of pH"
+        },
+        {
+          "id": "GO:0050801",
+          "name": "monoatomic ion homeostasis"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0055082",
+          "name": "intracellular chemical homeostasis"
+        },
+        {
+          "id": "GO:0065008",
+          "name": "regulation of biological quality"
+        },
+        {
+          "id": "GO:0055080",
+          "name": "monoatomic cation homeostasis"
+        },
+        {
+          "id": "GO:0006873",
+          "name": "intracellular monoatomic ion homeostasis"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0038166",
+      "name": "angiotensin-activated signaling pathway",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0051716",
+          "name": "cellular response to stimulus"
+        },
+        {
+          "id": "GO:1901699",
+          "name": "cellular response to nitrogen compound"
+        },
+        {
+          "id": "GO:1990776",
+          "name": "response to angiotensin"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0023052",
+          "name": "signaling"
+        },
+        {
+          "id": "GO:0043434",
+          "name": "response to peptide hormone"
+        },
+        {
+          "id": "GO:0038166",
+          "name": "angiotensin-activated signaling pathway"
+        },
+        {
+          "id": "GO:1904385",
+          "name": "cellular response to angiotensin"
+        },
+        {
+          "id": "GO:0007154",
+          "name": "cell communication"
+        },
+        {
+          "id": "GO:0071495",
+          "name": "cellular response to endogenous stimulus"
+        },
+        {
+          "id": "GO:0009725",
+          "name": "response to hormone"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0007165",
+          "name": "signal transduction"
+        },
+        {
+          "id": "GO:0032870",
+          "name": "cellular response to hormone stimulus"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0009719",
+          "name": "response to endogenous stimulus"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:1901700",
+          "name": "response to oxygen-containing compound"
+        },
+        {
+          "id": "GO:0071375",
+          "name": "cellular response to peptide hormone stimulus"
+        },
+        {
+          "id": "GO:1901698",
+          "name": "response to nitrogen compound"
+        },
+        {
+          "id": "GO:1901701",
+          "name": "cellular response to oxygen-containing compound"
+        },
+        {
+          "id": "GO:0070887",
+          "name": "cellular response to chemical stimulus"
+        },
+        {
+          "id": "GO:0042221",
+          "name": "response to chemical"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0007186",
+          "name": "G protein-coupled receptor signaling pathway"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005737",
+      "name": "cytoplasm",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0008270",
+      "name": "zinc ion binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043169",
+          "name": "cation binding"
+        },
+        {
+          "id": "GO:0046914",
+          "name": "transition metal ion binding"
+        },
+        {
+          "id": "GO:0008270",
+          "name": "zinc ion binding"
+        },
+        {
+          "id": "GO:0043167",
+          "name": "ion binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0046872",
+          "name": "metal ion binding"
+        },
+        {
+          "id": "GO:0036094",
+          "name": "small molecule binding"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0004089",
+      "name": "carbonate dehydratase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0004089",
+          "name": "carbonate dehydratase activity"
+        },
+        {
+          "id": "GO:0016836",
+          "name": "hydro-lyase activity"
+        },
+        {
+          "id": "GO:0016829",
+          "name": "lyase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0016835",
+          "name": "carbon-oxygen lyase activity"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_container_identifiers": {
+    "asym_ids": [
+      "A"
+    ],
+    "auth_asym_ids": [
+      "A"
+    ],
+    "chem_comp_monomers": [
+      "ACE",
+      "ALA",
+      "ARG",
+      "ASN",
+      "ASP",
+      "CYS",
+      "GLN",
+      "GLU",
+      "GLY",
+      "HIS",
+      "ILE",
+      "LEU",
+      "LYS",
+      "MET",
+      "PHE",
+      "PRO",
+      "SER",
+      "THR",
+      "TRP",
+      "TYR",
+      "VAL"
+    ],
+    "chem_comp_nstd_monomers": [
+      "ACE"
+    ],
+    "entity_id": "1",
+    "entry_id": "2CBA",
+    "rcsb_id": "2CBA_1",
+    "uniprot_ids": [
+      "P00918"
+    ],
+    "reference_sequence_identifiers": [
+      {
+        "database_accession": "P00918",
+        "database_name": "UniProt",
+        "entity_sequence_coverage": 0.9961538461538462,
+        "provenance_source": "SIFTS",
+        "reference_sequence_coverage": 0.9961538461538462
+      }
+    ]
+  },
+  "rcsb_polymer_entity_feature": [
+    {
+      "assignment_version": "34.0",
+      "feature_id": "PF00194",
+      "name": "Eukaryotic-type carbonic anhydrase (Carb_anhydrase)",
+      "provenance_source": "Pfam",
+      "type": "Pfam",
+      "feature_positions": [
+        {
+          "beg_seq_id": 11,
+          "end_seq_id": 259
+        }
+      ]
+    },
+    {
+      "assignment_version": "V1.0",
+      "feature_id": "monomer_feature_1",
+      "provenance_source": "PDB",
+      "type": "non_standard_monomer",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1
+        }
+      ]
+    },
+    {
+      "name": "Disordered binding sites",
+      "provenance_source": "Anchor2",
+      "type": "disorder_binding",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.49,
+            0.48,
+            0.48,
+            0.48,
+            0.48,
+            0.48,
+            0.49,
+            0.49,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.49,
+            0.49,
+            0.48,
+            0.47,
+            0.47,
+            0.46,
+            0.46,
+            0.45,
+            0.45,
+            0.45,
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.41,
+            0.41,
+            0.41,
+            0.4,
+            0.4,
+            0.39,
+            0.39,
+            0.4,
+            0.4,
+            0.4,
+            0.41,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.41,
+            0.41,
+            0.41,
+            0.4,
+            0.4,
+            0.4,
+            0.41,
+            0.41,
+            0.41,
+            0.42,
+            0.43,
+            0.42,
+            0.41,
+            0.39,
+            0.38,
+            0.37,
+            0.36,
+            0.35,
+            0.35,
+            0.36,
+            0.37,
+            0.39,
+            0.41,
+            0.43,
+            0.42,
+            0.39,
+            0.37,
+            0.35,
+            0.33,
+            0.32,
+            0.3,
+            0.29,
+            0.29,
+            0.29,
+            0.29,
+            0.29,
+            0.31,
+            0.33,
+            0.34,
+            0.36,
+            0.37,
+            0.39,
+            0.4,
+            0.41,
+            0.41,
+            0.42,
+            0.41,
+            0.39,
+            0.38,
+            0.36,
+            0.35,
+            0.34,
+            0.33,
+            0.33,
+            0.33,
+            0.33,
+            0.34,
+            0.34,
+            0.36,
+            0.37,
+            0.4,
+            0.41,
+            0.43,
+            0.42,
+            0.41,
+            0.4,
+            0.4,
+            0.41,
+            0.42,
+            0.43,
+            0.42,
+            0.39,
+            0.37,
+            0.35,
+            0.33,
+            0.32,
+            0.31,
+            0.31,
+            0.32,
+            0.32,
+            0.32,
+            0.32,
+            0.33,
+            0.33,
+            0.33,
+            0.32,
+            0.31,
+            0.3,
+            0.29,
+            0.27,
+            0.26,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.26,
+            0.27,
+            0.28,
+            0.29,
+            0.29,
+            0.3,
+            0.31,
+            0.32,
+            0.33,
+            0.34,
+            0.35,
+            0.36,
+            0.37,
+            0.38,
+            0.39,
+            0.41,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.41,
+            0.41,
+            0.4,
+            0.39,
+            0.38,
+            0.37,
+            0.35,
+            0.33,
+            0.31,
+            0.3,
+            0.29,
+            0.29,
+            0.29,
+            0.29,
+            0.3,
+            0.32,
+            0.35,
+            0.38,
+            0.41,
+            0.43,
+            0.42,
+            0.4,
+            0.39,
+            0.38,
+            0.36,
+            0.36,
+            0.36,
+            0.37,
+            0.37,
+            0.37,
+            0.37,
+            0.36,
+            0.36,
+            0.36,
+            0.36,
+            0.36,
+            0.36,
+            0.37,
+            0.37,
+            0.37,
+            0.38,
+            0.39,
+            0.41,
+            0.42,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.41,
+            0.41
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered regions",
+      "provenance_source": "IUPred2(short)",
+      "type": "disorder",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.91,
+            0.89,
+            0.87,
+            0.85,
+            0.82,
+            0.71,
+            0.68,
+            0.64,
+            0.6,
+            0.5,
+            0.48,
+            0.45,
+            0.45,
+            0.46,
+            0.45,
+            0.55,
+            0.54,
+            0.63,
+            0.62,
+            0.64,
+            0.61,
+            0.62,
+            0.56,
+            0.55,
+            0.54,
+            0.53,
+            0.61,
+            0.58,
+            0.58,
+            0.51,
+            0.57,
+            0.58,
+            0.63,
+            0.56,
+            0.56,
+            0.58,
+            0.51,
+            0.51,
+            0.43,
+            0.43,
+            0.35,
+            0.39,
+            0.41,
+            0.43,
+            0.41,
+            0.41,
+            0.35,
+            0.35,
+            0.31,
+            0.25,
+            0.32,
+            0.32,
+            0.29,
+            0.29,
+            0.33,
+            0.25,
+            0.22,
+            0.22,
+            0.23,
+            0.19,
+            0.2,
+            0.26,
+            0.25,
+            0.25,
+            0.28,
+            0.28,
+            0.26,
+            0.27,
+            0.18,
+            0.25,
+            0.31,
+            0.31,
+            0.34,
+            0.26,
+            0.27,
+            0.3,
+            0.38,
+            0.3,
+            0.36,
+            0.28,
+            0.31,
+            0.33,
+            0.24,
+            0.25,
+            0.16,
+            0.16,
+            0.1,
+            0.12,
+            0.16,
+            0.16,
+            0.16,
+            0.16,
+            0.16,
+            0.13,
+            0.2,
+            0.2,
+            0.19,
+            0.19,
+            0.2,
+            0.2,
+            0.27,
+            0.33,
+            0.31,
+            0.31,
+            0.29,
+            0.35,
+            0.35,
+            0.36,
+            0.36,
+            0.29,
+            0.31,
+            0.32,
+            0.24,
+            0.23,
+            0.23,
+            0.23,
+            0.15,
+            0.15,
+            0.16,
+            0.13,
+            0.13,
+            0.13,
+            0.12,
+            0.08,
+            0.13,
+            0.16,
+            0.2,
+            0.19,
+            0.27,
+            0.18,
+            0.21,
+            0.2,
+            0.13,
+            0.19,
+            0.12,
+            0.07,
+            0.05,
+            0.08,
+            0.05,
+            0.05,
+            0.09,
+            0.07,
+            0.07,
+            0.11,
+            0.16,
+            0.1,
+            0.1,
+            0.08,
+            0.05,
+            0.04,
+            0.06,
+            0.05,
+            0.05,
+            0.09,
+            0.09,
+            0.09,
+            0.13,
+            0.19,
+            0.19,
+            0.25,
+            0.24,
+            0.24,
+            0.25,
+            0.27,
+            0.16,
+            0.16,
+            0.22,
+            0.14,
+            0.15,
+            0.24,
+            0.3,
+            0.29,
+            0.29,
+            0.29,
+            0.31,
+            0.33,
+            0.41,
+            0.35,
+            0.36,
+            0.29,
+            0.21,
+            0.21,
+            0.15,
+            0.19,
+            0.18,
+            0.25,
+            0.18,
+            0.18,
+            0.26,
+            0.27,
+            0.27,
+            0.19,
+            0.13,
+            0.19,
+            0.21,
+            0.13,
+            0.12,
+            0.07,
+            0.07,
+            0.05,
+            0.05,
+            0.07,
+            0.08,
+            0.15,
+            0.08,
+            0.08,
+            0.05,
+            0.09,
+            0.09,
+            0.09,
+            0.09,
+            0.05,
+            0.05,
+            0.08,
+            0.05,
+            0.06,
+            0.09,
+            0.05,
+            0.1,
+            0.1,
+            0.14,
+            0.21,
+            0.22,
+            0.21,
+            0.19,
+            0.3,
+            0.3,
+            0.37,
+            0.31,
+            0.28,
+            0.22,
+            0.22,
+            0.29,
+            0.28,
+            0.29,
+            0.4,
+            0.39,
+            0.42,
+            0.52,
+            0.46,
+            0.53,
+            0.53,
+            0.52,
+            0.54,
+            0.48,
+            0.48,
+            0.44,
+            0.45,
+            0.39,
+            0.46,
+            0.52,
+            0.62,
+            0.64,
+            0.68,
+            0.78,
+            0.82,
+            0.83,
+            0.88,
+            0.89,
+            0.91
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hydropathy values",
+      "provenance_source": "biojava-7.3.0",
+      "type": "hydropathy",
+      "feature_positions": [
+        {
+          "beg_seq_id": 5,
+          "values": [
+            -1.76,
+            -1.92,
+            -2.22,
+            -1.91,
+            -1.73,
+            -2.02,
+            -2.33,
+            -2.29,
+            -2.6,
+            -2.6,
+            -2.63,
+            -1.93,
+            -2.07,
+            -1.39,
+            -0.8,
+            -0.88,
+            -0.82,
+            -0.86,
+            -0.92,
+            -0.92,
+            -1.32,
+            -1.32,
+            -1.36,
+            -1.94,
+            -1.01,
+            -1.36,
+            -1.04,
+            -0.9,
+            -0.59,
+            -0.3,
+            -0.56,
+            -1.17,
+            -1.17,
+            -1.84,
+            -1.54,
+            -1.04,
+            -1.12,
+            -1.22,
+            -1.0,
+            -0.66,
+            -0.04,
+            0.26,
+            0.29,
+            -0.01,
+            -0.82,
+            -0.19,
+            -0.09,
+            -0.6,
+            -0.09,
+            -1.06,
+            -0.47,
+            0.1,
+            0.1,
+            0.1,
+            -0.14,
+            -0.42,
+            -0.13,
+            -0.24,
+            -0.13,
+            -0.17,
+            -0.98,
+            -0.28,
+            -0.28,
+            -0.62,
+            -0.36,
+            -0.94,
+            -1.64,
+            -1.69,
+            -1.96,
+            -1.1,
+            -0.99,
+            -1.03,
+            -0.69,
+            -0.64,
+            -0.43,
+            0.38,
+            0.42,
+            0.18,
+            -0.37,
+            -0.93,
+            -1.0,
+            -0.53,
+            0.01,
+            -0.2,
+            -0.31,
+            -0.28,
+            0.08,
+            -0.2,
+            -0.16,
+            0.3,
+            -0.21,
+            -0.29,
+            -0.29,
+            -0.64,
+            -0.68,
+            -1.03,
+            -0.77,
+            -1.06,
+            -1.37,
+            -1.36,
+            -1.31,
+            -1.31,
+            -1.7,
+            -1.74,
+            -2.13,
+            -2.19,
+            -1.6,
+            -1.04,
+            -1.36,
+            -1.4,
+            -1.37,
+            -0.51,
+            0.39,
+            0.47,
+            0.51,
+            -0.08,
+            -0.36,
+            -0.4,
+            -0.97,
+            -0.66,
+            -1.47,
+            -1.62,
+            -1.31,
+            -1.64,
+            -1.06,
+            -0.51,
+            -0.47,
+            -0.71,
+            -0.84,
+            -0.84,
+            -1.2,
+            -0.73,
+            -0.1,
+            0.17,
+            0.12,
+            0.47,
+            1.36,
+            1.84,
+            2.66,
+            2.27,
+            2.31,
+            2.07,
+            1.51,
+            1.29,
+            0.9,
+            0.22,
+            -0.13,
+            -0.13,
+            -0.09,
+            -0.99,
+            -0.48,
+            0.08,
+            -0.51,
+            0.39,
+            0.99,
+            0.64,
+            0.13,
+            1.02,
+            1.02,
+            0.48,
+            -0.42,
+            -0.08,
+            -0.98,
+            -1.49,
+            -0.9,
+            -1.2,
+            -1.39,
+            -1.03,
+            -1.34,
+            -0.6,
+            -0.94,
+            -0.69,
+            -1.1,
+            -1.34,
+            -0.53,
+            -0.42,
+            -0.52,
+            -0.52,
+            -0.92,
+            -0.11,
+            -0.32,
+            0.03,
+            -0.02,
+            -0.52,
+            -1.09,
+            -1.09,
+            -0.74,
+            -0.74,
+            -0.74,
+            -0.43,
+            -0.37,
+            -0.44,
+            -0.54,
+            0.02,
+            0.62,
+            0.28,
+            0.64,
+            0.69,
+            0.69,
+            0.67,
+            1.34,
+            1.99,
+            1.99,
+            1.13,
+            1.13,
+            0.68,
+            0.71,
+            0.7,
+            1.27,
+            0.68,
+            0.12,
+            -0.69,
+            -0.64,
+            0.21,
+            0.81,
+            -0.12,
+            0.28,
+            -0.69,
+            -1.03,
+            -0.52,
+            -0.52,
+            0.18,
+            -0.68,
+            -1.14,
+            -1.1,
+            -1.46,
+            -1.34,
+            -1.09,
+            -1.9,
+            -1.9,
+            -1.79,
+            -1.19,
+            -0.68,
+            -0.68,
+            -1.02,
+            -0.73,
+            -1.06,
+            -0.84,
+            -0.26,
+            -1.07,
+            -1.46,
+            -1.5,
+            -1.54,
+            -1.54,
+            -1.94,
+            -1.83,
+            -1.16,
+            -1.79,
+            -1.2,
+            -1.11,
+            -1.22,
+            -1.22
+          ]
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_feature_summary": [
+    {
+      "count": 1,
+      "coverage": 0.00385,
+      "type": "non_standard_monomer"
+    },
+    {
+      "count": 1,
+      "coverage": 0.95769,
+      "type": "Pfam"
+    }
+  ],
+  "rcsb_polymer_entity_group_membership": [
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "8_100",
+      "similarity_cutoff": 100.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 260,
+          "ref_beg_seq_id": 7
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "41_30",
+      "similarity_cutoff": 30.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 51,
+          "ref_beg_seq_id": 22
+        },
+        {
+          "entity_beg_seq_id": 52,
+          "length": 1,
+          "ref_beg_seq_id": 74
+        },
+        {
+          "entity_beg_seq_id": 53,
+          "length": 15,
+          "ref_beg_seq_id": 77
+        },
+        {
+          "entity_beg_seq_id": 68,
+          "length": 5,
+          "ref_beg_seq_id": 126
+        },
+        {
+          "entity_beg_seq_id": 73,
+          "length": 30,
+          "ref_beg_seq_id": 132
+        },
+        {
+          "entity_beg_seq_id": 103,
+          "length": 16,
+          "ref_beg_seq_id": 163
+        },
+        {
+          "entity_beg_seq_id": 119,
+          "length": 7,
+          "ref_beg_seq_id": 199
+        },
+        {
+          "entity_beg_seq_id": 126,
+          "length": 64,
+          "ref_beg_seq_id": 207
+        },
+        {
+          "entity_beg_seq_id": 190,
+          "length": 43,
+          "ref_beg_seq_id": 272
+        },
+        {
+          "entity_beg_seq_id": 233,
+          "length": 3,
+          "ref_beg_seq_id": 316
+        },
+        {
+          "entity_beg_seq_id": 236,
+          "length": 22,
+          "ref_beg_seq_id": 320
+        },
+        {
+          "entity_beg_seq_id": 258,
+          "length": 3,
+          "ref_beg_seq_id": 349
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "29_50",
+      "similarity_cutoff": 50.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 125,
+          "ref_beg_seq_id": 22
+        },
+        {
+          "entity_beg_seq_id": 126,
+          "length": 110,
+          "ref_beg_seq_id": 148
+        },
+        {
+          "entity_beg_seq_id": 236,
+          "length": 25,
+          "ref_beg_seq_id": 259
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "9_90",
+      "similarity_cutoff": 90.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 260,
+          "ref_beg_seq_id": 7
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "8_95",
+      "similarity_cutoff": 95.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 260,
+          "ref_beg_seq_id": 7
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "11_70",
+      "similarity_cutoff": 70.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 260,
+          "ref_beg_seq_id": 7
+        }
+      ]
+    },
+    {
+      "aggregation_method": "matching_uniprot_accession",
+      "group_id": "P00918",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 2,
+          "length": 259,
+          "ref_beg_seq_id": 2
+        }
+      ]
+    }
+  ],
+  "rcsb_related_target_references": [
+    {
+      "related_resource_name": "ChEMBL",
+      "related_resource_version": "37",
+      "related_target_id": "CHEMBL5465206",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 2,
+          "length": 258,
+          "target_beg_seq_id": 2
+        }
+      ]
+    },
+    {
+      "related_resource_name": "ChEMBL",
+      "related_resource_version": "37",
+      "related_target_id": "CHEMBL205",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 2,
+          "length": 258,
+          "target_beg_seq_id": 2
+        }
+      ]
+    },
+    {
+      "related_resource_name": "ChEMBL",
+      "related_resource_version": "37",
+      "related_target_id": "CHEMBL2096906",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 2,
+          "length": 258,
+          "target_beg_seq_id": 2
+        }
+      ]
+    },
+    {
+      "related_resource_name": "ChEMBL",
+      "related_resource_version": "37",
+      "related_target_id": "CHEMBL2095180",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 2,
+          "length": 258,
+          "target_beg_seq_id": 2
+        }
+      ]
+    },
+    {
+      "related_resource_name": "DrugBank",
+      "related_resource_version": "5.1",
+      "related_target_id": "P00918",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 2,
+          "length": 258,
+          "target_beg_seq_id": 2
+        }
+      ]
+    },
+    {
+      "related_resource_name": "Pharos",
+      "related_resource_version": "6.13.4",
+      "related_target_id": "13132",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 2,
+          "length": 258,
+          "target_beg_seq_id": 2
+        }
+      ]
+    }
+  ],
+  "rcsb_target_cofactors": [
+    {
+      "binding_assay_value": 7.3,
+      "binding_assay_value_type": "pEC50",
+      "cofactor_InChIKey": "RBECNOZCCFLMDH-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)c1ccc(C(=O)NCCCOCCCCOCCCNc2cccc3c2C(=O)N(C2CCC(=O)NC2=O)C3=O)cc1",
+      "cofactor_resource_id": "CHEMBL5396639",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL5465206"
+    },
+    {
+      "binding_assay_value": 5.61,
+      "binding_assay_value_type": "pEC50",
+      "cofactor_InChIKey": "QQTRJZGGTODEON-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)c1ccc(C(=O)NCCCOCCOCCOCCCNc2cccc3c2C(=O)N(C2CCC(=O)NC2=O)C3=O)cc1",
+      "cofactor_resource_id": "CHEMBL5428453",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL5465206"
+    },
+    {
+      "binding_assay_value": -7.93,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "GBXCMGQOAFLRPE-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)c1ccc(-c2ccccn2)s1",
+      "cofactor_resource_id": "CHEMBL332559",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL205"
+    },
+    {
+      "binding_assay_value": -8.67,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "BJJWJFXXXQZNIU-UHFFFAOYSA-N",
+      "cofactor_SMILES": "Cc1cc(C)n(-c2ccc(S(N)(=O)=O)cc2)n1",
+      "cofactor_resource_id": "CHEMBL332783",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL205"
+    },
+    {
+      "binding_assay_value": -10.05,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "XUARFWFATPFBOR-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)c1ccc(Sc2cccs2)s1",
+      "cofactor_resource_id": "CHEMBL120070",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL205"
+    },
+    {
+      "binding_assay_value": -10.09,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "PKSPQYUQOOXIOO-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)c1ccc(S(=O)(=O)c2cccs2)s1",
+      "cofactor_resource_id": "CHEMBL120018",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL205"
+    },
+    {
+      "binding_assay_value": -10.21,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "FPCPYSKJIRSWIG-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)c1ccc(N2CCCC2=O)c([N+](=O)[O-])c1",
+      "cofactor_chem_comp_id": "SG1",
+      "cofactor_resource_id": "CHEMBL121291",
+      "neighbor_flag": "Y",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL205"
+    },
+    {
+      "binding_assay_value": -10.66,
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "FJVAYUUWTJKKNC-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CNc1ccc(S(N)(=O)=O)cc1",
+      "cofactor_resource_id": "CHEMBL174847",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL205"
+    },
+    {
+      "binding_assay_value": -11.27,
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "MLTGAVXHWSDGIS-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CCc1ccc(S(N)(=O)=O)cc1",
+      "cofactor_chem_comp_id": "4JC",
+      "cofactor_resource_id": "CHEMBL358263",
+      "neighbor_flag": "Y",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL205"
+    },
+    {
+      "binding_assay_value": -11.6,
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "CICCMHNIYTXWRF-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CCCc1ccc(S(N)(=O)=O)cc1",
+      "cofactor_chem_comp_id": "4JE",
+      "cofactor_resource_id": "CHEMBL148660",
+      "neighbor_flag": "Y",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL205"
+    },
+    {
+      "binding_assay_value": -12.32,
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "IWEMSJAOIKQBBZ-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CCCCc1ccc(S(N)(=O)=O)cc1",
+      "cofactor_chem_comp_id": "6YP",
+      "cofactor_resource_id": "CHEMBL150043",
+      "neighbor_flag": "Y",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL205"
+    },
+    {
+      "binding_assay_value": -13.08,
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "XXGOKBCTMIKJHF-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CCCCCc1ccc(S(N)(=O)=O)cc1",
+      "cofactor_chem_comp_id": "L4K",
+      "cofactor_resource_id": "CHEMBL444536",
+      "neighbor_flag": "Y",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL205"
+    },
+    {
+      "binding_assay_value": 5.11,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "SKJYXGRPYHNSJS-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NC(=O)CSCc1ccc(S(N)(=O)=O)cc1",
+      "cofactor_resource_id": "CHEMBL117010",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL2095180"
+    },
+    {
+      "binding_assay_value": 5.04,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "AAFRHFWRNUIKHG-UHFFFAOYSA-N",
+      "cofactor_SMILES": "COC(=O)CCCC(=O)Nc1nnc(S(N)(=O)=O)s1",
+      "cofactor_resource_id": "CHEMBL89489",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL2095180"
+    },
+    {
+      "binding_assay_value": 5.04,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "QNLPBVJRCSGQKX-UHFFFAOYSA-N",
+      "cofactor_SMILES": "COC(=O)CCCCCCCC(=O)Nc1nnc(S(N)(=O)=O)s1",
+      "cofactor_resource_id": "CHEMBL328566",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL2095180"
+    },
+    {
+      "binding_assay_value": 5.03,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "ZLGMHKANUKWVKW-UHFFFAOYSA-N",
+      "cofactor_SMILES": "COC(=O)CC(=O)Nc1nnc(S(N)(=O)=O)s1",
+      "cofactor_resource_id": "CHEMBL329625",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL2095180"
+    },
+    {
+      "binding_assay_value": 4.73,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "UBQNRHZMVUUOMG-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)Cc1noc2ccccc12",
+      "cofactor_chem_comp_id": "ZON",
+      "cofactor_name": "ZONISAMIDE",
+      "cofactor_resource_id": "CHEMBL750",
+      "mechanism_of_action": "Sodium channel alpha subunit blocker",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL2095180"
+    },
+    {
+      "binding_assay_value": 4.7,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "KHBQMWCZKVMBLN-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)c1ccccc1",
+      "cofactor_chem_comp_id": "FB2",
+      "cofactor_name": "BENZENESULFONAMIDE",
+      "cofactor_resource_id": "CHEMBL27601",
+      "neighbor_flag": "Y",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL2095180"
+    },
+    {
+      "binding_assay_value": 2.57,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "HFJQNCIFYNULSY-UHFFFAOYSA-N",
+      "cofactor_SMILES": "Cc1c(-c2ccc(C(=O)O)c(=O)[nH]2)sc2sc(-c3ccc(C#N)c(=O)[nH]3)c(-c3ccccc3)c12",
+      "cofactor_resource_id": "CHEMBL3360810",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL2095180"
+    },
+    {
+      "binding_assay_value": 2.35,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "ABACVNBMJVTAOK-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CC(=C(C#N)C#N)c1sc2sc(C(C)=C(C#N)C#N)c(-c3ccccc3)c2c1C",
+      "cofactor_resource_id": "CHEMBL3360801",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL2095180"
+    },
+    {
+      "binding_assay_value": 2.0,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "HNQIVZYLYMDVSB-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CS(N)(=O)=O",
+      "cofactor_chem_comp_id": "V7Z",
+      "cofactor_name": "METHANESULFONAMIDE",
+      "cofactor_resource_id": "CHEMBL305268",
+      "neighbor_flag": "Y",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL2095180"
+    },
+    {
+      "binding_assay_value": 2.0,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "ZCRZCMUDOWDGOB-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CCS(N)(=O)=O",
+      "cofactor_name": "ETHANESULFONIC ACID AMIDE",
+      "cofactor_resource_id": "CHEMBL69291",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL2095180"
+    },
+    {
+      "cofactor_InChIKey": "CESYKOGBSMNBPD-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CN1C(CCl)NC2=CC(Cl)=C(C=C2S1(=O)=O)S(N)(=O)=O",
+      "cofactor_name": "Methyclothiazide",
+      "cofactor_resource_id": "DB00232",
+      "mechanism_of_action": "Methyclothiazide appears to block the active reabsorption of chloride and possibly sodium in the ascending loop of Henle, altering electrolyte transfer in the proximal tubule. This results in excretion of sodium, chloride, and water and, hence, diuresis. As a diuretic, methyclothiazide inhibits active chloride reabsorption at the early distal tubule via the Na-Cl cotransporter, resulting in an increase in the excretion of sodium, chloride, and water. Thiazides like methyclothiazide also inhibit sodium ion transport across the renal tubular epithelium through binding to the thiazide sensitive sodium-chloride transporter. This results in an increase in potassium excretion via the sodium-potassium exchange mechanism. The antihypertensive mechanism of methyclothiazide is less well understood although it may be mediated through its action on carbonic anhydrases in the smooth muscle or through its action on the large-conductance calcium-activated potassium (KCa) channel, also found in the smooth muscle.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        1901209,
+        2226620,
+        19119014
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "KJADKKWYZYXHBB-XBWDGYHZSA-N",
+      "cofactor_SMILES": "[H][C@@]12CO[C@@]3(COS(N)(=O)=O)OC(C)(C)O[C@@]3([H])[C@]1([H])OC(C)(C)O2",
+      "cofactor_chem_comp_id": "TOR",
+      "cofactor_name": "Topiramate",
+      "cofactor_resource_id": "DB00273",
+      "mechanism_of_action": "A seizure is an abnormal and unregulated electrical discharge occurring in the brain. This leads to transient interruption in brain function, manifested by reduced alertness, abnormal sensations, and focal involuntary movements or convulsions. Several types of seizures exist, with common types including tonic-clonic seizures and partial onset seizures.[L5548]\r\n\r\nThe exact mechanisms by which topiramate exerts pharmacological actions on seizures and migraines are currently not fully characterized.[A188336,L10544]  Several properties of this drug, however, are likely to contribute to its therapeutic effects. Topiramate has been observed to exert actions on voltage-dependent sodium channels, GABA receptors, and glutamate receptors.[A175249,L10544] \r\n\r\nTopiramate stimulates GABA-A receptor activity at brain non-benzodiazepine receptor sites and reduces glutamate activity at both AMPA and kainate receptors. Normally, GABA-A receptors are inhibitory and glutaminergic receptors are stimulatory for neuronal activity.[A175243,T752] By increasing GABA activity and inhibiting glutamate activity, topiramate blocks neuronal excitability, preventing seizures and migraines.[A188333,A188309,L10544] Additionally, it blocks the voltage-dependent sodium channels, further blocking seizure activity.[A175243] Topiramate has been shown to inhibit various carbonic anhydrase isozymes, but the clinical significance of this is unknown at this time.[A10342,A10348,A20066,L10544]\r\n\r\n",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        15771438,
+        17521680,
+        17251017,
+        12617904,
+        15478125
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "OUZWUKMCLIBBOG-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CCOC1=CC2=C(C=C1)N=C(S2)S(N)(=O)=O",
+      "cofactor_chem_comp_id": "EZL",
+      "cofactor_name": "Ethoxzolamide",
+      "cofactor_resource_id": "DB00311",
+      "mechanism_of_action": "Ethoxzolamide binds to and inhibits carbonic anhydrase I, which plays an essential role in facilitating the transport of CO2 and H+ in the intracellular space, across biological membranes, and in the layers of the extracellular space. Through inhibition of the enzyme, the balance of applicable membrane equilibrium systems are affected. ",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        18336310,
+        37713619,
+        24103428,
+        39574417,
+        3560154,
+        23664215
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "BGRJTUBHPOOWDU-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CCN1CCCC1CNC(=O)C1=C(OC)C=CC(=C1)S(N)(=O)=O",
+      "cofactor_name": "Sulpiride",
+      "cofactor_resource_id": "DB00391",
+      "mechanism_of_action": "Sulpiride is a selective dopamine D2 and D3 receptor antagonist.[A229678,A229683,A229688] _In silico_ studies show that sulpiride may interact with the Asp-119 and Phe-417 amino acid residues of these receptors.[A229688] It is estimated that D2 receptors should be 65-80% occupied for optimal treatment and minimal adverse effects.[A229693]",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        17826101
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "HDWIHXWEUNVBIY-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC2=C(NC(CC3=CC=CC=C3)NS2(=O)=O)C=C1C(F)(F)F",
+      "cofactor_name": "Bendroflumethiazide",
+      "cofactor_resource_id": "DB00436",
+      "mechanism_of_action": "As a diuretic, bendroflumethiazide inhibits active chloride reabsorption at the early distal tubule via the Na-Cl cotransporter, resulting in an increase in the excretion of sodium, chloride, and water. Thiazides like bendroflumethiazide also inhibit sodium ion transport across the renal tubular epithelium through binding to the thiazide sensitive sodium-chloride transporter. This results in an increase in potassium excretion via the sodium-potassium exchange mechanism. The antihypertensive mechanism of bendroflumethiazide is less well understood although it may be mediated through its action on carbonic anhydrases in the smooth muscle or through its action on the large-conductance calcium-activated potassium (KCa) channel, also found in the smooth muscle.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        16368240,
+        15258186
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "RZEKVGVHFLEQIL-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CC1=CC=C(C=C1)C1=CC(=NN1C1=CC=C(C=C1)S(N)(=O)=O)C(F)(F)F",
+      "cofactor_chem_comp_id": "CEL",
+      "cofactor_name": "Celecoxib",
+      "cofactor_resource_id": "DB00482",
+      "mechanism_of_action": "Unlike most NSAIDs, which inhibit both types of cyclooxygenases (COX-1 and COX-2), celecoxib is a selective noncompetitive inhibitor of cyclooxygenase-2 (COX-2) enzyme. COX-2 is expressed heavily in inflamed tissues where it is induced by inflammatory mediators.[L7646] The inhibition of this enzyme reduces the synthesis of metabolites that include prostaglandin E2 (PGE2), prostacyclin (PGI2), thromboxane (TXA2), prostaglandin D2 (PGD2), and prostaglandin F2 (PGF2). Resultant inhibition of these mediators leads to the alleviation of pain and inflammation.[A34124,L7646] \r\n\r\nBy inhibiting prostaglandin synthesis, non-steroidal anti-inflammatory drugs (NSAIDs) cause mucosal damage, ulceration and ulcer complication throughout the gastrointestinal tract.[L7646] Celecoxib poses less of an ulceration risk than other NSAIDS, owing to its decreased effect on gastric mucosal prostaglandin synthesis when compared to placebo.[A34152] \r\n\r\nCelecoxib exerts anticancer effects by binding to the cadherin-11 (CDH11)protein,  which is thought to be involved in the progression of tumors, and inhibiting the 3-phosphoinositide-dependent kinase-1 (PDK-1) signaling mechanism.[T647,A11861] In addition, celecoxib has been found to inhibit carbonic anhydrase enzymes 2 and 3, further enhancing its anticancer effects.[A28426,A20066]\r\n\r\nAs mentioned in the pharmacodynamics section of this drug entry, celecoxib may cause an increased risk of thrombotic events. The risk of thrombosis resulting from COX-2 inhibition is caused by the vasoconstricting actions of thromboxane A2, leading to enhanced platelet aggregation, which is uncontrolled when the actions of prostacyclin, a platelet aggregation inhibitor, are suppressed through the inhibition of COX-2.[L7622]",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        17826101,
+        14736236,
+        33121862,
+        39574417,
+        16220969
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "NDTSRXAMMQDVSW-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC2=C(C=C1Cl)N=C(CSCC1=CC=CC=C1)NS2(=O)=O",
+      "cofactor_name": "Benzthiazide",
+      "cofactor_resource_id": "DB00562",
+      "mechanism_of_action": "As a diuretic, benzthiazide inhibits active chloride reabsorption at the early distal tubule via the Na-Cl cotransporter, resulting in an increase in the excretion of sodium, chloride, and water. Thiazides like benzthiazide also inhibit sodium ion transport across the renal tubular epithelium through binding to the thiazide sensitive sodium-chloride transporter. This results in an increase in potassium excretion via the sodium-potassium exchange mechanism. The antihypertensive mechanism of benzthiazide is less well understood although it may be mediated through its action on carbonic anhydrases in the smooth muscle or through its action on the large-conductance calcium-activated potassium (KCa) channel, also found in the smooth muscle.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        11752352,
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "LNPDTQAFDNKSHK-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CC1=C(C(=NO1)C1=CC=CC=C1)C1=CC=C(C=C1)S(N)(=O)=O",
+      "cofactor_chem_comp_id": "COX",
+      "cofactor_name": "Valdecoxib",
+      "cofactor_resource_id": "DB00580",
+      "mechanism_of_action": "Both COX-1 and COX-2 catalyze the conversion of arachidonic acid to prostaglandin (PG) H2, the precursor of PGs and thromboxane. Valdecoxib selectively inhibits the cyclooxygenase-2 (COX-2) enzyme, important for the mediation of inflammation and pain. Unlike non-selective NSAIDs, valdecoxib does not inhibit platelet aggregation.",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        17826101,
+        33121862,
+        39574417,
+        14698154
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "BOCUKUHCLICSIY-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=C(Cl)C=C2NC(NS(=O)(=O)C2=C1)C1CC2CC1C=C2",
+      "cofactor_chem_comp_id": "CYZ",
+      "cofactor_name": "Cyclothiazide",
+      "cofactor_resource_id": "DB00606",
+      "mechanism_of_action": "Hydrochlorothiazide, a thiazide diuretic, inhibits water reabsorption in the nephron by inhibiting the sodium-chloride symporter (SLC12A3) in the distal convoluted tubule, which is responsible for 5% of total sodium reabsorption. Normally, the sodium-chloride symporter transports sodium and chloride from the lumen into the epithelial cell lining the distal convoluted tubule. The energy for this is provided by a sodium gradient established by sodium-potassium ATPases on the basolateral membrane. Once sodium has entered the cell, it is transported out into the basolateral interstitium via the sodium-potassium ATPase, causing an increase in the osmolarity of the interstitium, thereby establishing an osmotic gradient for water reabsorption. By blocking the sodium-chloride symporter, hydrochlorothiazide effectively reduces the osmotic gradient and water reabsorption throughout the nephron.Hydrochlorothiazide, a thiazide diuretic, inhibits water reabsorption in the nephron by inhibiting the sodium-chloride symporter (SLC12A3) in the distal convoluted tubule, which is responsible for 5% of total sodium reabsorption. Normally, the sodium-chloride symporter transports sodium and chloride from the lumen into the epithelial cell lining the distal convoluted tubule. The energy for this is provided by a sodium gradient established by sodium-potassium ATPases on the basolateral membrane. Once sodium has entered the cell, it is transported out into the basolateral interstitium via the sodium-potassium ATPase, causing an increase in the osmolarity of the interstitium, thereby establishing an osmotic gradient for water reabsorption. By blocking the sodium-chloride symporter, hydrochlorothiazide effectively reduces the osmotic gradient and water reabsorption throughout the nephron.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        8615854,
+        11752352,
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "ZZUFCTLCJUWOSV-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=C(Cl)C=C(NCC2=CC=CO2)C(=C1)C(O)=O",
+      "cofactor_chem_comp_id": "FUN",
+      "cofactor_name": "Furosemide",
+      "cofactor_resource_id": "DB00695",
+      "mechanism_of_action": "Furosemide promotes diuresis by blocking tubular reabsorption of sodium and chloride in the proximal and distal tubules, as well as in the thick ascending loop of Henle. This diuretic effect is achieved through the competitive inhibition of sodium-potassium-chloride cotransporters (NKCC2) expressed along these tubules in the nephron, preventing the transport of sodium ions from the lumenal side into the basolateral side for reabsorption. This inhibition results in increased excretion of water along with sodium, chloride, magnesium, calcium, hydrogen, and potassium ions.[L7961] As with other loop diuretics, furosemide decreases the excretion of uric acid.[T28] \r\n\r\nFurosemide exerts direct vasodilatory effects, which results in its therapeutic effectiveness in the treatment of acute pulmonary edema. Vasodilation leads to reduced responsiveness to vasoconstrictors, such as angiotensin II and noradrenaline, and decreased production of endogenous natriuretic hormones with vasoconstricting properties. It also leads to increased production of prostaglandins with vasodilating properties. Furosemide may also open potassium channels in resistance arteries.[T28] The main mechanism of action of furosemide is independent of its inhibitory effect on carbonic anhydrase and aldosterone.[L7958] ",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        22343084,
+        18336309,
+        18374572,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "FLOSMHQXBMRNHR-QPJJXVBHSA-N",
+      "cofactor_SMILES": "CN1N=C(S\\C1=N\\C(C)=O)S(N)(=O)=O",
+      "cofactor_name": "Methazolamide",
+      "cofactor_resource_id": "DB00703",
+      "mechanism_of_action": "Methazolamide is a potent inhibitor of carbonic anhydrase. Inhibition of carbonic anhydrase in the ciliary processes of the eye decreases aqueous humor secretion, presumably by slowing the formation of bicarbonate ions with subsequent reduction in sodium and fluid transport.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        18336310,
+        27485387,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "DMDGGSIALPNSEE-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC2=C(NCNS2(=O)=O)C=C1C(F)(F)F",
+      "cofactor_chem_comp_id": "HFZ",
+      "cofactor_name": "Hydroflumethiazide",
+      "cofactor_resource_id": "DB00774",
+      "mechanism_of_action": "Hydroflumethiazide is a thiazide diuretic that inhibits water reabsorption in the nephron by inhibiting the sodium-chloride symporter (SLC12A3) in the distal convoluted tubule, which is responsible for 5% of total sodium reabsorption. Normally, the sodium-chloride symporter transports sodium and chloride from the lumen into the epithelial cell lining the distal convoluted tubule. The energy for this is provided by a sodium gradient established by sodium-potassium ATPases on the basolateral membrane. Once sodium has entered the cell, it is transported out into the basolateral interstitium via the sodium-potassium ATPase, causing an increase in the osmolarity of the interstitium, thereby establishing an osmotic gradient for water reabsorption. By blocking the sodium-chloride symporter, Hydroflumethiazide effectively reduces the osmotic gradient and water reabsorption throughout the nephron.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        2226620,
+        19119014,
+        18374572,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "BZKPWHYZMXOIDC-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CC(=O)NC1=NN=C(S1)S(N)(=O)=O",
+      "cofactor_chem_comp_id": "AZM",
+      "cofactor_name": "Acetazolamide",
+      "cofactor_resource_id": "DB00819",
+      "mechanism_of_action": "The anticonvulsant activity of Acetazolamide may depend on a direct inhibition of carbonic anhydrase in the CNS, which decreases carbon dioxide tension in the pulmonary alveoli, thus increasing arterial oxygen tension. The diuretic effect depends on the inhibition of carbonic anhydrase, causing a reduction in the availability of hydrogen ions for active transport in the renal tubule lumen. This leads to alkaline urine and an increase in the excretion of bicarbonate, sodium, potassium, and water.",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        20605094,
+        18336310,
+        27860128,
+        39574417,
+        29466001,
+        8201598,
+        26682703
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "IAVUPMFITXYVAF-XPUUQOCRSA-N",
+      "cofactor_SMILES": "CCN[C@H]1C[C@H](C)S(=O)(=O)C2=C1C=C(S2)S(N)(=O)=O",
+      "cofactor_chem_comp_id": "ETS",
+      "cofactor_name": "Dorzolamide",
+      "cofactor_resource_id": "DB00869",
+      "mechanism_of_action": "Elevated intraocular pressure is a characteristic manifestation of ocular hypertension or open-angle glaucoma. The level of intraocular pressure (IOP) is governed by the balance between the production of aqueous humour (by ocular ciliary processes) and its outflow from the anterior segment of the eye via trabecular (conventional) or uveoscleral (unconventional) pathways. When there is an increase in the resistance to the trabecular outflow of aqueous humour, the intraocular pressure is elevated. Subsequently, optic nerve damage can occur from blood flow restrictions and mechanical distortion of ocular structures. Optic nerve damage can further result in optic disc cupping and progressive visual field loss (and blindness in some cases).[A1304] \r\n\r\nCarbonic anhydrase (CA) is a ubiquitous enzyme that catalyzes the reversible hydration of carbon dioxide to bicarbonate ions and dehydration of carbonic acid.[A1304,L11377] In the ocular ciliary processes, the local production of bicarbonate by CAs promotes sodium and fluid transport. CA-II is a key isoenzyme found primarily in red blood cells (RBCs) that regulates aqueous humour production.[A1304] Dorzolamide is a highly specific CA-II inhibitor, where it displays a 4000-fold higher affinity for carbonic anhydrase II than carbonic anhydrase I.[A1304] The inhibition of CA-II in the ciliary process disrupts the formation of bicarbonate ions and reduces sodium and fluid transport, which leads to decreased aqueous humour secretion and reduced intraocular pressure.[A1304,L11377]",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10048009,
+        8781782,
+        15258186,
+        8070313,
+        9029437,
+        10614682,
+        8875343,
+        12356834,
+        11752352,
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "JBMKAUGHUNFTOL-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=C(Cl)C=C2NC=NS(=O)(=O)C2=C1",
+      "cofactor_name": "Chlorothiazide",
+      "cofactor_resource_id": "DB00880",
+      "mechanism_of_action": "As a diuretic, chlorothiazide inhibits active chloride reabsorption at the early distal tubule via the Na-Cl cotransporter, resulting in an increase in the excretion of sodium, chloride, and water. Thiazides like chlorothiazide also inhibit sodium ion transport across the renal tubular epithelium through binding to the thiazide sensitive sodium-chloride transporter. This results in an increase in potassium excretion via the sodium-potassium exchange mechanism. The antihypertensive mechanism of chlorothiazide is less well understood although it may be mediated through its action on carbonic anhydrases in the smooth muscle or through its action on the large-conductance calcium-activated potassium (KCa) channel, also found in the smooth muscle.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        14656370,
+        10954127,
+        12388412,
+        11752352,
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "UBQNRHZMVUUOMG-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)CC1=NOC2=CC=CC=C12",
+      "cofactor_chem_comp_id": "ZON",
+      "cofactor_name": "Zonisamide",
+      "cofactor_resource_id": "DB00909",
+      "mechanism_of_action": "The mechanism of action by which zonisamide controls seizures has not been fully established. However, its antiepileptic properties may be due to its effects on sodium and calcium channels.[L42530,L42535] Zonisamide blocks sodium channels and reduces voltage-dependent, transient inward currents, stabilizing neuronal membranes and suppressing neuronal hypersynchronization.[L42530,L42535] It affects T-type calcium currents, but has no effect on L-type calcium currents.[A1382,A1383,A1385] \r\n\r\nZonisamide suppresses synaptically-driven electrical activity by altering the synthesis, release, and degradation of neurotransmitters, such as glutamate, gamma-aminobutyric acid (GABA), dopamine, serotonin (5-hydroxytryptamine [5-HT]), and acetylcholine.[A1383,A1380] Furthermore, it binds to the GABA/benzodiazepine receptor ionophore complex without producing changes in chloride flux.[L42530,L42535] _In vitro_ studies have suggested that zonisamide does not affect postsynaptic GABA or glutamate responses, nor the neuronal or glial uptake of [<sup>3</sup>H]-GABA.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        19703035,
+        18537527,
+        18343915,
+        15837316,
+        8494570,
+        18782051,
+        17762320,
+        17582922,
+        39574417,
+        17420132
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "YGSDEFSMJLZEOE-UHFFFAOYSA-N",
+      "cofactor_SMILES": "OC(=O)C1=CC=CC=C1O",
+      "cofactor_chem_comp_id": "SAL",
+      "cofactor_name": "Salicylic acid",
+      "cofactor_resource_id": "DB00936",
+      "mechanism_of_action": "Salicylic acid directly and reversibly inhibits COX-1 and COX-2 to decrease conversion of arachidonic acid to precursors of prostaglandins and thromboxanes.[A33150, A274656] Salicylate's use in rheumatic diseases is due to it's analgesic and anti-inflammatory activity. Salicylic acid is a key ingredient in many skin-care products for the treatment of acne, psoriasis, calluses, corns, keratosis pilaris, and warts. Salicylic acid allows cells of the epidermis to more readily slough off. Because of its effect on skin cells, salicylic acid is used in several shampoos used to treat dandruff. Salicylic acid is also used as an active ingredient in gels which remove verrucas (plantar warts). Salicylic acid competitively inhibits oxidation of uridine-5-diphosphoglucose (UDPG) with nicotinamide adenosine dinucleotide (NAD) and noncompetitively with UDPG. It also competitively inhibits the transferring of the glucuronyl group of uridine-5-phosphoglucuronic acid (UDPGA) to a phenolic acceptor. Inhibition of mucopoly saccharide synthesis is likely responsible for the slowing of wound healing with salicylates.",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        37713619,
+        18819808,
+        39574417,
+        26520662
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "LMJSLTNSBFUCMU-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=C(Cl)C=C2NC(NS(=O)(=O)C2=C1)C(Cl)Cl",
+      "cofactor_name": "Trichlormethiazide",
+      "cofactor_resource_id": "DB01021",
+      "mechanism_of_action": "Trichlormethiazide seemingly appears to inhibit the active reabsorption of chloride in the ascending loop of Henle. Additionally, it may also do the same for sodium. These actions subsequently alter electrolyte transfer in the proximal tubule. This results in excretion of sodium, chloride, and water and, hence, diuresis. As a diuretic, Trichloromethiazide inhibits active chloride reabsorption at the early distal tubule via the Na-Cl cotransporter, resulting in an increase in the excretion of sodium, chloride, and water. Thiazides like Trichloromethiazide also inhibit sodium ion transport across the renal tubular epithelium through binding to the thiazide sensitive sodium-chloride transporter. This results in an increase in potassium excretion via the sodium-potassium exchange mechanism. The antihypertensive mechanism of Trichloromethiazide is less well understood although it may be mediated through its action on carbonic anhydrases in the smooth muscle or through its action on the large-conductance calcium-activated potassium (KCa) channel, also found in the smooth muscle.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        19119014
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "GXRZIMHKGDIBEW-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NC(=O)OC1(CCCCC1)C#C",
+      "cofactor_name": "Ethinamate",
+      "cofactor_resource_id": "DB01031",
+      "mechanism_of_action": "The mechanism of action is not known. However, studies have shown that ethinamate inhibits carbonic anhydrases I and II (J Biol Chem. 1992 Dec 15;267(35):25044-50). This inhibition by ethinamate is not sufficiently strong, however, to implicate carbonic anhydrases I and II in the mechanism of action.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        1460006,
+        11752352,
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "GJQPMPFPNINLKP-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC(=C(Cl)C(Cl)=C1)S(N)(=O)=O",
+      "cofactor_chem_comp_id": "I7A",
+      "cofactor_name": "Diclofenamide",
+      "cofactor_resource_id": "DB01144",
+      "mechanism_of_action": "Carbonic anhydrase inhibitors reduce intraocular pressure by partially suppressing the secretion of aqueous humor (inflow), although the mechanism by which they do this is not fully understood. Evidence suggests that HCO<sup>3-</sup> ions are produced in the ciliary body by hydration of carbon dioxide under the influence of carbonic anhydrase and diffuse into the posterior chamber which contains more Na<sup>+</sup> and HCO<sup>3-</sup> ions than does plasma and consequently is hypertonic. Water is then attracted to the posterior chamber by osmosis, resulting in a drop in pressure.",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        18336310,
+        37713619,
+        14698154,
+        39574417,
+        15603956
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "HCRKCZRJWPKOAR-JTQLQIEISA-N",
+      "cofactor_SMILES": "CCN[C@H]1CN(CCCOC)S(=O)(=O)C2=C1C=C(S2)S(N)(=O)=O",
+      "cofactor_chem_comp_id": "BZ1",
+      "cofactor_name": "Brinzolamide",
+      "cofactor_resource_id": "DB01194",
+      "mechanism_of_action": "Brinzolamide is a highly specific, reversible, non-competitive inhibitor of carbonic anhydrases (CA), the enzymes catalyzing the reversible reaction of water and carbon dioxide (CO2) to form bicarbonate ions.[A2053] Although there are 7 isoforms of CA in human tissues, brinzolamide has the highest affinity to CA II.[A2053,A2055] Brinzolamide and its active metabolites were not found to displace any known ligands in vitro from their respective receptors or enzymes commonly involved in producing side effects or ancillary pharmacology, thus explaining brinzolamide's high order of safety.[A2055]\r\n",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        9541386,
+        10665514,
+        14684332,
+        9865942,
+        11003159,
+        19668749,
+        14971907
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "AGMMTXLNIQSRCG-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CCC1NC(=O)C2=CC(=C(Cl)C=C2N1)S(N)(=O)=O",
+      "cofactor_name": "Quinethazone",
+      "cofactor_resource_id": "DB01325",
+      "mechanism_of_action": "As a diuretic, quinethazone inhibits active chloride reabsorption at the early distal tubule via the Na-Cl cotransporter, resulting in an increase in the excretion of sodium, chloride, and water. Thiazides like quinethazone also inhibit sodium ion transport across the renal tubular epithelium through binding to the thiazide sensitive sodium-chloride transporter. This results in an increase in potassium excretion via the sodium-potassium exchange mechanism. The antihypertensive mechanism of quinethazone is less well understood although it may be mediated through its action on carbonic anhydrases in the smooth muscle or through its action on the large-conductance calcium-activated potassium (KCa) channel, also found in the smooth muscle.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        18600270,
+        18374572,
+        18336309
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "PMOWTIHVNWZYFI-AATRIKPKSA-N",
+      "cofactor_SMILES": "OC(=O)\\C=C\\C1=CC=CC=C1O",
+      "cofactor_chem_comp_id": "2HC",
+      "cofactor_name": "trans-2-hydroxycinnamic acid",
+      "cofactor_resource_id": "DB01650",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619,
+        20674354,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "WMHRYLDWLOGHSG-UHFFFAOYSA-M",
+      "cofactor_SMILES": "O[Hg]C1=CC=C(C=C1)C(O)=O",
+      "cofactor_chem_comp_id": "HGB",
+      "cofactor_name": "p-Hydroxymercuribenzoic acid",
+      "cofactor_resource_id": "DB01671",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "CZKNSZUJCJHTTM-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC=C(C=C1)C(=O)NCC1=CC=CC=C1",
+      "cofactor_chem_comp_id": "BSB",
+      "cofactor_name": "N-Benzyl-4-Sulfamoyl-Benzamide",
+      "cofactor_resource_id": "DB01748",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        37713619,
+        11572683,
+        39574417,
+        8027991
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "LFLSATHZMYYIAQ-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC=C(F)C=C1",
+      "cofactor_chem_comp_id": "FBS",
+      "cofactor_name": "4-Flourobenzenesulfonamide",
+      "cofactor_resource_id": "DB01784",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        37713619,
+        19226504,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "HXITXNWTGFUOAU-UHFFFAOYSA-N",
+      "cofactor_SMILES": "OB(O)C1=CC=CC=C1",
+      "cofactor_chem_comp_id": "PBC",
+      "cofactor_name": "Phenylboronic acid",
+      "cofactor_resource_id": "DB01795",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619,
+        28277280,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "BDAGIHXWWSANSR-UHFFFAOYSA-N",
+      "cofactor_SMILES": "[H]C(O)=O",
+      "cofactor_chem_comp_id": "FMT",
+      "cofactor_name": "Formic acid",
+      "cofactor_resource_id": "DB01942",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "VPRUMANMDWQMNF-UHFFFAOYSA-N",
+      "cofactor_SMILES": "OB(O)CCC1=CC=CC=C1",
+      "cofactor_chem_comp_id": "PBA",
+      "cofactor_name": "Phenylethane Boronic Acid",
+      "cofactor_resource_id": "DB01963",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619,
+        19375309,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "ZWTSOJQGEWPWGO-NSHDSACASA-N",
+      "cofactor_SMILES": "[H][C@]1(O)CN(C2=CC=C(OC)C=C2)S(=O)(=O)C2=C1C=C(S2)S(N)(=O)=O",
+      "cofactor_chem_comp_id": "AL2",
+      "cofactor_name": "AL5424",
+      "cofactor_resource_id": "DB01964",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "ULYMHSXFSKOHGH-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC=C(C=C1)C(=O)NCC1=CC=CC=C1F",
+      "cofactor_chem_comp_id": "FSB",
+      "cofactor_name": "N-(2-Flouro-Benzyl)-4-Sulfamoyl-Benzamide",
+      "cofactor_resource_id": "DB02069",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        37713619,
+        11572683,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "MKQPOVUFDWKPNO-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC(F)=CC(F)=C1",
+      "cofactor_chem_comp_id": "FBU",
+      "cofactor_name": "3,5-Difluorobenzenesulfonamide",
+      "cofactor_resource_id": "DB02087",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "RMOXCYSVWCHXII-LBPRGKRZSA-N",
+      "cofactor_SMILES": "CN[C@H]1CN(C2=CC(OC)=CC=C2)S(=O)(=O)C2=C1C=C(S2)S(N)(=O)=O",
+      "cofactor_chem_comp_id": "AL8",
+      "cofactor_name": "AL7089A",
+      "cofactor_resource_id": "DB02220",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "DVTYOTODFLDHRL-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC=C(C=C1)C(=O)NCC1=C(F)C=C(F)C=C1F",
+      "cofactor_chem_comp_id": "IOE",
+      "cofactor_name": "4-(Aminosulfonyl)-N-[(2,4,6-Trifluorophenyl)Methyl]-Benzamide",
+      "cofactor_resource_id": "DB02221",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        11572683,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "YCIMNLLNPGFGHC-UHFFFAOYSA-N",
+      "cofactor_SMILES": "OC1=CC=CC=C1O",
+      "cofactor_chem_comp_id": "CAQ",
+      "cofactor_name": "1,2-Dihydroxybenzene",
+      "cofactor_resource_id": "DB02232",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619,
+        20185318,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "DSLPMJSGSBLWRE-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)OC1=CC=C2C3=C(CCCCC3)C(=O)OC2=C1",
+      "cofactor_chem_comp_id": "667",
+      "cofactor_name": "Irosustat",
+      "cofactor_resource_id": "DB02292",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        15865431,
+        39574417,
+        18640037,
+        12617909
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "IXDVPACDZDRCTN-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC=C(C=C1)C(=O)NCC1=CC=C(F)C=C1",
+      "cofactor_chem_comp_id": "INV",
+      "cofactor_name": "4-(Aminosulfonyl)-N-[(4-Fluorophenyl)Methyl]-Benzamide",
+      "cofactor_resource_id": "DB02429",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        11572683,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "ZFWHOUCRVSOZJE-CQSZACIVSA-N",
+      "cofactor_SMILES": "[H]N([H])S(=O)(=O)C1=CC=C(C=C1)C(=O)N([H])C[C@@H](C)CN1C=CC2=CC=CC=C12",
+      "cofactor_chem_comp_id": "SBR",
+      "cofactor_name": "(R)-N-(3-Indol-1-Yl-2-Methyl-Propyl)-4-Sulfamoyl-Benzamide",
+      "cofactor_resource_id": "DB02479",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "QGGYVKRXFQLYQD-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NCCOCCOCCNC(=O)C1=CC=C(C=C1)S(N)(=O)=O",
+      "cofactor_chem_comp_id": "EG2",
+      "cofactor_name": "Aminodi(Ethyloxy)Ethylaminocarbonylbenzenesulfonamide",
+      "cofactor_resource_id": "DB02535",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        17139284,
+        17016423
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "ICIXQGGQPKFQRL-UHFFFAOYSA-N",
+      "cofactor_SMILES": "COC1=CC(=CC=C1)N1CCC2=C(SC(=C2)S(N)(=O)=O)S1(=O)=O",
+      "cofactor_chem_comp_id": "AL1",
+      "cofactor_name": "AL7182",
+      "cofactor_resource_id": "DB02602",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        37713619,
+        9865942,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "LRKSHOLYETXPGY-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC=C(C=C1)C(=O)NCC1=C(F)C(F)=C(F)C(F)=C1F",
+      "cofactor_chem_comp_id": "FFB",
+      "cofactor_name": "N-(2,3,4,5,6-Pentaflouro-Benzyl)-4-Sulfamoyl-Benzamide",
+      "cofactor_resource_id": "DB02610",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        11572683,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "XZMCDFZZKTWFGF-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NC#N",
+      "cofactor_chem_comp_id": "CNN",
+      "cofactor_name": "Cyanamide",
+      "cofactor_resource_id": "DB02679",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        17139284,
+        17016423
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "DEHMSTGBNAXEGX-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC=C(C=C1)C(=O)NCC1=CC(F)=C(F)C(F)=C1",
+      "cofactor_chem_comp_id": "IOF",
+      "cofactor_name": "4-(Aminosulfonyl)-N-[(3,4,5-Trifluorophenyl)Methyl]-Benzamide",
+      "cofactor_resource_id": "DB02861",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        11572683,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "TYNBFJJKZPTRKS-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CN(C)C1=C2C=CC=C(C2=CC=C1)S(N)(=O)=O",
+      "cofactor_chem_comp_id": "MNS",
+      "cofactor_name": "Dansylamide",
+      "cofactor_resource_id": "DB02866",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "GGOAQSGCBDRTHT-JAKMQLQISA-N",
+      "cofactor_SMILES": "[H][C@@]12CO[C@@]3(COS(N)(=O)=O)OC(C)(C)O[C@@]3([H])[C@]1([H])OS(=O)(=O)O2",
+      "cofactor_chem_comp_id": "SMS",
+      "cofactor_name": "Sulfamic Acid 2,3-O-(1-Methylethylidene)-4,5-O-Sulfonyl-Beta-Fructopyranose Ester",
+      "cofactor_resource_id": "DB02894",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        17139284,
+        17016423
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "STOTVDLYLKWVJB-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC=C(S1)S(=O)(=O)NCC1=CC=CS1",
+      "cofactor_chem_comp_id": "TPD",
+      "cofactor_name": "N-(2-Thienylmethyl)-2,5-Thiophenedisulfonamide",
+      "cofactor_resource_id": "DB02986",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        37713619,
+        9865942,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "KEGUALXMKQVDIO-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC=C(C=C1)C(=O)NCC1=CC(F)=CC=C1F",
+      "cofactor_chem_comp_id": "IOA",
+      "cofactor_name": "4-(Aminosulfonyl)-N-[(2,5-Difluorophenyl)Methyl]-Benzamide",
+      "cofactor_resource_id": "DB03039",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        11572683,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "RMOXCYSVWCHXII-GFCCVEGCSA-N",
+      "cofactor_SMILES": "CN[C@@H]1CN(C2=CC(OC)=CC=C2)S(=O)(=O)C2=C1C=C(S2)S(N)(=O)=O",
+      "cofactor_chem_comp_id": "AL7",
+      "cofactor_name": "AL7099A",
+      "cofactor_resource_id": "DB03221",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "ISWSIDIOOBJBQZ-UHFFFAOYSA-N",
+      "cofactor_SMILES": "OC1=CC=CC=C1",
+      "cofactor_chem_comp_id": "IPH",
+      "cofactor_name": "Phenol",
+      "cofactor_resource_id": "DB03255",
+      "mechanism_of_action": "Phenol is a potent proteolytic agent. Concentrations in the 5% to 7% range dissolve tissue on contact via proteolysis. In high concentrations when injected next to a nerve, phenol produces a chemical neurolysis which is nonselective across nerve fiber size and most prominent on its outer aspect. Local anesthetic effects occur within 5-10 minutes. ",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619,
+        24189056,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "PZLYYZPXSSNGJS-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC2=C(S1)S(=O)(=O)N(C(CN1CCOCC1)=C2)C1=CC(O)=CC=C1",
+      "cofactor_chem_comp_id": "INQ",
+      "cofactor_name": "Al-6619, [2h-Thieno[3,2-E]-1,2-Thiazine-6-Sulfonamide,2-(3-Hydroxyphenyl)-3-(4-Morpholinyl)-, 1,1-Dioxide]",
+      "cofactor_resource_id": "DB03262",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        10882008,
+        39574417,
+        11831900
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "RVVVGGCOFWWDEL-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=C(F)C=CC=C1F",
+      "cofactor_chem_comp_id": "FBT",
+      "cofactor_name": "2,6-Difluorobenzenesulfonamide",
+      "cofactor_resource_id": "DB03270",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "DFPYCCVFXMWMJM-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CN1SC(=O)C2=CC(=CC=C12)S(N)(=O)=O",
+      "cofactor_chem_comp_id": "SG2",
+      "cofactor_name": "1-Methyl-3-Oxo-1,3-Dihydro-Benzo[C]Isothiazole-5-Sulfonic Acid Amide",
+      "cofactor_resource_id": "DB03294",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        12166932,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "NXMUSVRWCFYOTJ-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC=C(NC(=S)OCCC2=CSC=C2)C=C1",
+      "cofactor_chem_comp_id": "SUA",
+      "cofactor_name": "(4-sulfamoyl-phenyl)-thiocarbamic acid O-(2-thiophen-3-yl-ethyl) ester",
+      "cofactor_resource_id": "DB03333",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "DGVVWUTYPXICAM-UHFFFAOYSA-N",
+      "cofactor_SMILES": "OCCS",
+      "cofactor_chem_comp_id": "BME",
+      "cofactor_name": "Mercaptoethanol",
+      "cofactor_resource_id": "DB03345",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "XLSZMDLNRCVEIJ-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CC1=CNC=N1",
+      "cofactor_chem_comp_id": "4MZ",
+      "cofactor_name": "4-Methylimidazole",
+      "cofactor_resource_id": "DB03385",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "LRRAIRJIZOLGPR-UHFFFAOYSA-N",
+      "cofactor_SMILES": "COC1=CC=C(CNS(=O)(=O)C2=CC=C(S2)S(N)(=O)=O)C=C1",
+      "cofactor_chem_comp_id": "AL9",
+      "cofactor_name": "AL5927",
+      "cofactor_resource_id": "DB03526",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        37713619,
+        9865942,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "NSPMIYGKQJPBQR-UHFFFAOYSA-N",
+      "cofactor_SMILES": "N1C=NC=N1",
+      "cofactor_chem_comp_id": "TRI",
+      "cofactor_name": "1,2,4-Triazole",
+      "cofactor_resource_id": "DB03594",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "FSRPBGBMEKDSIJ-CYBMUJFWSA-N",
+      "cofactor_SMILES": "[H][C@@](CC)(CNC(=O)C1=CC=C(C=C1)S(N)(=O)=O)C1=CC2=C(NC=C2)C=C1",
+      "cofactor_chem_comp_id": "SBB",
+      "cofactor_name": "N-[2-(1h-Indol-5-Yl)-Butyl]-4-Sulfamoyl-Benzamide",
+      "cofactor_resource_id": "DB03596",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "XSUAVPPTKHUTDX-UHFFFAOYSA-N",
+      "cofactor_SMILES": "COC1=CC=CC(=C1)N1C(CN2CCOCC2)=CC2=C(SC(=C2)S(N)(=O)=O)S1(=O)=O",
+      "cofactor_chem_comp_id": "INL",
+      "cofactor_name": "Al-6629, [2h-Thieno[3,2-E]-1,2-Thiazine-6-Sulfonamide,2-(3-Methoxyphenyl)-3-(4-Morpholinyl)-, 1,1-Dioxide]",
+      "cofactor_resource_id": "DB03598",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        10882008,
+        39574417,
+        11831900
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "ZDYFRIZTYRFPJC-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NCCCCNC(=O)C1=CC=C(C=C1)S(N)(=O)=O",
+      "cofactor_chem_comp_id": "SAB",
+      "cofactor_name": "4-Sulfonamide-[1-(4-Aminobutane)]Benzamide",
+      "cofactor_resource_id": "DB03697",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "ZFNCKGXGCCDDFN-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC=C(C=C1)C(=O)NCC1=C(F)C=CC=C1F",
+      "cofactor_chem_comp_id": "F6B",
+      "cofactor_name": "N-(2,6-Diflouro-Benzyl)-4-Sulfamoyl-Benzamide",
+      "cofactor_resource_id": "DB03844",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        37713619,
+        11572683,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "VHRGRCVQAFMJIZ-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NCCCCCN",
+      "cofactor_chem_comp_id": "N2P",
+      "cofactor_name": "Cadaverine",
+      "cofactor_resource_id": "DB03854",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619,
+        20590092,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "XACIEZJJSXJZMD-VIFPVBQESA-N",
+      "cofactor_SMILES": "CCN[C@H]1CN(CCOC)S(=O)(=O)C2=C1C=C(S2)S(N)(=O)=O",
+      "cofactor_chem_comp_id": "AL4",
+      "cofactor_name": "AL-4623",
+      "cofactor_resource_id": "DB03877",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "XSQUKJJJFZCRTK-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NC(N)=O",
+      "cofactor_chem_comp_id": "URE",
+      "cofactor_name": "Urea",
+      "cofactor_resource_id": "DB03904",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        20005709,
+        27789330,
+        28705076
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "ZFWHOUCRVSOZJE-AWEZNQCLSA-N",
+      "cofactor_SMILES": "[H]N([H])S(=O)(=O)C1=CC=C(C=C1)C(=O)N([H])C[C@H](C)CN1C=CC2=CC=CC=C12",
+      "cofactor_chem_comp_id": "SBS",
+      "cofactor_name": "(S)-N-(3-Indol-1-Yl-2-Methyl-Propyl)-4-Sulfamoyl-Benzamide",
+      "cofactor_resource_id": "DB03950",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "FVFZSVRSDNUCGG-UHFFFAOYSA-N",
+      "cofactor_SMILES": "OC(=O)C1=CC=C([Hg])C=C1",
+      "cofactor_chem_comp_id": "MBO",
+      "cofactor_name": "Mercuribenzoic Acid",
+      "cofactor_resource_id": "DB03975",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "XLYYIFIRODREFK-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC=C(C=C1)C(=O)NCCCCNCS",
+      "cofactor_chem_comp_id": "STB",
+      "cofactor_name": "4-Sulfonamide-[4-(Thiomethylaminobutane)]Benzamide",
+      "cofactor_resource_id": "DB04002",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "NGSWKAQJJWESNS-ZZXKWVIFSA-N",
+      "cofactor_SMILES": "OC(=O)\\C=C\\C1=CC=C(O)C=C1",
+      "cofactor_chem_comp_id": "HC4",
+      "cofactor_name": "p-Coumaric acid",
+      "cofactor_resource_id": "DB04066",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619,
+        20185318,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "PYXFWOIZPYXNRU-FSPLSTOPSA-N",
+      "cofactor_SMILES": "[H][C@]1(C)C[C@]([H])(NC)C2=C(SC(=C2)S(N)(=O)=O)S1(=O)=O",
+      "cofactor_chem_comp_id": "MTS",
+      "cofactor_name": "(4s-Trans)-4-(Methylamino)-5,6-Dihydro-6-Methyl-4h-Thieno(2,3-B)Thiopyran-2-Sulfonamide-7,7-Dioxide",
+      "cofactor_resource_id": "DB04081",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        8164249,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "HHPUQNGRNUOYCD-VIFPVBQESA-N",
+      "cofactor_SMILES": "[H][C@]1(O)CN(CC2=CC=CS2)S(=O)(=O)C2=C1C=C(S2)S(N)(=O)=O",
+      "cofactor_chem_comp_id": "AL3",
+      "cofactor_name": "AL5300",
+      "cofactor_resource_id": "DB04089",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "NTDFJEKGSGSXME-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC=C(C=C1)C(=O)NCC1=C(F)C=C(F)C=C1",
+      "cofactor_chem_comp_id": "INW",
+      "cofactor_name": "4-(Aminosulfonyl)-N-[(2,4-Difluorophenyl)Methyl]-Benzamide",
+      "cofactor_resource_id": "DB04180",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        11572683,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "KGGLGSZFQPTPPT-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NC1=CC=C(C=C1[Hg])S(N)(=O)=O",
+      "cofactor_chem_comp_id": "AMS",
+      "cofactor_name": "3-Mercuri-4-Aminobenzenesulfonamide",
+      "cofactor_resource_id": "DB04203",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "XZKIHKMTEMTJQX-UHFFFAOYSA-N",
+      "cofactor_SMILES": "OP(O)(=O)OC1=CC=C(C=C1)[N+]([O-])=O",
+      "cofactor_chem_comp_id": "4NP",
+      "cofactor_name": "4-Nitrophenyl Phosphate",
+      "cofactor_resource_id": "DB04214",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619,
+        20833546,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "FBBLOSCXOZYUSS-UHFFFAOYSA-N",
+      "cofactor_SMILES": "COC1=CC(=CC=C1)N1C=CC2=C(SC(=C2)S(N)(=O)=O)S1(=O)=O",
+      "cofactor_chem_comp_id": "AL6",
+      "cofactor_name": "AL6528",
+      "cofactor_resource_id": "DB04371",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        37713619,
+        9865942,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "FPCPYSKJIRSWIG-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC=C(N2CCCC2=O)C(=C1)[N+]([O-])=O",
+      "cofactor_chem_comp_id": "SG1",
+      "cofactor_name": "3-Nitro-4-(2-Oxo-Pyrrolidin-1-Yl)-Benzenesulfonamide",
+      "cofactor_resource_id": "DB04394",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        12166932,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "AANTYZRUJFNZFI-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC=C(C=C1)C(=O)NCC1=C(F)C(F)=C(F)C=C1",
+      "cofactor_chem_comp_id": "IOC",
+      "cofactor_name": "4-(Aminosulfonyl)-N-[(2,3,4-Trifluorophenyl)Methyl]-Benzamide",
+      "cofactor_resource_id": "DB04549",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        11572683,
+        39574417,
+        8027991
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "GHDKYBCUDPSXGJ-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)OC1=CC=C(CN(N2C=NN=C2)C2=CC=C(C=C2)C#N)C=C1Br",
+      "cofactor_chem_comp_id": "4TR",
+      "cofactor_name": "4-[(3-BROMO-4-O-SULFAMOYLBENZYL)(4-CYANOPHENYL)AMINO]-4H-[1,2,4]-TRIAZOLE",
+      "cofactor_resource_id": "DB04600",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        15865431,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "WEXGHQDVDVWOIU-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)OC1=CC=C(CN(N2C=NN=C2)C2=CC=C(C=C2)C#N)C=C1",
+      "cofactor_chem_comp_id": "4TZ",
+      "cofactor_name": "4-[(4-O-SULFAMOYLBENZYL)(4-CYANOPHENYL)AMINO]-4H-[1,2,4]-TRIAZOLE",
+      "cofactor_resource_id": "DB04601",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        15865431,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "ZYGHJZDHTFUPRJ-UHFFFAOYSA-N",
+      "cofactor_SMILES": "O=C1OC2=CC=CC=C2C=C1",
+      "cofactor_chem_comp_id": "COU",
+      "cofactor_name": "Coumarin",
+      "cofactor_resource_id": "DB04665",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619,
+        23241068,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "UXBCHTZINZNVRG-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CC1=CC(C)=[N+](CCC2=CC=C(C=C2)S(N)(=O)=O)C(C)=C1",
+      "cofactor_chem_comp_id": "PIU",
+      "cofactor_name": "1-N-(4-SULFAMOYLPHENYL-ETHYL)-2,4,6-TRIMETHYLPYRIDINIUM",
+      "cofactor_resource_id": "DB04763",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        24513184,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "TYMRLRRVMHJFTF-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NCC1=CC=C(C=C1)S(N)(=O)=O",
+      "cofactor_chem_comp_id": "6LH",
+      "cofactor_name": "Mafenide",
+      "cofactor_resource_id": "DB06795",
+      "mechanism_of_action": "The precise mechanism of mafenide is unknown. However, mafenide reduces the bacterial population in the avascular burn tissue and promotes spontaneous heeling of deep burns. ",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619,
+        27485387,
+        39574417,
+        15482952
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "HOLJYLOVIHBQHO-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NC1=C(F)C=C(C=C1Cl)S(=O)(=O)NC1=NN=C(S1)S(N)(=O)=O",
+      "cofactor_chem_comp_id": "1CN",
+      "cofactor_name": "5-{[(4-AMINO-3-CHLORO-5-FLUOROPHENYL)SULFONYL]AMINO}-1,3,4-THIADIAZOLE-2-SULFONAMIDE",
+      "cofactor_resource_id": "DB06891",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        20605094,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "BIASYWBGUYOWJR-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)OC1=CC=C2C=C(CC3CCCCCC3)S(=O)(=O)C2=C1",
+      "cofactor_chem_comp_id": "2C7",
+      "cofactor_name": "2-(cycloheptylmethyl)-1,1-dioxido-1-benzothiophen-6-yl sulfamate",
+      "cofactor_resource_id": "DB06954",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        18640037,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "XBYJCVDSFWJBSM-OAHLLOKOSA-N",
+      "cofactor_SMILES": "[H][C@]1(CC2=C(C1)C=C(C=C2)S(N)(=O)=O)NC(=O)C(CCC)CCC",
+      "cofactor_chem_comp_id": "3CC",
+      "cofactor_name": "N-[(2R)-5-(aminosulfonyl)-2,3-dihydro-1H-inden-2-yl]-2-propylpentanamide",
+      "cofactor_resource_id": "DB07048",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "PWDGTQXZLNDOKS-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=NN=C(NS(=O)(=O)C2=CC=CC=C2)S1",
+      "cofactor_chem_comp_id": "D8W",
+      "cofactor_name": "Benzolamide",
+      "cofactor_resource_id": "DB07050",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        37713619,
+        27485387,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "GUNRMHMEAWSZQE-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CC1=CC=C(CNS(=O)(=O)C2=CC=C(S2)S(N)(=O)=O)C=C1",
+      "cofactor_chem_comp_id": "AL5",
+      "cofactor_name": "THIOPHENE-2,5-DISULFONIC ACID 2-AMIDE-5-(4-METHYL-BENZYLAMIDE)",
+      "cofactor_resource_id": "DB07363",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        9865942,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "NDDAHWYSQHTHNT-JTQLQIEISA-N",
+      "cofactor_SMILES": "C[C@H]1CC2=C(C=CC=C2)N1NC(=O)C1=CC=C(Cl)C(=C1)S(N)(=O)=O",
+      "cofactor_chem_comp_id": "BL1",
+      "cofactor_name": "(S)-Indapamide",
+      "cofactor_resource_id": "DB07467",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "MRLVIVXGUGNENL-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC=C(NC(=O)C2=CC=CC=C2S)C=C1",
+      "cofactor_chem_comp_id": "BOS",
+      "cofactor_name": "N-[4-(AMINOSULFONYL)PHENYL]-2-MERCAPTOBENZAMIDE",
+      "cofactor_resource_id": "DB07476",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        37713619,
+        18348513,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "BSIZUMJRKYHEBR-QGZVFWFLSA-N",
+      "cofactor_SMILES": "COC1=CC=C(C=C1)S(=O)(=O)N(CC1=CC=CN=C1)[C@H](C(C)C)C(=O)NO",
+      "cofactor_chem_comp_id": "CGS",
+      "cofactor_name": "CGS-27023",
+      "cofactor_resource_id": "DB07556",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619,
+        17276072,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "NTSPHKOMJMBWOU-NNKXXINSSA-N",
+      "cofactor_SMILES": "[H][C@]1(CC#N)CC[C@@]2([H])[C@]3([H])CCC4=CC(OS(N)(=O)=O)=C(OC)C=C4[C@@]3([H])CC[C@]12C",
+      "cofactor_chem_comp_id": "CTF",
+      "cofactor_name": "(17beta)-17-(cyanomethyl)-2-methoxyestra-1(10),2,4-trien-3-yl sulfamate",
+      "cofactor_resource_id": "DB07596",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "PZVGOWIIHCUHAO-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=NN=C(S1)C1=CC=CC=C1Cl",
+      "cofactor_chem_comp_id": "D9Z",
+      "cofactor_name": "5-(2-chlorophenyl)-1,3,4-thiadiazole-2-sulfonamide",
+      "cofactor_resource_id": "DB07632",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        19170619,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "QNZDHHNWUXIYOH-FQEVSTJZSA-N",
+      "cofactor_SMILES": "[H][C@](N)(CC1=CC=CC=C1)C(=O)NCCOCCOCCNC(=O)C1=CC=C(C=C1)S(N)(=O)=O",
+      "cofactor_chem_comp_id": "EG3",
+      "cofactor_name": "PHENYLALANYLAMINODI(ETHYLOXY)ETHYL BENZENESULFONAMIDEAMINOCARBONYLBENZENESULFONAMIDE",
+      "cofactor_resource_id": "DB07710",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "QASSMVGOSBNFQY-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC=C(C=C1)C(=O)NCC1=CC=CC(F)=C1F",
+      "cofactor_chem_comp_id": "F2B",
+      "cofactor_name": "N-(2,3-DIFLUORO-BENZYL)-4-SULFAMOYL-BENZAMIDE",
+      "cofactor_resource_id": "DB07742",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        37713619,
+        11572683,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "KSEBMYQBYZTDHS-HWKANZROSA-N",
+      "cofactor_SMILES": "COC1=CC(\\C=C\\C(O)=O)=CC=C1O",
+      "cofactor_chem_comp_id": "FER",
+      "cofactor_name": "Ferulic acid",
+      "cofactor_resource_id": "DB07767",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619,
+        32209296,
+        39574417,
+        20185318
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "JIVPVXMEBJLZRO-AWEZNQCLSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=C(Cl)C=CC(=C1)[C@@]1(O)NC(=O)C2=C1C=CC=C2",
+      "cofactor_chem_comp_id": "KLT",
+      "cofactor_name": "2-chloro-5-[(1S)-1-hydroxy-3-oxo-2H-isoindol-1-yl]benzenesulfonamide",
+      "cofactor_resource_id": "DB08046",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "KGMVTZZDGKDTEU-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC=C2NC(=NC2=C1)C1=CSC=N1",
+      "cofactor_chem_comp_id": "LC1",
+      "cofactor_name": "2-(1,3-thiazol-4-yl)-1H-benzimidazole-5-sulfonamide",
+      "cofactor_resource_id": "DB08083",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        19186056,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "IIMGUEXQORZTID-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CC(=O)NCCC1=CC=C(C=C1)S(N)(=O)=O",
+      "cofactor_chem_comp_id": "M25",
+      "cofactor_name": "N-{2-[4-(AMINOSULFONYL)PHENYL]ETHYL}ACETAMIDE",
+      "cofactor_resource_id": "DB08155",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "JUEONDBIBADVGD-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC=C(CCC(O)=O)C=C1",
+      "cofactor_chem_comp_id": "M28",
+      "cofactor_name": "3-[4-(AMINOSULFONYL)PHENYL]PROPANOIC ACID",
+      "cofactor_resource_id": "DB08156",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        37713619,
+        22424239,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "OJBJALUJMRMNIR-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CCOC(=O)CCC1=CC=C(C=C1)S(N)(=O)=O",
+      "cofactor_chem_comp_id": "M29",
+      "cofactor_name": "ETHYL 3-[4-(AMINOSULFONYL)PHENYL]PROPANOATE",
+      "cofactor_resource_id": "DB08157",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "XVQJTFMKKZBBSX-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC=C2CCCC2=C1",
+      "cofactor_chem_comp_id": "MAJ",
+      "cofactor_name": "indane-5-sulfonamide",
+      "cofactor_resource_id": "DB08165",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        37713619,
+        15501040,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "BPPLIZHQOIGRPZ-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CN1CCN(CC1)NC(=S)NC1=CC=C(C=C1)S(N)(=O)=O",
+      "cofactor_chem_comp_id": "MPX",
+      "cofactor_name": "4-({[(4-METHYLPIPERAZIN-1-YL)AMINO]CARBONOTHIOYL}AMINO)BENZENESULFONAMIDE",
+      "cofactor_resource_id": "DB08202",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "HDCXQTPVTAIPNZ-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CC1=CC=C(C=C1)S(=O)(=O)NC(=O)NC1=CC=C(C=C1)S(N)(=O)=O",
+      "cofactor_chem_comp_id": "NR2",
+      "cofactor_name": "N-({[4-(AMINOSULFONYL)PHENYL]AMINO}CARBONYL)-4-METHYLBENZENESULFONAMIDE",
+      "cofactor_resource_id": "DB08301",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        24300919,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "HMHVCUVYZFYAJI-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC=C(C=C1)N1CCCCS1(=O)=O",
+      "cofactor_chem_comp_id": "OSP",
+      "cofactor_name": "Sulthiame",
+      "cofactor_resource_id": "DB08329",
+      "mechanism_of_action": "Sulthiame is an indiscriminate inhibitor of all the catalytically active isoforms of mammalian carbonic anhydrase.[A15775]",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "AQSNIXKAKUZPSI-SSTWWWIQSA-N",
+      "cofactor_SMILES": "[H][C@@]1(CC[C@@]2([H])[C@]3([H])CCC4=C(C=C(OC)C(OS(N)(=O)=O)=C4)[C@@]3([H])CC[C@]12C)OS(N)(=O)=O",
+      "cofactor_chem_comp_id": "PO1",
+      "cofactor_name": "(9BETA,13ALPHA,14BETA,17ALPHA)-2-METHOXYESTRA-1,3,5(10)-TRIENE-3,17-DIYL DISULFAMATE",
+      "cofactor_resource_id": "DB08416",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "LSJKARAMQNGZDF-YOEKFXIASA-N",
+      "cofactor_SMILES": "[H][C@]12CC[C@]3(C)C(=O)N(CC4=CC=CN=C4)C(=O)C[C@@]3([H])[C@]1([H])CCC1=C2C=CC(OS(N)(=O)=O)=C1",
+      "cofactor_chem_comp_id": "POF",
+      "cofactor_name": "(4aS,4bR,10bS,12aS)-12a-methyl-1,3-dioxo-2-(pyridin-3-ylmethyl)-1,2,3,4,4a,4b,5,6,10b,11,12,12a-dodecahydronaphtho[2,1-f]isoquinolin-8-yl sulfamate",
+      "cofactor_resource_id": "DB08418",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "LMJSLTNSBFUCMU-MRVPVSSYSA-N",
+      "cofactor_SMILES": "[H][C@]1(NC2=CC(Cl)=C(C=C2S(=O)(=O)N1)S(N)(=O)=O)C(Cl)Cl",
+      "cofactor_chem_comp_id": "TRU",
+      "cofactor_name": "6-CHLORO-3-(DICHLOROMETHYL)-3,4-DIHYDRO-2H-1,2,4-BENZOTHIADIAZINE-7-SULFONAMIDE 1,1-DIOXIDE",
+      "cofactor_resource_id": "DB08645",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "PPDLAUCFAOODER-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NNC(=O)C1=C(C2=C(N1)C=CC(=C2)S(N)(=O)=O)C1=CC=CC=C1",
+      "cofactor_chem_comp_id": "TUO",
+      "cofactor_name": "2-(hydrazinocarbonyl)-3-phenyl-1H-indole-5-sulfonamide",
+      "cofactor_resource_id": "DB08659",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        19186056,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "NOOBQTYVTDBXTL-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=NC2=C(S1)C=C(O)C=C2",
+      "cofactor_chem_comp_id": "ZEC",
+      "cofactor_name": "6-HYDROXY-1,3-BENZOTHIAZOLE-2-SULFONAMIDE",
+      "cofactor_resource_id": "DB08765",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        37713619,
+        11906288,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "FXNSVEQMUYPYJS-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NCCC1=CC=C(C=C1)S(N)(=O)=O",
+      "cofactor_chem_comp_id": "ZYX",
+      "cofactor_name": "4-(2-AMINOETHYL)BENZENESULFONAMIDE",
+      "cofactor_resource_id": "DB08782",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        37713619,
+        15482952,
+        39574417,
+        28109946
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "AFSDNFLWKVMVRB-UHFFFAOYSA-N",
+      "cofactor_SMILES": "OC1=C(O)C2=C3C(=C1)C(=O)OC1=C3C(=CC(O)=C1O)C(=O)O2",
+      "cofactor_chem_comp_id": "REF",
+      "cofactor_name": "Ellagic acid",
+      "cofactor_resource_id": "DB08846",
+      "mechanism_of_action": "The exact mechanism of action of ellagic acid in its different potential indications is still being investigated.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        20185318,
+        37713619,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "CDBYLPFSWZWCQE-UHFFFAOYSA-L",
+      "cofactor_SMILES": "[Na+].[Na+].[O-]C([O-])=O",
+      "cofactor_name": "Sodium carbonate",
+      "cofactor_resource_id": "DB09460",
+      "mechanism_of_action": "Carbon dioxide from the tissues diffuses rapidly into red blood cells, where it is hydrated with  water to form carbonic acid. This reaction is accelerated by carbonic anhydrase, an enzyme present  in high concentrations in red blood cells. The carbonic acid formed dissociates into bicarbonate and  hydrogen ions. Most of the bicarbonate ions diffuse into the plasma. Since the ratio of H2CO3 to dissolved CO2 is constant at equilibrium, pH may be expressed in terms of bicarbonate ion  concentration and partial pressure of CO2 by means of the Henderson-Hasselbach equation:\r\npH = pk + log [HCO3-]/aPCO2",
+      "neighbor_flag": "N",
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "PMZURENOXWZQFD-UHFFFAOYSA-L",
+      "cofactor_SMILES": "[Na+].[Na+].[O-]S([O-])(=O)=O",
+      "cofactor_name": "Sodium sulfate",
+      "cofactor_resource_id": "DB09472",
+      "mechanism_of_action": "MoviPrep produces a watery stool leading to cleansing of the colon. The osmotic activity of polyethylene glycol 3350, sodium sulfate, sodium chloride, potassium chloride, sodium ascorbate, and ascorbic acid, when taken with 1 liter of additional clear fluid, usually results in no net absorption or excretion of ions or water.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        24461298,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "GHMLBKRAJCXXBS-UHFFFAOYSA-N",
+      "cofactor_SMILES": "OC1=CC(O)=CC=C1",
+      "cofactor_chem_comp_id": "RCO",
+      "cofactor_name": "Resorcinol",
+      "cofactor_resource_id": "DB11085",
+      "mechanism_of_action": "Data regarding the specific mechanisms of action of resorcinol does not appear to be readily accessible in the literature. Nevertheless, the effectiveness of the agent in treating various topical, dermatological conditions by eliciting antibacterial and keratolytic actions appears to stem from resorcinol's propensity for protein precipitation [L2745, L2746]. In particular, it appears that resorcinol indicated for treating acne, dermatitis, or eczema in various skin care topical applications and peels revolves around the compound's ability to precipitate cutaneous proteins from the treated skin [L2746].",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        37713619,
+        18501600,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "LHGVFZTZFXWLCP-UHFFFAOYSA-N",
+      "cofactor_SMILES": "COC1=C(O)C=CC=C1",
+      "cofactor_chem_comp_id": "JZ3",
+      "cofactor_name": "Guaiacol",
+      "cofactor_resource_id": "DB11359",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619,
+        19231207,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "VFLDPWHFBUODDF-FCXRPNKRSA-N",
+      "cofactor_SMILES": "COC1=CC(\\C=C\\C(=O)CC(=O)\\C=C\\C2=CC(OC)=C(O)C=C2)=CC=C1O",
+      "cofactor_chem_comp_id": "CC9",
+      "cofactor_name": "Curcumin",
+      "cofactor_resource_id": "DB11672",
+      "mechanism_of_action": "Curcumin acts as a scavenger of oxygen species, such as hydroxyl radical, superoxide anion, and singlet oxygen and inhibit lipid peroxidation as well as peroxide-induced DNA damage [F114]. Curcumin mediates potent anti-inflammatory agent and anti-carcinogenic actions via modulating various signalling molecules. It suppresses a number of key elements in cellular signal transduction pathways pertinent to growth, differentiation, and malignant transformation; it was demonstrated _in vitro_ that curcumin inhibits protein kinases, c-Jun/AP-1 activation, prostaglandin biosynthesis, and the activity and expression of the enzyme cyclooxygenase (COX)-2 [F114].",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619,
+        20674354,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "GDGIVSREGUOIJZ-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NC1=NN=C(S)S1",
+      "cofactor_name": "5-amino-1,3,4-thiadiazole-2-thiol",
+      "cofactor_resource_id": "DB12348",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619,
+        15837323,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "IJWPAFMIFNSIGD-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CC1(C)OC(=C(C1=O)C1=CC=CC(F)=C1)C1=CC=C(C=C1)S(N)(=O)=O",
+      "cofactor_chem_comp_id": "949",
+      "cofactor_name": "Polmacoxib",
+      "cofactor_resource_id": "DB12399",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "CVHZOJJKTDOEJC-UHFFFAOYSA-N",
+      "cofactor_SMILES": "O=C1NS(=O)(=O)C2=C1C=CC=C2",
+      "cofactor_chem_comp_id": "LSA",
+      "cofactor_name": "Saccharin",
+      "cofactor_resource_id": "DB12418",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        37713619,
+        27305384,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "XMBWDFGMSWQBCA-UHFFFAOYSA-M",
+      "cofactor_SMILES": "[I-]",
+      "cofactor_name": "Iodide",
+      "cofactor_resource_id": "DB12754",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619,
+        23200251,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "SLYPOVJCSQHITR-UHFFFAOYSA-N",
+      "cofactor_SMILES": "OC1=CC2=C(SC(=O)O2)C=C1",
+      "cofactor_chem_comp_id": "VUO",
+      "cofactor_name": "Tioxolone",
+      "cofactor_resource_id": "DB13343",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619,
+        18572406,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "WYMSBXTXOHUIGT-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CCOP(=O)(OCC)OC1=CC=C(C=C1)[N+]([O-])=O",
+      "cofactor_name": "Paraoxon",
+      "cofactor_resource_id": "DB13495",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619,
+        20833546,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "NHNBFGGVMKEFGY-UHFFFAOYSA-N",
+      "cofactor_SMILES": "[O-]N(=O)=O",
+      "cofactor_chem_comp_id": "NO3",
+      "cofactor_name": "Nitrate",
+      "cofactor_resource_id": "DB14049",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "PFTAWBLQPZVEMU-DZGCQCFKSA-N",
+      "cofactor_SMILES": "O[C@H]1CC2=C(O)C=C(O)C=C2O[C@@H]1C1=CC=C(O)C(O)=C1",
+      "cofactor_chem_comp_id": "KXN",
+      "cofactor_name": "Cianidanol",
+      "cofactor_resource_id": "DB14086",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "QTBSBXVTEAMEQO-UHFFFAOYSA-M",
+      "cofactor_SMILES": "CC([O-])=O",
+      "cofactor_chem_comp_id": "ACT",
+      "cofactor_name": "Acetate",
+      "cofactor_resource_id": "DB14511",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "JIAARYAFYJHUJI-UHFFFAOYSA-L",
+      "cofactor_SMILES": "[Cl-].[Cl-].[Zn++]",
+      "cofactor_name": "Zinc chloride",
+      "cofactor_resource_id": "DB14533",
+      "mechanism_of_action": "Zinc performs catalytic, structural, and regulatory roles in the body. Zinc is a component of approximately 3000 human proteins.[A204104]\r\n\r\nZinc is cytoprotective against reactive oxygen species mediated apoptosis through the action of metallothioneins.[A32419]\r\n\r\nIn a promyelocytic leukemia cell line, zinc enhances the up-regulation of A20 mRNA, which, via the TRAF pathway, decreases NF-kappaB activation, leading to decreased gene expression and generation of TNF-\u03b1, IL-1\u03b2, and IL-8 [A32418].\r\n\r\nIn patients with diarrhea, zinc restores mucosal barrier integrity, restores enterocyte brush-border enzyme activity, promotes the production of antibodies, and promotes the production of circulating lymphocytes against intestinal pathogens.[A204101] Zinc also directly affects ion channels as a potassium channel blocker of cAMP-mediated chlorine secretion.[A204101]\r\n\r\nZinc deficiency decreases thymulin, inhibiting T-helper cell maturation and decreased Th-1 cytokines like IL-2.[A32417] Decreased IL-2 decreases the activity of NK cells and CD8+ T cells.[A32417] Zinc deficiency also leads to the generation of CD4+ T cells, decreased NF-\u03baB activation, decreased phosphorylation of I\u03baB, and decreased binding of NF-\u03baB to DNA.[A32417]",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10801957
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_name": "Zinc sulfate, unspecified form",
+      "cofactor_resource_id": "DB14548",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10801957
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "NLZUEZXRPGMBCV-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CC1=CC(=C(O)C(=C1)C(C)(C)C)C(C)(C)C",
+      "cofactor_chem_comp_id": "3IM",
+      "cofactor_name": "Butylated hydroxytoluene",
+      "cofactor_resource_id": "DB16863",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619,
+        19231207,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "LMYRWZFENFIFIT-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CC1=CC=C(C=C1)S(N)(=O)=O",
+      "cofactor_chem_comp_id": "4J8",
+      "cofactor_name": "p-Toluenesulfonamide",
+      "cofactor_resource_id": "DB17299",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        37713619,
+        29466001,
+        39574417,
+        27485387,
+        15482952
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "UCAGLBKTLXCODC-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NS(=O)(=O)C1=CC=C(C=C1)C(O)=O",
+      "cofactor_chem_comp_id": "4SO",
+      "cofactor_name": "Carzenide",
+      "cofactor_resource_id": "DB19764",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        37713619,
+        28511911,
+        39574417,
+        15482952,
+        26700575
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "cofactor_InChIKey": "BHVGOYREXHCFOE-DCFHFQCYSA-N",
+      "cofactor_SMILES": "C[C@@H]([C@H](O)C1=CC=CC=C1)N(C)CC=C1C2=C(CCC3=C1C=CC=C3)C=CC=C2",
+      "cofactor_name": "Trecadrine",
+      "cofactor_resource_id": "DB19785",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00918"
+    },
+    {
+      "binding_assay_value": 10.37,
+      "binding_assay_value_type": "pKd",
+      "cofactor_SMILES": "CCN[C@H]1C[C@H](C)S(=O)(=O)c2sc(S(N)(=O)=O)cc21",
+      "cofactor_chem_comp_id": "ETS",
+      "cofactor_resource_id": "CHEMBL218490",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        25728019
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 10.05,
+      "binding_assay_value_type": "pKd",
+      "cofactor_SMILES": "CCN[C@H]1CN(CCCOC)S(=O)(=O)c2sc(S(N)(=O)=O)cc21",
+      "cofactor_chem_comp_id": "BZ1",
+      "cofactor_resource_id": "CHEMBL220491",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        25728019
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 9.89,
+      "binding_assay_value_type": "pKd",
+      "cofactor_SMILES": "Cc1ccc(S(N)(=O)=O)cc1",
+      "cofactor_chem_comp_id": "4J8",
+      "cofactor_resource_id": "CHEMBL574",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        29466001
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 8.86,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "CCCCCc1ccc(S(N)(=O)=O)cc1",
+      "cofactor_chem_comp_id": "L4K",
+      "cofactor_resource_id": "CHEMBL444536",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        21130650
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 8.7,
+      "binding_assay_value_type": "pKd",
+      "cofactor_SMILES": "NS(=O)(=O)c1c(F)c(F)c(S(=O)(=O)CCO)c(NCc2ccccc2)c1F",
+      "cofactor_chem_comp_id": "WWO",
+      "cofactor_resource_id": "CHEMBL4085190",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        29466001
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 8.3,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "CCCCc1ccc(S(N)(=O)=O)cc1",
+      "cofactor_chem_comp_id": "6YP",
+      "cofactor_resource_id": "CHEMBL150043",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        21130650
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 8.0,
+      "binding_assay_value_type": "pKd",
+      "cofactor_SMILES": "CC1(C)O[C@H]2[C@@H]3OS(=O)(=O)O[C@@H]3CO[C@@]2(COS(N)(=O)=O)O1",
+      "cofactor_chem_comp_id": "SMS",
+      "cofactor_resource_id": "CHEMBL417656",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        16759092
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 8.0,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "Cc1ncc([N+](=O)[O-])n1CCNS(N)(=O)=O",
+      "cofactor_chem_comp_id": "2VQ",
+      "cofactor_resource_id": "CHEMBL3087323",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        24128000
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 7.96,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "Cc1cc(C)nc(SCC(=O)c2ccc(S(N)(=O)=O)c(Cl)c2)n1",
+      "cofactor_chem_comp_id": "E1E",
+      "cofactor_resource_id": "CHEMBL2443204",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        24103428
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 7.96,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "NS(=O)(=O)c1ccc(-c2ccc(Cn3cccn3)cc2)cc1",
+      "cofactor_chem_comp_id": "8GH",
+      "cofactor_resource_id": "CHEMBL3763884",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        26741028
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 7.86,
+      "binding_assay_value_type": "pKd",
+      "cofactor_SMILES": "CC1(C)O[C@@H]2CO[C@@]3(COS(N)(=O)=O)OC(C)(C)O[C@H]3[C@@H]2O1",
+      "cofactor_chem_comp_id": "TOR",
+      "cofactor_resource_id": "CHEMBL220492",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        17420132
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 7.85,
+      "binding_assay_value_type": "pKd",
+      "cofactor_SMILES": "N[C@@H](Cc1ccccc1)C(=O)NCCOCCOCCNC(=O)c1ccc(S(N)(=O)=O)cc1",
+      "cofactor_chem_comp_id": "EG3",
+      "cofactor_resource_id": "CHEMBL1160965",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        12166932
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 7.82,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "NS(=O)(=O)c1ccc(CCCCO)cc1",
+      "cofactor_chem_comp_id": "L9B",
+      "cofactor_resource_id": "CHEMBL316582",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        1920359
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 7.78,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "NS(=O)(=O)c1ccc(-c2cccnc2)cc1",
+      "cofactor_chem_comp_id": "8HK",
+      "cofactor_resource_id": "CHEMBL3763387",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        26741028
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 7.77,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "CCCc1ccc(S(N)(=O)=O)cc1",
+      "cofactor_chem_comp_id": "4JE",
+      "cofactor_resource_id": "CHEMBL148660",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        21130650
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 7.72,
+      "binding_assay_value_type": "pKd",
+      "cofactor_SMILES": "NCC(=O)NCCOCCOCCNC(=O)c1ccc(S(N)(=O)=O)cc1",
+      "cofactor_chem_comp_id": "EG1",
+      "cofactor_resource_id": "CHEMBL1160416",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        12166932
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 7.68,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1",
+      "cofactor_chem_comp_id": "CEL",
+      "cofactor_resource_id": "CHEMBL118",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        14698154
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 7.64,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "NS(=O)(=O)c1ccc(N[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)cc1",
+      "cofactor_chem_comp_id": "BO1",
+      "cofactor_resource_id": "CHEMBL1089968",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        20211561
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 7.53,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "CCc1ccc(S(N)(=O)=O)cc1",
+      "cofactor_chem_comp_id": "4JC",
+      "cofactor_resource_id": "CHEMBL358263",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        21130650
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 7.47,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "Cc1ncc([N+](=O)[O-])n1CCOS(N)(=O)=O",
+      "cofactor_chem_comp_id": "1VQ",
+      "cofactor_resource_id": "CHEMBL3085793",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        24128000
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 7.44,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "NS(=O)(=O)c1ccc(-n2cc(CNC(=S)Nc3ccc(-c4c5ccc(=O)cc-5oc5cc(O)ccc45)c(C(=O)O)c3)nn2)cc1",
+      "cofactor_chem_comp_id": "FC9",
+      "cofactor_resource_id": "CHEMBL3741975",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        26682703
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 7.43,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "NS(=O)(=O)c1ccc(Nc2nc(Cl)nc(NCCO)n2)cc1",
+      "cofactor_chem_comp_id": "D9H",
+      "cofactor_resource_id": "CHEMBL1738787",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        21515057
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 7.42,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "NS(=O)(=O)c1cc(Cl)c(Cl)c(S(N)(=O)=O)c1",
+      "cofactor_chem_comp_id": "I7A",
+      "cofactor_resource_id": "CHEMBL17",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        14698154
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 7.39,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "COC(=O)CNc1nc(Cl)nc(Nc2ccc(S(N)(=O)=O)cc2)n1",
+      "cofactor_chem_comp_id": "DWH",
+      "cofactor_resource_id": "CHEMBL1738792",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        21515057
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 7.13,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "NS(=O)(=O)Nc1ccc(S(N)(=O)=O)cc1",
+      "cofactor_chem_comp_id": "0F3",
+      "cofactor_resource_id": "CHEMBL2164729",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        22775345
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 7.05,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "Oc1ccc(O)cc1",
+      "cofactor_chem_comp_id": "HQE",
+      "cofactor_resource_id": "CHEMBL537",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        18501600
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 7.02,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "Nc1cc(Cl)c(S(N)(=O)=O)cc1S(N)(=O)=O",
+      "cofactor_chem_comp_id": "I7B",
+      "cofactor_resource_id": "CHEMBL266240",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        15482952
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 7.02,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "NS(=O)(=O)c1ccc(NC(=O)Nc2ccc(F)cc2)cc1",
+      "cofactor_chem_comp_id": "WWZ",
+      "cofactor_resource_id": "CHEMBL1615281",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        21145236
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 6.88,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "NS(=O)(=O)c1cccc2ccccc12",
+      "cofactor_chem_comp_id": "MHK",
+      "cofactor_resource_id": "CHEMBL6648",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        12643899
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 6.59,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "Nc1ccc(S(N)(=O)=O)cc1",
+      "cofactor_chem_comp_id": "SAN",
+      "cofactor_resource_id": "CHEMBL21",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        33234343
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 6.57,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "COc1cc2c(cc1OS(N)(=O)=O)CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](OS(N)(=O)=O)CC[C@@H]12",
+      "cofactor_chem_comp_id": "PO1",
+      "cofactor_resource_id": "CHEMBL218382",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        30721041
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 6.52,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "NS(=O)(=O)c1ccccc1",
+      "cofactor_chem_comp_id": "FB2",
+      "cofactor_resource_id": "CHEMBL27601",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        22424239
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 6.47,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "Nc1cc(C(F)(F)F)c(S(N)(=O)=O)cc1S(N)(=O)=O",
+      "cofactor_chem_comp_id": "I7C",
+      "cofactor_resource_id": "CHEMBL418",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        15482952
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 6.4,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "NS(=O)(=O)c1ccc([N+](=O)[O-])cc1",
+      "cofactor_chem_comp_id": "4NZ",
+      "cofactor_resource_id": "CHEMBL282157",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        15482952
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 6.3,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "NS(=O)(=O)c1ccc(CCC(=O)O)cc1",
+      "cofactor_chem_comp_id": "M28",
+      "cofactor_resource_id": "CHEMBL451332",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        19338333
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 6.25,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "NS(=O)(=O)NO",
+      "cofactor_chem_comp_id": "HSW",
+      "cofactor_resource_id": "CHEMBL195540",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        15837324
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    },
+    {
+      "binding_assay_value": 6.06,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "NS(=O)(=O)c1ccc(C(=O)O)cc1",
+      "cofactor_chem_comp_id": "4SO",
+      "cofactor_resource_id": "CHEMBL414",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        15482952
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "13132"
+    }
+  ],
+  "rcsb_id": "2CBA_1"
+}

@@ -1,0 +1,89 @@
+{
+  "case": "P00918 versus 2CBA chain A and AF-P00918-F1 model v6",
+  "metadata_recorded_date": "2026-10-20",
+  "files": [
+    {
+      "path": "2cba.pdb",
+      "source_url": "https://files.rcsb.org/download/2CBA.pdb",
+      "sha256": "7862c050b41ed8a867555699c6a0266c7997c06f7552593febf2af9c92c6e5a8",
+      "bytes": 219510,
+      "normalization": "none",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "AF-P00918-F1-model_v6.pdb",
+      "source_url": "https://alphafold.ebi.ac.uk/files/AF-P00918-F1-model_v6.pdb",
+      "sha256": "b8b736bf9d72c8357054523386e2f8e30d526ba074e135760981510cfda90d53",
+      "bytes": 173420,
+      "normalization": "none",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "AF-P00918-F1-confidence_v6.json",
+      "source_url": "https://alphafold.ebi.ac.uk/files/AF-P00918-F1-confidence_v6.json",
+      "sha256": "6ecf34eff47c0371b8f1ca909a20ab75a3b008cb0cc5b1621c791bfc53845e54",
+      "bytes": 3571,
+      "normalization": "none",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "2cba_entry.json",
+      "source_url": "https://data.rcsb.org/rest/v1/core/entry/2CBA",
+      "sha256": "75105d9fb6d752c8a9775c3ea6f3793c32c62cca41d8be2ae823c8a531b0a40b",
+      "bytes": 19803,
+      "normalization": "json-indent-2",
+      "license": "RCSB API metadata; underlying PDB data CC0; retain third-party source attribution"
+    },
+    {
+      "path": "2cba_polymer_entity_1.json",
+      "source_url": "https://data.rcsb.org/rest/v1/core/polymer_entity/2CBA/1",
+      "sha256": "63ae9b5864b199496a4cc71e4e569f5c4784465b297e092185cc77f9b72d0c0a",
+      "bytes": 162317,
+      "normalization": "json-indent-2",
+      "license": "RCSB API metadata; underlying PDB data CC0; retain third-party source attribution"
+    },
+    {
+      "path": "2cba_chain_A.json",
+      "source_url": "https://data.rcsb.org/rest/v1/core/polymer_entity_instance/2CBA/A",
+      "sha256": "b3bc07d50254503489b01d0fd00e4db7980a6a1da45ff6ef32cdeed6ebed92fc",
+      "bytes": 74723,
+      "normalization": "json-indent-2",
+      "license": "RCSB API metadata; underlying PDB data CC0; retain third-party source attribution"
+    },
+    {
+      "path": "uniprot_P00918.json",
+      "source_url": "https://rest.uniprot.org/uniprotkb/P00918?format=json",
+      "sha256": "ede688c897856251028c8cb137d64a29b99c9c97499887376fdf2a1224edfc03",
+      "bytes": 865067,
+      "normalization": "json-indent-2",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "alphafold_P00918.json",
+      "source_url": "https://alphafold.ebi.ac.uk/api/prediction/P00918",
+      "sha256": "15c77df917afdc6ba7e4289b20834c8c60da36a4c62bbd501e1cd60b2ef0cd15",
+      "bytes": 2541,
+      "normalization": "json-indent-2",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "reuse": {
+    "PDB": "https://www.wwpdb.org/about/usage-policies",
+    "AlphaFold": "https://alphafold.ebi.ac.uk/faq",
+    "UniProt": "https://www.uniprot.org/help/license"
+  },
+  "citations": {
+    "experiment": "10.1016/0022-2836(92)90531-N",
+    "PDB": "10.2210/pdb2cba/pdb",
+    "AlphaFold method": "10.1038/s41586-021-03819-2",
+    "AlphaFold database": "10.1093/nar/gkaf1226"
+  },
+  "notes": [
+    "All coordinate files are unmodified downloaded bytes.",
+    "API metadata is saved as json.dumps(parsed_json, indent=2), with no trailing newline.",
+    "No independent holdout claim: the experimental entry predates AlphaFold model training.",
+    "The PDB title covers a series; the selected 2CBA entry is zinc-bound and has no reported amino-acid mutations.",
+    "The nonstandard N-terminal ACE group and missing Ser2 must not be treated as canonical Met1 coordinates.",
+    "Training/template overlap with AlphaFold cannot be excluded; geometric similarity is not independent validation."
+  ]
+}
