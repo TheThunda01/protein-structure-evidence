@@ -6,7 +6,9 @@ Terminology: [glossary](glossary.md). Scientific and operational choices: [assum
 
 Human carbonic anhydrase II, also called CAII (encoded by the human CA2 gene), is the enzyme represented by [UniProt P00918](https://www.uniprot.org/uniprotkb/P00918/entry). It catalyzes the reversible reaction:
 
-**CO₂ + H₂O ⇌ HCO₃⁻ + H⁺**
+```math
+\mathrm{CO}_2 + \mathrm{H}_2\mathrm{O} \rightleftharpoons \mathrm{HCO}_3^{-} + \mathrm{H}^{+}
+```
 
 This connects dissolved carbon dioxide with bicarbonate and protons. Carbonic anhydrases help carbon dioxide handling and acid–base balance; CAII's biological role is much broader than the coordinate file examined here ([UniProt P00918](https://www.uniprot.org/uniprotkb/P00918/entry)). The zinc-dependent catalytic background is reviewed by [McCall et al. (2000)](https://doi.org/10.1093/jn/130.5.1437S). The enzyme speeds the approach to equilibrium; it does not change the equilibrium itself.
 

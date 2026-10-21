@@ -19,8 +19,10 @@ Analysis, export, and verification accept the pinned `data/` directory. Before c
 | File | Contract |
 | --- | --- |
 | `aligned_prediction.pdb` | All 2,073 predicted atoms transformed into the experimental Cartesian frame. ATOM/HETATM identity, occupancy, and confidence columns are retained; only coordinate columns change. Derived-file remarks are added. No experimental atoms are merged in. |
-| `transform.json` | Schema version 1; full-precision rotation and translation; explicit row-vector equation `aligned = original @ rotation + translation`; coordinates in ångströms; fit and evaluation UniProt position lists; fit cutoff; descriptive RMSDs; removed frame-record names. |
+| `transform.json` | Schema version 1; full-precision rotation and translation; explicit row-vector equation $`\mathbf{x}_{\mathrm{aligned}} = \mathbf{x}_{\mathrm{original}} R + \mathbf{t}`$; coordinates in ångströms; fit and evaluation UniProt position lists; fit cutoff; descriptive RMSDs; removed frame-record names. |
 | `receipt.json` | Schema version 1; source-manifest hash and eight source hashes; code hashes; Python/NumPy versions; derived-file byte counts and SHA-256 values; interpretation and reuse notes. |
+
+In the transform equation, $`\mathbf{x}`$ is a coordinate row vector, $`R`$ is the rotation matrix, and $`\mathbf{t}`$ is the translation row vector. The corresponding array operation is `aligned = original @ rotation + translation`, where `@` is matrix multiplication.
 
 The optional `--fit-min-plddt` is a number from 0 through 100 and uses the existing fit-selection behavior. At least three noncollinear selected Cα pairs are needed. All mapped pairs remain the evaluation set. Values are not searched for an apparently favorable RMSD.
 

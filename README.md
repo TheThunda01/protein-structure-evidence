@@ -13,7 +13,7 @@ This educational case study was developed with AI assistance and checked with ex
 | Source | Selected evidence |
 | --- | --- |
 | [UniProt P00918](https://www.uniprot.org/uniprotkb/P00918/entry) | Canonical (reference) human carbonic anhydrase II (CAII) sequence, 260 amino-acid residues; sequence version 2. |
-| [PDB 2CBA](https://www.rcsb.org/structure/2CBA) | Chain A, X-ray model at 1.54 ångströms (Å; 1 Å = 10⁻¹⁰ meters) resolution; no reported amino-acid mutations; zinc is the only nonwater ligand. |
+| [PDB 2CBA](https://www.rcsb.org/structure/2CBA) | Chain A, X-ray model at 1.54 ångströms (Å; $`1\,\text{Å} = 10^{-10}\,\mathrm{m}`$) resolution; no reported amino-acid mutations; zinc is the only nonwater ligand. |
 | [AlphaFold DB P00918](https://alphafold.ebi.ac.uk/entry/P00918) | Pinned `AF-P00918-F1-model_v6`, generated 1 August 2025 by the AlphaFold Monomer v2.0 pipeline. |
 
 The code joins depositor residue labels to the reference sequence using RCSB (Research Collaboratory for Structural Bioinformatics) metadata and SIFTS (Structure Integration with Function, Taxonomy and Sequences). It checks amino-acid identities and fits overlapping alpha-carbon (Cα) coordinates, a simplified trace of the protein backbone. It cross-checks the prediction's confidence column against the separate AlphaFold confidence file. An optional export saves the transformed prediction for external inspection, with explicit transform conventions, source hashes, and a receipt.
