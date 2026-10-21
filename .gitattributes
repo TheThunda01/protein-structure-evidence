@@ -1,3 +1,6 @@
+* text=auto eol=lf
+data/*.json -text
+examples/alignment/*.json -text
 *.csv -text
 *.png -text
 *.pdb -text

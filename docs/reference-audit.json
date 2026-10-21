@@ -1026,6 +1026,28 @@
       "corrections": [
         "Separated link-specific assertions into two tests and required link capability in Linux CI."
       ]
+    },
+    {
+      "id": "git-attributes",
+      "source_type": "official_documentation",
+      "title": "Git gitattributes: text and eol attributes",
+      "authors": [
+        "Git project contributors"
+      ],
+      "year": null,
+      "url": "https://git-scm.com/docs/gitattributes",
+      "checked_on": "2026-10-21",
+      "access_level": "official_documentation",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "Text/eol attributes control checkout line endings; unsetting text preserves exact source bytes."
+      ],
+      "limitations": [
+        "A separate fresh Windows checkout verifies this repository configuration."
+      ],
+      "corrections": [
+        "Protected hash-locked source JSON, saved-bundle JSON and code line endings after an autocrlf-enabled checkout failed input integrity checks."
+      ]
     }
   ]
 }

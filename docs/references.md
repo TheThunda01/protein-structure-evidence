@@ -65,3 +65,5 @@ Checked on **20 October 2026**. The [reference audit](reference-audit.json) reco
 ## Test-platform behavior
 
 - **Python Software Foundation. Python 3.12: os.symlink.** [Official documentation](https://docs.python.org/3.12/library/os.html#os.symlink), checked 21 October 2026. Documents the Windows capability requirement behind the two link-specific tests. It does not alter the structural calculation or establish viewer interoperability.
+
+- **Git project contributors. gitattributes: text and eol attributes.** [Official documentation](https://git-scm.com/docs/gitattributes), checked 21 October 2026. Explains why hash-locked source and saved-bundle bytes require an explicit checkout policy.
