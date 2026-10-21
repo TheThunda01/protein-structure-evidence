@@ -1,5 +1,7 @@
 # Project context
 
+Terminology: [glossary](glossary.md). Scientific and operational choices: [assumptions](assumptions.md).
+
 ## Background and rationale
 
 A protein structure is evidence about an atomic model, not a direct readout of everything a protein does. Experimental models, predicted coordinates, sequence annotations, and confidence scores answer related but different questions. This project brings those sources together for human carbonic anhydrase II, a familiar zinc-containing enzyme, so the assumptions are visible rather than hidden inside one similarity score.

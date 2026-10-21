@@ -1,5 +1,7 @@
 # Practical use
 
+Terminology: [glossary](glossary.md). Scientific and operational choices: [assumptions](assumptions.md).
+
 ## Where this fits
 
 This repository is a worked example for inspecting an existing predicted structure against one experimentally determined model of the same human protein. It is useful when learning how database numbering, missing coordinates, fitting choices, and confidence affect an overlay. It does not accept arbitrary protein pairs or establish catalytic function.

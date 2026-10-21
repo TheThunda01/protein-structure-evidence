@@ -1,5 +1,7 @@
 # Methods and limitations
 
+Terminology: [glossary](glossary.md). Scientific and operational choices: [assumptions](assumptions.md).
+
 For the new aligned-coordinate export, see the [input/output contract and failure behavior](practical-use.md). The [rapid review](literature-review.md) records the evidence and software inspection behind that addition. Exporting applies the already computed proper rigid transform to all predicted atoms and does not change the fit, the baseline results, or their scientific interpretation.
 
 The round-2 `verify_alignment.py` command additionally checks a bundle against an anchored source-manifest hash and a recomputed fit, then regenerates every exported atom. It uses the existing fitter, so this is a reproducibility check rather than independent algorithm validation. Its exact schema, tolerance, metadata boundaries and failure behavior are in the [practical-use contract](practical-use.md#input-and-output-contract). The [separate search update](search-update-02.json) preserves the original review log.
@@ -20,9 +22,9 @@ In this snapshot, SIFTS maps entity 2–260 to canonical 2–260. ACE1 is outsid
 
 The parser accepts single-model PDB snapshots. It retains chain A protein atoms, rejects duplicate atom/alternate keys and nonfinite coordinates, and selects the highest-occupancy alternate when alternatives exist. Occupancy ties prefer a blank alternate label, then A, then alphabetical order. Occupancy and selected alternate labels are retained for each experimental Cα.
 
-A proper least-squares rotation and translation align predicted to experimental Cα coordinates. The NumPy SVD implementation enforces determinant +1, so a mirror reflection cannot count as a rotation. The default uses every matched Cα with equal weight; experimental occupancy does not weight the fit. Degenerate point sets fail. The calculation follows the rigid-fit problem described by [Kabsch (1976)](https://doi.org/10.1107/S0567739476001873).
+A proper least-squares rotation and translation (a rigid transformation without reflection or deformation) align predicted to experimental Cα coordinates. The NumPy singular value decomposition (SVD) implementation enforces determinant +1, so a mirror reflection cannot count as a rotation. The default uses every matched Cα with equal weight; experimental occupancy does not weight the fit. Degenerate point sets fail. The calculation follows the rigid-fit problem described by [Kabsch (1976)](https://doi.org/10.1107/S0567739476001873).
 
-Per-residue displacement is Euclidean distance after that fit. RMSD is the square root of the mean squared displacement. The fixed sensitivity analyses fit positions with pLDDT ≥0, ≥70, or ≥90, then report both fit-set RMSD and RMSD over all 258 matched positions. This shows selection sensitivity; it does not justify choosing the lowest number after seeing the results. `--fit-min-plddt` records an alternative primary fit threshold explicitly.
+Per-residue displacement is Euclidean distance after that fit. RMSD is the square root of the mean squared displacement. The fixed sensitivity analyses fit positions with predicted local distance difference test (pLDDT) confidence ≥0, ≥70, or ≥90, then report both fit-set RMSD and RMSD over all 258 matched positions. This shows selection sensitivity; it does not justify choosing the lowest number after seeing the results. `--fit-min-plddt` records an alternative primary fit threshold explicitly.
 
 ## Confidence and chemical context
 

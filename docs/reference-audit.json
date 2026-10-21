@@ -1,0 +1,833 @@
+{
+  "review_date": "2026-10-20",
+  "scope": "Bibliographic and claim-level audit of substantive sources cited in authored documentation, provenance and literature synthesis. Frozen search records retain their historical screening evidence; excluded search hits are not implied to support project claims.",
+  "limits": [
+    "Source access is recorded per entry; abstract or metadata access is not full-text appraisal.",
+    "No new formal systematic review, duplicate screening, comprehensive supplement appraisal or independent biological validation was performed.",
+    "Existing data, metrics, licenses and frozen search logs were preserved."
+  ],
+  "references": [
+    {
+      "id": "pmid:10801957",
+      "source_type": "review",
+      "title": "Function and mechanism of zinc metalloenzymes",
+      "authors": [
+        "K A McCall",
+        "C Huang",
+        "C A Fierke"
+      ],
+      "year": 2000,
+      "url": "https://doi.org/10.1093/jn/130.5.1437S",
+      "doi": "10.1093/jn/130.5.1437S",
+      "pmid": "10801957",
+      "volume": "130",
+      "issue": "5S Suppl",
+      "pages": "1437S-46S",
+      "checked_on": "2026-10-20",
+      "access_level": "abstract",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "Conceptual background on zinc metalloenzymes and coordination-dependent catalytic chemistry."
+      ],
+      "limitations": [
+        "Metadata and abstract rechecked in this editorial pass; any earlier full-text inspection is documented separately in frozen search records.",
+        "Review, not a primary experiment or evidence of activity measured here."
+      ],
+      "corrections": [
+        "Completed and standardized the bibliography, including verified journal coordinates and PMID; earlier narrative-only citations now have full entries where needed."
+      ],
+      "journal": "The Journal of Nutrition"
+    },
+    {
+      "id": "pmid:1433293",
+      "source_type": "research_article",
+      "title": "Structure of native and apo carbonic anhydrase II and structure of some of its anion-ligand complexes",
+      "authors": [
+        "K H\u00e5kansson",
+        "M Carlsson",
+        "L A Svensson",
+        "A Liljas"
+      ],
+      "year": 1992,
+      "url": "https://doi.org/10.1016/0022-2836(92)90531-n",
+      "doi": "10.1016/0022-2836(92)90531-n",
+      "pmid": "1433293",
+      "volume": "227",
+      "issue": "4",
+      "pages": "1192-204",
+      "checked_on": "2026-10-20",
+      "access_level": "abstract",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "Primary carbonic anhydrase II structures and zinc-site context."
+      ],
+      "limitations": [
+        "Metadata and abstract rechecked in this editorial pass; any earlier full-text inspection is documented separately in frozen search records.",
+        "Several structures/states are covered; entry-specific facts use 2CBA metadata."
+      ],
+      "corrections": [
+        "Completed and standardized the bibliography, including verified journal coordinates and PMID; earlier narrative-only citations now have full entries where needed."
+      ],
+      "journal": "Journal of Molecular Biology"
+    },
+    {
+      "id": "pmid:34265844",
+      "source_type": "research_article",
+      "title": "Highly accurate protein structure prediction with AlphaFold",
+      "authors": [
+        "John Jumper",
+        "Richard Evans",
+        "Alexander Pritzel",
+        "Tim Green",
+        "Michael Figurnov",
+        "Olaf Ronneberger",
+        "Kathryn Tunyasuvunakool",
+        "Russ Bates",
+        "Augustin \u017d\u00eddek",
+        "Anna Potapenko",
+        "Alex Bridgland",
+        "Clemens Meyer",
+        "Simon A A Kohl",
+        "Andrew J Ballard",
+        "Andrew Cowie",
+        "Bernardino Romera-Paredes",
+        "Stanislav Nikolov",
+        "Rishub Jain",
+        "Jonas Adler",
+        "Trevor Back",
+        "Stig Petersen",
+        "David Reiman",
+        "Ellen Clancy",
+        "Michal Zielinski",
+        "Martin Steinegger",
+        "Michalina Pacholska",
+        "Tamas Berghammer",
+        "Sebastian Bodenstein",
+        "David Silver",
+        "Oriol Vinyals"
+      ],
+      "year": 2021,
+      "url": "https://doi.org/10.1038/s41586-021-03819-2",
+      "doi": "10.1038/s41586-021-03819-2",
+      "pmid": "34265844",
+      "volume": "596",
+      "issue": "7873",
+      "pages": "583-589",
+      "checked_on": "2026-10-20",
+      "access_level": "abstract",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "AlphaFold2 method and assessed prediction performance."
+      ],
+      "limitations": [
+        "Metadata and abstract rechecked in this editorial pass; any earlier full-text inspection is documented separately in frozen search records.",
+        "Does not establish case-specific independent generalization or biochemical function."
+      ],
+      "corrections": [
+        "Completed and standardized the bibliography, including verified journal coordinates and PMID; earlier narrative-only citations now have full entries where needed."
+      ],
+      "journal": "Nature"
+    },
+    {
+      "id": "pmid:34791371",
+      "source_type": "research_article",
+      "title": "AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models",
+      "authors": [
+        "Mihaly Varadi",
+        "Stephen Anyango",
+        "Mandar Deshpande",
+        "Sreenath Nair",
+        "Cindy Natassia",
+        "Galabina Yordanova",
+        "David Yuan",
+        "Oana Stroe",
+        "Gemma Wood",
+        "Agata Laydon",
+        "Augustin \u017d\u00eddek",
+        "Tim Green",
+        "Kathryn Tunyasuvunakool",
+        "Stig Petersen",
+        "John Jumper",
+        "Ellen Clancy",
+        "Richard Green",
+        "Ankur Vora",
+        "Mira Lutfi",
+        "Michael Figurnov",
+        "Andrew Cowie",
+        "Nicole Hobbs",
+        "Pushmeet Kohli",
+        "Gerard Kleywegt",
+        "Ewan Birney",
+        "Demis Hassabis",
+        "Sameer Velankar"
+      ],
+      "year": 2022,
+      "url": "https://doi.org/10.1093/nar/gkab1061",
+      "doi": "10.1093/nar/gkab1061",
+      "pmid": "34791371",
+      "volume": "50",
+      "issue": "D1",
+      "pages": "D439-D444",
+      "checked_on": "2026-10-20",
+      "access_level": "abstract",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "Original AlphaFold Database organization and model-confidence context."
+      ],
+      "limitations": [
+        "Metadata and abstract rechecked in this editorial pass; any earlier full-text inspection is documented separately in frozen search records.",
+        "Historical database coverage is not a current count."
+      ],
+      "corrections": [
+        "Completed and standardized the bibliography, including verified journal coordinates and PMID; earlier narrative-only citations now have full entries where needed."
+      ],
+      "journal": "Nucleic Acids Research"
+    },
+    {
+      "id": "pmid:37933859",
+      "source_type": "research_article",
+      "title": "AlphaFold Protein Structure Database in 2024: providing structure coverage for over 214 million protein sequences",
+      "authors": [
+        "Mihaly Varadi",
+        "Damian Bertoni",
+        "Paulyna Magana",
+        "Urmila Paramval",
+        "Ivanna Pidruchna",
+        "Malarvizhi Radhakrishnan",
+        "Maxim Tsenkov",
+        "Sreenath Nair",
+        "Milot Mirdita",
+        "Jingi Yeo",
+        "Oleg Kovalevskiy",
+        "Kathryn Tunyasuvunakool",
+        "Agata Laydon",
+        "Augustin \u017d\u00eddek",
+        "Hamish Tomlinson",
+        "Dhavanthi Hariharan",
+        "Josh Abrahamson",
+        "Tim Green",
+        "John Jumper",
+        "Ewan Birney",
+        "Martin Steinegger",
+        "Demis Hassabis",
+        "Sameer Velankar"
+      ],
+      "year": 2024,
+      "url": "https://doi.org/10.1093/nar/gkad1011",
+      "doi": "10.1093/nar/gkad1011",
+      "pmid": "37933859",
+      "volume": "52",
+      "issue": "D1",
+      "pages": "D368-D375",
+      "checked_on": "2026-10-20",
+      "access_level": "abstract",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "2024 AlphaFold Database update."
+      ],
+      "limitations": [
+        "Metadata and abstract rechecked in this editorial pass; any earlier full-text inspection is documented separately in frozen search records.",
+        "Coverage in title refers to that publication."
+      ],
+      "corrections": [
+        "Completed and standardized the bibliography, including verified journal coordinates and PMID; earlier narrative-only citations now have full entries where needed."
+      ],
+      "journal": "Nucleic Acids Research"
+    },
+    {
+      "id": "pmid:41273079",
+      "source_type": "research_article",
+      "title": "AlphaFold Protein Structure Database 2025: a redesigned interface and updated structural coverage",
+      "authors": [
+        "Damian Bertoni",
+        "Maxim Tsenkov",
+        "Paulyna Magana",
+        "Sreenath Nair",
+        "Ivanna Pidruchna",
+        "Marcelo Querino Lima Afonso",
+        "Adam Midlik",
+        "Urmila Paramval",
+        "Dare Lawal",
+        "Ahsan Tanweer",
+        "Meera Last",
+        "Risha Patel",
+        "Agata Laydon",
+        "Dariusz Lasecki",
+        "Nick Dietrich",
+        "Hamish Tomlinson",
+        "Augustin \u017d\u00eddek",
+        "Tim Green",
+        "Oleg Kovalevskiy",
+        "Andy Lau",
+        "Shaun Kandathil",
+        "Nicola Bordin",
+        "Ian Sillitoe",
+        "Milot Mirdita",
+        "David Jones",
+        "Christine Orengo",
+        "Martin Steinegger",
+        "Jennifer R Fleming",
+        "Sameer Velankar"
+      ],
+      "year": 2026,
+      "url": "https://doi.org/10.1093/nar/gkaf1226",
+      "doi": "10.1093/nar/gkaf1226",
+      "pmid": "41273079",
+      "volume": "54",
+      "issue": "D1",
+      "pages": "D358-D362",
+      "checked_on": "2026-10-20",
+      "access_level": "abstract",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "Database update aligned to UniProt 2025_03; interface and provenance context."
+      ],
+      "limitations": [
+        "Metadata and abstract rechecked in this editorial pass; any earlier full-text inspection is documented separately in frozen search records.",
+        "The title says 2025 but the journal issue year is 2026."
+      ],
+      "corrections": [
+        "Completed and standardized the bibliography, including verified journal coordinates and PMID; earlier narrative-only citations now have full entries where needed."
+      ],
+      "journal": "Nucleic Acids Research"
+    },
+    {
+      "id": "pmid:37045837",
+      "source_type": "research_article",
+      "title": "Unified access to up-to-date residue-level annotations from UniProtKB and other biological databases for PDB data",
+      "authors": [
+        "Preeti Choudhary",
+        "Stephen Anyango",
+        "John Berrisford",
+        "James Tolchard",
+        "Mihaly Varadi",
+        "Sameer Velankar"
+      ],
+      "year": 2023,
+      "url": "https://doi.org/10.1038/s41597-023-02101-6",
+      "doi": "10.1038/s41597-023-02101-6",
+      "pmid": "37045837",
+      "volume": "10",
+      "issue": "1",
+      "pages": "204",
+      "checked_on": "2026-10-20",
+      "access_level": "abstract",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "SIFTS residue correspondence and integration of structure/sequence annotations."
+      ],
+      "limitations": [
+        "Metadata and abstract rechecked in this editorial pass; any earlier full-text inspection is documented separately in frozen search records.",
+        "A mapping is not proof of identical chemical states."
+      ],
+      "corrections": [
+        "Completed and standardized the bibliography, including verified journal coordinates and PMID; earlier narrative-only citations now have full entries where needed."
+      ],
+      "journal": "Scientific Data"
+    },
+    {
+      "id": "pmid:36038728",
+      "source_type": "research_article",
+      "title": "US-align: universal structure alignments of proteins, nucleic acids, and macromolecular complexes",
+      "authors": [
+        "Chengxin Zhang",
+        "Morgan Shine",
+        "Anna Marie Pyle",
+        "Yang Zhang"
+      ],
+      "year": 2022,
+      "url": "https://doi.org/10.1038/s41592-022-01585-1",
+      "doi": "10.1038/s41592-022-01585-1",
+      "pmid": "36038728",
+      "volume": "19",
+      "issue": "9",
+      "pages": "1109-1115",
+      "checked_on": "2026-10-20",
+      "access_level": "abstract",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "US-align is a structural-alignment search method using a TM-score objective."
+      ],
+      "limitations": [
+        "Metadata and abstract rechecked in this editorial pass; any earlier full-text inspection is documented separately in frozen search records.",
+        "It differs from this fixed-correspondence least-squares fit; no performance is transferred."
+      ],
+      "corrections": [
+        "Completed and standardized the bibliography, including verified journal coordinates and PMID; earlier narrative-only citations now have full entries where needed."
+      ],
+      "journal": "Nature Methods"
+    },
+    {
+      "id": "pmid:40604267",
+      "source_type": "review",
+      "title": "A graphic and command line protocol for quick and accurate comparisons of protein and nucleic acid structures with US-align",
+      "authors": [
+        "Chengxin Zhang",
+        "Lydia Freddolino",
+        "Yang Zhang"
+      ],
+      "year": 2026,
+      "url": "https://doi.org/10.1038/s41596-025-01189-x",
+      "doi": "10.1038/s41596-025-01189-x",
+      "pmid": "40604267",
+      "volume": "21",
+      "issue": "2",
+      "pages": "517-541",
+      "checked_on": "2026-10-20",
+      "access_level": "abstract",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "US-align comparison/export protocol context."
+      ],
+      "limitations": [
+        "Metadata and abstract rechecked in this editorial pass; any earlier full-text inspection is documented separately in frozen search records.",
+        "Protocol is supplementary practice context; the tool was not benchmarked here."
+      ],
+      "corrections": [
+        "Completed and standardized the bibliography, including verified journal coordinates and PMID; earlier narrative-only citations now have full entries where needed."
+      ],
+      "journal": "Nature Protocols"
+    },
+    {
+      "id": "pmid:41580068",
+      "source_type": "research_article",
+      "title": "ModelCIF Update: Supporting Emerging Classes of Computational Macromolecular Models",
+      "authors": [
+        "Gerardo Tauriello",
+        "Yoriko Lill",
+        "Jacopo Sgrignani",
+        "Vincent Zoete",
+        "Benedikt Singer",
+        "Brinda Vallat",
+        "Benjamin M Webb",
+        "Thomas Garello",
+        "Stefan Bienert",
+        "Michael Feig",
+        "Elena Papaleo",
+        "Stephen K Burley",
+        "Andrej Sali",
+        "Markus A Lill",
+        "Andrea Cavalli",
+        "Matteo Dal Peraro",
+        "Torsten Schwede"
+      ],
+      "year": 2026,
+      "url": "https://doi.org/10.1016/j.jmb.2026.169658",
+      "doi": "10.1016/j.jmb.2026.169658",
+      "pmid": "41580068",
+      "volume": "438",
+      "issue": "18",
+      "pages": "169658",
+      "checked_on": "2026-10-20",
+      "access_level": "abstract",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "ModelCIF represents computational models with explicit protocols, inputs and outputs."
+      ],
+      "limitations": [
+        "Metadata and abstract rechecked in this editorial pass; any earlier full-text inspection is documented separately in frozen search records.",
+        "The project is not ModelCIF-compliant."
+      ],
+      "corrections": [
+        "Completed and standardized the bibliography, including verified journal coordinates and PMID; earlier narrative-only citations now have full entries where needed."
+      ],
+      "journal": "Journal of Molecular Biology"
+    },
+    {
+      "id": "kabsch1976",
+      "source_type": "research_article",
+      "title": "A solution for the best rotation to relate two sets of vectors",
+      "authors": [
+        "W. Kabsch"
+      ],
+      "year": 1976,
+      "url": "https://doi.org/10.1107/S0567739476001873",
+      "checked_on": "2026-10-20",
+      "access_level": "abstract",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "Least-squares rigid rotation formulation."
+      ],
+      "limitations": [
+        "Publisher abstract/metadata inspected; no claim of complete article review."
+      ],
+      "corrections": [],
+      "volume": "32",
+      "issue": "5",
+      "pages": "922\u2013923",
+      "doi": "10.1107/S0567739476001873"
+    },
+    {
+      "id": "uniprot-p00918",
+      "source_type": "dataset",
+      "title": "UniProtKB P00918 (CAH2_HUMAN)",
+      "authors": [
+        "UniProt Consortium"
+      ],
+      "year": null,
+      "url": "https://www.uniprot.org/uniprotkb/P00918/entry",
+      "checked_on": "2026-10-20",
+      "access_level": "official_documentation",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "Human carbonic anhydrase II identity, 260-residue sequence, catalytic annotation and metal-binding features."
+      ],
+      "limitations": [
+        "Pinned REST record and live REST metadata inspected; web entry renders only a fallback shell. Annotations summarize external evidence."
+      ],
+      "corrections": [],
+      "version": "entry 279; sequence 2",
+      "alternate_urls": [
+        "https://rest.uniprot.org/uniprotkb/P00918.json"
+      ]
+    },
+    {
+      "id": "pdb-2cba",
+      "source_type": "dataset",
+      "title": "PDB 2CBA: carbonic anhydrase II",
+      "authors": [
+        "K. H\u00e5kansson",
+        "M. Carlsson",
+        "L. A. Svensson",
+        "A. Liljas"
+      ],
+      "year": 1993,
+      "url": "https://www.rcsb.org/structure/2CBA",
+      "checked_on": "2026-10-20",
+      "access_level": "official_documentation",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "1.54 \u00c5 X-ray entry, no reported mutations, deposited chemistry, residue identifiers and ligand context."
+      ],
+      "limitations": [
+        "Documents source definitions or software behavior; does not independently validate this implementation."
+      ],
+      "corrections": [],
+      "doi": "10.2210/pdb2cba/pdb",
+      "version": "pinned files in data/provenance.json",
+      "alternate_urls": [
+        "https://www.ebi.ac.uk/pdbe/api/mappings/uniprot/2cba",
+        "https://data.rcsb.org/rest/v1/core/entry/2CBA",
+        "https://data.rcsb.org/rest/v1/core/polymer_entity/2CBA/1",
+        "https://data.rcsb.org/rest/v1/core/polymer_entity_instance/2CBA/A"
+      ]
+    },
+    {
+      "id": "afdb-p00918",
+      "source_type": "dataset",
+      "title": "AlphaFold Database P00918 model and confidence",
+      "authors": [
+        "Google DeepMind",
+        "EMBL-EBI"
+      ],
+      "year": 2025,
+      "url": "https://alphafold.ebi.ac.uk/entry/P00918",
+      "checked_on": "2026-10-20",
+      "access_level": "official_documentation",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "Pinned model coordinates, confidence values, model creation date and pipeline annotation."
+      ],
+      "limitations": [
+        "Pinned local official snapshots inspected. These data are predictions, not new experimental coordinates."
+      ],
+      "corrections": [],
+      "version": "AF-P00918-F1-model_v6; generated 2025-08-01",
+      "alternate_urls": [
+        "https://alphafold.ebi.ac.uk/api/prediction/P00918",
+        "https://alphafold.ebi.ac.uk/files/AF-P00918-F1-model_v6.pdb",
+        "https://alphafold.ebi.ac.uk/files/AF-P00918-F1-confidence_v6.json"
+      ]
+    },
+    {
+      "id": "plddt-guide",
+      "source_type": "official_documentation",
+      "title": "pLDDT: Understanding local confidence",
+      "authors": [
+        "EMBL-EBI"
+      ],
+      "year": null,
+      "url": "https://www.ebi.ac.uk/training/online/courses/alphafold/inputs-and-outputs/evaluating-alphafolds-predicted-structures-using-confidence-scores/plddt-understanding-local-confidence/",
+      "checked_on": "2026-10-20",
+      "access_level": "official_documentation",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "pLDDT is a local-confidence score; high local confidence does not establish domain orientation or function."
+      ],
+      "limitations": [
+        "Documents source definitions or software behavior; does not independently validate this implementation."
+      ],
+      "corrections": []
+    },
+    {
+      "id": "pdb-quality",
+      "source_type": "official_documentation",
+      "title": "Assessing the quality of 3D structures",
+      "authors": [
+        "RCSB PDB"
+      ],
+      "year": null,
+      "url": "https://www.rcsb.org/docs/general-help/assessing-the-quality-of-3d-structures",
+      "checked_on": "2026-10-20",
+      "access_level": "official_documentation",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "Experimental data fit and geometry are distinct quality considerations."
+      ],
+      "limitations": [
+        "Documents source definitions or software behavior; does not independently validate this implementation."
+      ],
+      "corrections": []
+    },
+    {
+      "id": "b-factor",
+      "source_type": "official_documentation",
+      "title": "PDBx/mmCIF dictionary: _atom_site.B_iso_or_equiv",
+      "authors": [
+        "wwPDB"
+      ],
+      "year": null,
+      "url": "https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/_atom_site.B_iso_or_equiv.html",
+      "checked_on": "2026-10-20",
+      "access_level": "official_documentation",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "Definition of isotropic atomic displacement parameters and units."
+      ],
+      "limitations": [
+        "Documents source definitions or software behavior; does not independently validate this implementation."
+      ],
+      "corrections": [],
+      "version": "PDBx/mmCIF V5"
+    },
+    {
+      "id": "missing-coordinates",
+      "source_type": "official_documentation",
+      "title": "Missing coordinates",
+      "authors": [
+        "RCSB PDB-101"
+      ],
+      "year": null,
+      "url": "https://pdb101.rcsb.org/learn/guide-to-understanding-pdb-data/missing-coordinates",
+      "checked_on": "2026-10-20",
+      "access_level": "official_documentation",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "Sequence presence and modeled coordinates are different."
+      ],
+      "limitations": [
+        "Documents source definitions or software behavior; does not independently validate this implementation."
+      ],
+      "corrections": []
+    },
+    {
+      "id": "pdb-identifiers",
+      "source_type": "official_documentation",
+      "title": "Identifiers in PDB",
+      "authors": [
+        "RCSB PDB"
+      ],
+      "year": null,
+      "url": "https://www.rcsb.org/docs/general-help/identifiers-in-pdb",
+      "checked_on": "2026-10-20",
+      "access_level": "official_documentation",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "Author, entity and sequence identifiers need explicit mapping."
+      ],
+      "limitations": [
+        "Documents source definitions or software behavior; does not independently validate this implementation."
+      ],
+      "corrections": []
+    },
+    {
+      "id": "pdb-coordinate-format",
+      "source_type": "official_documentation",
+      "title": "Atomic Coordinate Entry Format: coordinate section",
+      "authors": [
+        "wwPDB"
+      ],
+      "year": null,
+      "url": "https://www.wwpdb.org/documentation/file-format-content/format33/sect9.html",
+      "checked_on": "2026-10-20",
+      "access_level": "official_documentation",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "Fixed-width atom coordinates, occupancy, temperature-factor and alternate-location fields."
+      ],
+      "limitations": [
+        "Documents source definitions or software behavior; does not independently validate this implementation."
+      ],
+      "corrections": [],
+      "version": "3.3"
+    },
+    {
+      "id": "pdb-transform-format",
+      "source_type": "official_documentation",
+      "title": "Atomic Coordinate Entry Format: crystallographic and coordinate transformation section",
+      "authors": [
+        "wwPDB"
+      ],
+      "year": null,
+      "url": "https://www.wwpdb.org/documentation/file-format-content/format33/sect8.html",
+      "checked_on": "2026-10-20",
+      "access_level": "official_documentation",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "Coordinate-frame transformation fields must not be retained with invalid meaning after export."
+      ],
+      "limitations": [
+        "Documents source definitions or software behavior; does not independently validate this implementation."
+      ],
+      "corrections": [],
+      "version": "3.3"
+    },
+    {
+      "id": "usalign-software",
+      "source_type": "software",
+      "title": "US-align source and readme",
+      "authors": [
+        "Chengxin Zhang",
+        "Lydia Freddolino",
+        "Anna Marie Pyle",
+        "Yang Zhang"
+      ],
+      "year": null,
+      "url": "https://github.com/pylelab/USalign/tree/23f14ffcf8647f2dc1c0e01043db3a7f3a661c28",
+      "checked_on": "2026-10-20",
+      "access_level": "official_documentation",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "Comparison/export practice and custom permissive license context."
+      ],
+      "limitations": [
+        "Readme inspected through GitHub connector after web fetch failed; source was not copied and no benchmark was run."
+      ],
+      "corrections": [],
+      "version": "20261019; commit 23f14ffcf8647f2dc1c0e01043db3a7f3a661c28"
+    },
+    {
+      "id": "python-hashlib",
+      "source_type": "official_documentation",
+      "title": "Python hashlib library documentation",
+      "authors": [
+        "Python Software Foundation"
+      ],
+      "year": null,
+      "url": "https://docs.python.org/3.12/library/hashlib.html",
+      "checked_on": "2026-10-20",
+      "access_level": "official_documentation",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "Byte digests identify file content."
+      ],
+      "limitations": [
+        "Documents source definitions or software behavior; does not independently validate this implementation."
+      ],
+      "corrections": [],
+      "version": "3.12.15"
+    },
+    {
+      "id": "python-hmac",
+      "source_type": "official_documentation",
+      "title": "Python hmac library documentation",
+      "authors": [
+        "Python Software Foundation"
+      ],
+      "year": null,
+      "url": "https://docs.python.org/3.12/library/hmac.html",
+      "checked_on": "2026-10-20",
+      "access_level": "official_documentation",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "Keyed authentication differs from unsigned hashes."
+      ],
+      "limitations": [
+        "Documents source definitions or software behavior; does not independently validate this implementation."
+      ],
+      "corrections": [],
+      "version": "3.12.15"
+    },
+    {
+      "id": "python-json",
+      "source_type": "official_documentation",
+      "title": "Python json library documentation",
+      "authors": [
+        "Python Software Foundation"
+      ],
+      "year": null,
+      "url": "https://docs.python.org/3.12/library/json.html",
+      "checked_on": "2026-10-20",
+      "access_level": "official_documentation",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "Decoder hooks and size restrictions support explicit parsing."
+      ],
+      "limitations": [
+        "Documents source definitions or software behavior; does not independently validate this implementation."
+      ],
+      "corrections": [],
+      "version": "3.12.15"
+    },
+    {
+      "id": "pdb-reuse",
+      "source_type": "official_documentation",
+      "title": "PDB usage policies",
+      "authors": [
+        "wwPDB"
+      ],
+      "year": null,
+      "url": "https://www.wwpdb.org/about/usage-policies",
+      "checked_on": "2026-10-20",
+      "access_level": "official_documentation",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "PDB archive data use CC0 with encouraged attribution."
+      ],
+      "limitations": [
+        "Documents source definitions or software behavior; does not independently validate this implementation."
+      ],
+      "corrections": []
+    },
+    {
+      "id": "uniprot-reuse",
+      "source_type": "official_documentation",
+      "title": "UniProt license",
+      "authors": [
+        "UniProt Consortium"
+      ],
+      "year": null,
+      "url": "https://www.uniprot.org/help/license",
+      "checked_on": "2026-10-20",
+      "access_level": "unavailable",
+      "metadata_status": "unresolved",
+      "supported_claims": [
+        "Existing source provenance records CC BY 4.0 for the bundled UniProt data."
+      ],
+      "limitations": [
+        "Live page returned a JavaScript fallback shell; license text could not be independently reread here. Existing license/provenance was preserved, not replaced."
+      ],
+      "corrections": []
+    },
+    {
+      "id": "afdb-faq",
+      "source_type": "official_documentation",
+      "title": "AlphaFold Database frequently asked questions",
+      "authors": [
+        "EMBL-EBI"
+      ],
+      "year": null,
+      "url": "https://alphafold.ebi.ac.uk/faq",
+      "checked_on": "2026-10-20",
+      "access_level": "unavailable",
+      "metadata_status": "unresolved",
+      "supported_claims": [
+        "Existing source provenance records the database reuse terms."
+      ],
+      "limitations": [
+        "Only rendered page shell was accessible in this recheck; the FAQ answers and reuse text were not exposed. Existing attribution and CC BY 4.0 notice remain unchanged."
+      ],
+      "corrections": []
+    }
+  ]
+}

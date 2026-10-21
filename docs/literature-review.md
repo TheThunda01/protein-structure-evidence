@@ -1,11 +1,12 @@
 # Rapid evidence review
 
+Terminology: [glossary](glossary.md). Scientific and operational choices: [assumptions](assumptions.md).
+
 ## Question and scope
 
 What would make this small comparison more useful for someone inspecting the same fit in another program, while keeping residue correspondence, confidence, and evidence limits visible?
 
 The review covers reproducible structure comparison, mapping, and coordinate export. It prioritizes primary publications from 1 January 2022 through 20 October 2026 and official file-format/software documentation. Existing foundational work, including Kabsch's fit and the original AlphaFold method, remains in [references](references.md). This is a bounded rapid review, not a complete systematic review or a new accuracy benchmark.
-
 
 ### Round 2 — same-day verification scope (20 October 2026)
 
@@ -27,7 +28,6 @@ Across successful searches there were **32 distinct records**. Including the see
 
 Most broad-query hits concerned individual proteins, pathogens, ligands, or activity experiments outside this question. A nuclear-receptor comparison was considered from its abstract but excluded because its family-specific results cannot establish CAII behavior. The US-align protocol was supplementary context, not primary performance evidence. Official wwPDB pages, EMBL-EBI training material, and pinned US-align source were then inspected. Web result totals were unavailable and are recorded as unknown; the AlphaFold FAQ returned only a rendered shell and was not used for new substantive claims.
 
-
 ### Round 2 search
 
 The first query, `("protein structure"[Title/Abstract]) AND (reproducibility[Title/Abstract] OR provenance[Title/Abstract])`, returned 31 PubMed records; only the first 10 were screened. A focused `ModelCIF[Title]` query returned 2 records, both retrieved. Both used the 2022-01-01 through 2026-10-20 publication window, `publication_date` order, and a 10-record limit. There were 11 unique titles after overlap, one separately retrieved abstract, and one included primary paper. Its complete PMC text was inspected in two chunks. The remaining 21 records from the broad query were not screened. Python 3.12.15 and wwPDB 3.3 documentation supplied implementation details; no third-party code was copied.
@@ -45,7 +45,6 @@ The first query, `("protein structure"[Title/Abstract]) AND (reproducibility[Tit
 
 The existing B-factor/pLDDT distinction and training-overlap caveat remain. The review supports better traceability and interchange, not stronger biological conclusions.
 
-
 ### Round 2 source-to-claim-to-code additions
 
 | Source | Type and access | Supported claim | Limit | Implementation consequence |
@@ -59,10 +58,9 @@ The existing B-factor/pLDDT distinction and training-overlap caveat remain. The 
 
 The concrete gap was that a report and image did not expose a reusable fitted coordinate file or the exact transform. `export_alignment.py` now writes the existing predicted model in the experimental frame, along with full-precision rotation/translation, fit/evaluation residue lists, and a hash-linked receipt. The exporter preserves atom identity, occupancy, and pLDDT; marks the file as derived; handles obsolete frame records explicitly; and stops on unsupported coordinate-dependent records or field overflow.
 
-Six added tests cover field preservation, invalid transforms, unsupported records, every exported atom against the transform, deterministic bundles, existing-output protection, source corruption, and CLI failure behavior. There are 26 tests overall. The existing numerical result, source files, and checked-in analysis results are unchanged. A new export example illustrates the additional output.
+Six added tests cover field preservation, invalid transforms, unsupported records, every exported atom against the transform, deterministic bundles, existing-output protection, source corruption, and CLI failure behavior. There were 26 tests at that first advancement; the later verifier brings the current suite to 35. The existing numerical result, source files, and checked-in analysis results are unchanged. A new export example illustrates the additional output.
 
 README organization now follows the common portfolio format. The [practical-use guide](practical-use.md) distinguishes implemented checks, operator responsibilities, and future work.
-
 
 ### Round 2 implementation
 
@@ -72,8 +70,7 @@ Nine new tests cover valid alternative cutoffs, co-edited hashes, mismatched sel
 
 ## Remaining work
 
-The next priorities are a standalone receipt verifier, round-tripped mmCIF support, and independent loading checks in pinned viewer versions. Each has acceptance criteria in [practical use](practical-use.md). Those capabilities are not implemented or implied by this review.
-
+At the first advancement, the backlog included a receipt verifier, mmCIF interchange and loading checks in pinned viewer versions. The same-day round 2 implemented the verifier. The current remaining work is mmCIF interchange, viewer checks and an independently implemented fit comparison; see [practical use](practical-use.md#next-improvements).
 
 ### Round 2 status
 
@@ -81,8 +78,9 @@ The standalone receipt-verification backlog item is now implemented. Remaining p
 
 ## Limits of this review
 
-One reviewer screened a small set of narrow searches, with no registered protocol, dual screening, formal risk-of-bias assessment, or exhaustive citation chasing. Title exclusions were not full-text appraisals. One included primary method paper was abstract-only; official source inspection supplied implementation details without substituting for independent evaluation. Search indexing and mutable documentation may change after the recorded date. No accuracy estimate, clinical conclusion, or benefit of the export was measured.
+The [editorial reference audit](reference-audit.json) rechecks the cited records and labels its own access level separately. Historical full-text/search counts below describe the original logged work, not a claim that every full text was reread in this editorial pass.
 
+One reviewer screened a small set of narrow searches, with no registered protocol, dual screening, formal risk-of-bias assessment, or exhaustive citation chasing. Title exclusions were not full-text appraisals. One included primary method paper was abstract-only; official source inspection supplied implementation details without substituting for independent evaluation. Search indexing and mutable documentation may change after the recorded date. No accuracy estimate, clinical conclusion, or benefit of the export was measured.
 
 
 ### Round 2 limits

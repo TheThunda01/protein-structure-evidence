@@ -1,4 +1,4 @@
-# Protein Structure Evidence
+# Protein structure evidence
 
 **How much does a predicted protein structure tell us when we also have an experimental model?** This worked example compares human carbonic anhydrase II using explicit residue mapping, a reproducible backbone fit, and separate displays of predicted confidence and experimental displacement parameters.
 
@@ -6,19 +6,19 @@
 
 An attractive structural overlay can hide important differences between two models. I wanted this example to make the residue correspondence, source records, and fitting choices inspectable. Start with the [project context](docs/project-context.md) or [biology guide](docs/biology-and-concepts.md).
 
-This educational case study was developed with AI assistance and checked with executable examples. It is not a new structure determination or a functional validation study. **Training or template overlap cannot be excluded:** 2CBA predates AlphaFold training. A small fitted RMSD here does not establish independent generalization.
+This educational case study was developed with AI assistance and checked with executable examples. It is not a new structure determination or a functional validation study. **Training or template overlap cannot be excluded:** 2CBA was available before AlphaFold2 training, and the training/template inputs for this prediction have not been audited. A small fitted root-mean-square deviation (RMSD, the square root of the mean squared distance between matched atoms) here does not establish independent generalization.
 
 ## What it does
 
 | Source | Selected evidence |
 | --- | --- |
-| [UniProt P00918](https://www.uniprot.org/uniprotkb/P00918/entry) | Canonical human CAII sequence, 260 residues; sequence version 2. |
-| [PDB 2CBA](https://www.rcsb.org/structure/2CBA) | Chain A, X-ray model at 1.54 Å; no reported amino-acid mutations; zinc is the only nonwater ligand. |
+| [UniProt P00918](https://www.uniprot.org/uniprotkb/P00918/entry) | Canonical (reference) human carbonic anhydrase II (CAII) sequence, 260 amino-acid residues; sequence version 2. |
+| [PDB 2CBA](https://www.rcsb.org/structure/2CBA) | Chain A, X-ray model at 1.54 ångströms (Å; 1 Å = 10⁻¹⁰ meters) resolution; no reported amino-acid mutations; zinc is the only nonwater ligand. |
 | [AlphaFold DB P00918](https://alphafold.ebi.ac.uk/entry/P00918) | Pinned `AF-P00918-F1-model_v6`, generated 1 August 2025 by the AlphaFold Monomer v2.0 pipeline. |
 
-The code composes RCSB author-to-entity mapping with its SIFTS entity-to-UniProt alignment, checks amino-acid identities, and fits overlapping Cα coordinates. It cross-checks the prediction's confidence column against the separate AlphaFold confidence file. An optional export saves the transformed prediction for external inspection, with explicit transform conventions, source hashes, and a receipt.
+The code joins depositor residue labels to the reference sequence using RCSB (Research Collaboratory for Structural Bioinformatics) metadata and SIFTS (Structure Integration with Function, Taxonomy and Sequences). It checks amino-acid identities and fits overlapping alpha-carbon (Cα) coordinates, a simplified trace of the protein backbone. It cross-checks the prediction's confidence column against the separate AlphaFold confidence file. An optional export saves the transformed prediction for external inspection, with explicit transform conventions, source hashes, and a receipt.
 
-Canonical positions 1–2 have no comparable experimental Cα coordinates. The PDB declares an ACE cap instead of canonical Met1, and Ser2 is unmodeled. Later, author numbering jumps from 125 to 127 while canonical numbering remains continuous: author 127 maps to UniProt 126. An absent author number is not necessarily a missing amino acid.
+Canonical positions 1–2 have no comparable experimental Cα coordinates. The Protein Data Bank (PDB) record declares an acetyl (ACE) cap instead of canonical Met1, and Ser2 is unmodeled. Later, author numbering jumps from 125 to 127 while canonical numbering remains continuous: author 127 maps to UniProt 126. An absent author number is not necessarily a missing amino acid.
 
 ## Quick start
 
@@ -53,7 +53,7 @@ The export refuses an existing destination. Verification reads the bundle, check
 | [Exported model](examples/alignment/aligned_prediction.pdb), [transform](examples/alignment/transform.json), [receipt](examples/alignment/receipt.json) | Full predicted model in the experimental coordinate frame, plus reproducible fit selection and integrity metadata. |
 | [Verification report](examples/verification/report.json) | Read-only check of the saved bundle against pinned inputs; includes fit counts, file hashes, and runtime-metadata limits. |
 
-The default fit uses **258 Cα pairs**, with RMSD **0.531 Å**. The largest displacement is **6.499 Å** at canonical residue **3**, where pLDDT is **69.06** and experimental Cα occupancy is **0.50**. Inspecting these observations together is useful; this analysis cannot establish the cause of their disagreement.
+The default fit uses **258 Cα pairs**, with RMSD **0.531 Å**. The largest displacement is **6.499 Å** at canonical residue **3**, where predicted local distance difference test (pLDDT) confidence is **69.06** and experimental Cα occupancy is **0.50**. Inspecting these observations together is useful; this analysis cannot establish the cause of their disagreement.
 
 ![Separate confidence, displacement, and experimental B-factor profiles](results/evidence_profiles.png)
 
@@ -61,7 +61,7 @@ The default fit uses **258 Cα pairs**, with RMSD **0.531 Å**. The largest disp
 
 This is a small, inspectable example for learning residue joins, numerical geometry, and evidence-aware interpretation. It accepts this pinned case, not arbitrary uploaded proteins.
 
-- pLDDT is predicted local confidence; experimental B factors are different quantities with different units. The shared PDB column does not make them comparable scores.
+- pLDDT is predicted local confidence; experimental B factors, atomic displacement parameters in Å², are different quantities with different units. The shared PDB column does not make them comparable scores.
 - RMSD depends on the mapped atoms and fitted subset. Changing a cutoff is not evidence of improved prediction accuracy.
 - Cα agreement does not validate side chains, waters, dynamics, catalytic activity, or binding affinity.
 - The experimental model contains zinc; this AlphaFold monomer file does not. The export neither adds a cofactor nor repairs a structure.
@@ -69,6 +69,8 @@ This is a small, inspectable example for learning residue joins, numerical geome
 - A verified bundle is computationally consistent with the pinned case; it does not authenticate an author or establish biological validity. Runtime metadata is reported separately; `--strict-runtime` can require version agreement.
 
 ## Documentation
+
+[Glossary](docs/glossary.md) · [Assumptions and justifications](docs/assumptions.md) · [Reference audit](docs/reference-audit.json) · [Review record, 20 October 2026](docs/review-2026-10-20.md)
 
 | Guide | What it covers |
 | --- | --- |
