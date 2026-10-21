@@ -41,6 +41,8 @@ The same file column can mean different things:
 
 These values cannot be interpreted as equivalent measurements or compared on one shared quality scale ([wwPDB dictionary](https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/_atom_site.B_iso_or_equiv.html); [Varadi et al., 2022](https://doi.org/10.1093/nar/gkab1061)). A low-confidence predicted region is also not sufficient evidence that the region is intrinsically disordered in every setting.
 
+For a compact comparison of units and interpretation limits, see **Table 1 in the [README](../README.md#example-results)**. Its separate quantities are plotted as **Figure 3** there, rather than treated as interchangeable confidence scores.
+
 ## What alignment and RMSD can show
 
 Before superposing structures, the analysis must establish which residues correspond. UniProt sequence positions, deposited residue labels, insertion codes, and residues with observed coordinates are related concepts, but they are not interchangeable. Missing coordinates do not mean that the residue was absent from the biological sequence. A region may lack interpretable experimental density ([RCSB: missing coordinates](https://pdb101.rcsb.org/learn/guide-to-understanding-pdb-data/missing-coordinates)).
@@ -52,6 +54,18 @@ Report the atom selection and coverage alongside the number. Small RMSD supports
 ## The selected structures and numbering
 
 [2CBA chain A](https://www.rcsb.org/structure/2CBA) is a zinc-bound, 1.54 Å X-ray model with no reported amino-acid mutations. Its chemical representation nevertheless differs: the deposited 260-position polymer begins with an acetyl (ACE) cap rather than UniProt Met1; neither ACE1 nor Ser2 has a Cα coordinate. [SIFTS](https://www.ebi.ac.uk/pdbe/api/mappings/uniprot/2cba) maps entity positions 2–260 to UniProt 2–260, with 258 matched alpha-carbon (Cα) atoms available. Author numbering jumps from 125 to 127: author 127 corresponds to UniProt 126, so that jump is not a missing residue. [AF-P00918-F1 v6](../data/alphafold_P00918.json) was generated on 1 August 2025 using the AlphaFold Monomer v2.0 pipeline. Because 2CBA was available before AlphaFold2 training and the prediction’s exact training/template provenance has not been audited, overlap cannot be excluded; fitted RMSD is descriptive, not an independent generalization benchmark.
+
+Figure 1 puts the two numbering systems next to each other. Following a vertical arrow is the correct join; equating the printed numbers would shift the comparison after the author-label gap.
+
+![Selected UniProt positions connected to the corresponding experimental author labels; positions 1 and 2 have no matched Cα](figures/residue-mapping.svg)
+
+**Figure 1. Residue correspondence is distinct from coordinate availability.** Original schematic derived from [the committed residue table](../results/residue_comparison.csv); intervening positions are omitted only from the drawing. The dashed arrow indicates a mapped residue without an experimental Cα. This is not a spatial structure diagram.
+
+After that correspondence is established, Figure 2 shows the matched backbone traces in one coordinate frame. The overlay is useful for seeing geometric agreement, while the residue-level profiles in **Figure 3 of the [README](../README.md#example-results)** retain differences that a single viewing angle can conceal.
+
+![Experimental and predicted matched Cα backbone traces after the specified rigid alignment](../results/backbone_overlay.png)
+
+**Figure 2. Matched Cα traces after rigid alignment.** This existing analysis image shows the 258 corresponding alpha-carbon positions, using the fit recorded in [summary.json](../results/summary.json) and the correspondence in [residue_comparison.csv](../results/residue_comparison.csv). It is a fixed view of simplified backbone traces, not an all-atom comparison or a measurement of biochemical function. Side chains, waters, and zinc-site chemistry require separate interpretation; the image does not establish independent prediction accuracy.
 
 ## What this project can reasonably conclude
 

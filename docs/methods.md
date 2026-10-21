@@ -26,6 +26,12 @@ A proper least-squares rotation and translation (a rigid transformation without 
 
 Per-residue displacement is Euclidean distance after that fit. RMSD is the square root of the mean squared displacement. The fixed sensitivity analyses fit positions with predicted local distance difference test (pLDDT) confidence ≥0, ≥70, or ≥90, then report both fit-set RMSD and RMSD over all 258 matched positions. This shows selection sensitivity; it does not justify choosing the lowest number after seeing the results. `--fit-min-plddt` records an alternative primary fit threshold explicitly.
 
+Figure 1 makes the change in denominator visible: excluding one or two lower-confidence positions reduces the fit-subset RMSD while the all-pair evaluation stays close to its original value.
+
+![RMSD on selected fitted pairs versus all 258 matched pairs at three pLDDT cutoffs](figures/fit-selection.svg)
+
+**Figure 1. Report the selection and evaluation set together.** Replotted from [fit_sensitivity.csv](../results/fit_sensitivity.csv), with exact atom counts under each cutoff. Lines connect three prespecified settings, not a continuous fitted trend. The [builder](../tools/build_documentation_figures.py) reads the saved table and writes only documentation figures.
+
 ## Confidence and chemical context
 
 The AlphaFold confidence sidecar must cover the full canonical sequence, remain within 0–100, and match the prediction's Cα B-column values within rounding tolerance. Those values are labeled pLDDT. Experimental Cα B values are separately labeled in Å², never converted into pLDDT or combined with it. No predicted aligned error analysis is performed.

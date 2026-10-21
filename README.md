@@ -55,7 +55,34 @@ The export refuses an existing destination. Verification reads the bundle, check
 
 The default fit uses **258 Cα pairs**, with RMSD **0.531 Å**. The largest displacement is **6.499 Å** at canonical residue **3**, where predicted local distance difference test (pLDDT) confidence is **69.06** and experimental Cα occupancy is **0.50**. Inspecting these observations together is useful; this analysis cannot establish the cause of their disagreement.
 
+Figure 1 explains why the residue join comes before the structural fit. The numbering gap is a label difference, while the first two positions genuinely lack a comparable experimental Cα coordinate.
+
+![Selected reference positions and experimental labels, showing unmatched first positions and author 127 mapping to reference 126](docs/figures/residue-mapping.svg)
+
+**Figure 1. Match positions before comparing coordinates.** This original schematic uses selected rows from [the residue comparison](results/residue_comparison.csv). It is a numbering diagram, not a drawing of the protein fold. The omitted positions are indicated by an ellipsis; the complete table retains all 260 positions.
+
+Figure 2 shows a second distinction: lowering the RMSD on a selected subset does not necessarily lower the disagreement over all matched positions.
+
+![Fit-subset RMSD falls from 0.531 to 0.337 angstrom as pLDDT cutoffs increase, while all-pair RMSD remains near 0.53 angstrom](docs/figures/fit-selection.svg)
+
+**Figure 2. Atom selection changes the reported RMSD.** Values come from [the three fixed sensitivity settings](results/fit_sensitivity.csv). Circles summarize the fitted subset; squares evaluate all 258 pairs after the same fit. These are descriptive analyses of one structure pair, not independent tests of prediction accuracy. The [figure builder](tools/build_documentation_figures.py) recreates Figures 1–2 without refitting a structure.
+
+Table 1 separates the quantities shown in the result figures so that a familiar-looking number is not read as a different kind of evidence.
+
+**Table 1. What the structural quantities mean.** Definitions and source documentation are expanded in the [biology guide](docs/biology-and-concepts.md) and [methods](docs/methods.md).
+
+| Quantity | Unit and denominator | Useful reading | Limit |
+| --- | --- | --- | --- |
+| pLDDT | Dimensionless, one value per predicted residue | Local prediction confidence | Not a measured error or activity score |
+| Experimental Cα B factor | Å², one selected atom per observed residue | Displacement parameter in the crystallographic model | Not the same scale as pLDDT |
+| Cα displacement | Å, one mapped atom pair after the fit | Where the two coordinate models differ | Does not establish the cause of disagreement |
+| RMSD | Å, averaged over a declared set of atom pairs | A summary of geometric agreement for that set | Depends on mapping, fitting, and selection |
+
+Figure 3 keeps these evidence channels in separate panels rather than combining them into a single quality score.
+
 ![Separate confidence, displacement, and experimental B-factor profiles](results/evidence_profiles.png)
+
+**Figure 3. Separate evidence profiles along the sequence.** The existing analysis plots pLDDT, experimental B factors, and fitted displacement from [the same residue table](results/residue_comparison.csv). Missing experimental coordinates remain missing; none of these panels measures protein activity.
 
 ## Practical use and limitations
 

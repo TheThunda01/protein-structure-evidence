@@ -1,0 +1,18 @@
+{
+  "scope": "Documentation views of existing computed results; no new structural fitting",
+  "sources": [
+    {
+      "path": "results/residue_comparison.csv",
+      "sha256": "e2e91c339ca31409c2bc41ed9e51b3f32a3df4f6dfb3141fa82848005c25d21c"
+    },
+    {
+      "path": "results/fit_sensitivity.csv",
+      "sha256": "860bec6b372ce0a62c686c6f675a7d073447a322b68614bff5a4d2a1f387c654"
+    }
+  ],
+  "figures": [
+    "residue-mapping.svg",
+    "fit-selection.svg"
+  ],
+  "command": "python tools/build_documentation_figures.py"
+}
