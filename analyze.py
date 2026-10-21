@@ -115,4 +115,4 @@ if __name__ == "__main__":
         summary = run(args.data_dir, args.output_dir, args.fit_min_plddt, not args.no_plots)
     except (ValidationError, OSError, KeyError, TypeError, json.JSONDecodeError) as error:
         parser.exit(2, f"Analysis stopped: {error}\n")
-    print(f"Compared {summary['matched_ca_residues']} Cα pairs; RMSD {summary['all_matched_ca_rmsd_A']:.6f} Å")
+    print(f"Compared {summary['matched_ca_residues']} C-alpha pairs; RMSD {summary['all_matched_ca_rmsd_A']:.6f} angstrom")
