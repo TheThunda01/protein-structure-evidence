@@ -36,14 +36,28 @@
       "corrections": [
         "Completed and standardized the bibliography, including verified journal coordinates and PMID; earlier narrative-only citations now have full entries where needed."
       ],
-      "journal": "The Journal of Nutrition"
+      "journal": "The Journal of Nutrition",
+      "rechecks": [
+        {
+          "review_date": "2026-10-21",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/10801957/",
+          "access_level": "abstract",
+          "verified_fields": [
+            "article title",
+            "issue year",
+            "DOI"
+          ],
+          "finding": "Title, issue year and DOI agree with the cited item. The abstract was re-read for the limited claim used in this project.",
+          "limits": "No full-text reappraisal or new systematic search is claimed; earlier access records are preserved."
+        }
+      ]
     },
     {
       "id": "pmid:1433293",
       "source_type": "research_article",
       "title": "Structure of native and apo carbonic anhydrase II and structure of some of its anion-ligand complexes",
       "authors": [
-        "K H\u00e5kansson",
+        "K Håkansson",
         "M Carlsson",
         "L A Svensson",
         "A Liljas"
@@ -68,7 +82,21 @@
       "corrections": [
         "Completed and standardized the bibliography, including verified journal coordinates and PMID; earlier narrative-only citations now have full entries where needed."
       ],
-      "journal": "Journal of Molecular Biology"
+      "journal": "Journal of Molecular Biology",
+      "rechecks": [
+        {
+          "review_date": "2026-10-21",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/1433293/",
+          "access_level": "abstract",
+          "verified_fields": [
+            "article title",
+            "issue year",
+            "DOI"
+          ],
+          "finding": "Title, issue year and DOI agree with the cited item. The abstract was re-read for the limited claim used in this project.",
+          "limits": "No full-text reappraisal or new systematic search is claimed; earlier access records are preserved."
+        }
+      ]
     },
     {
       "id": "pmid:34265844",
@@ -83,7 +111,7 @@
         "Olaf Ronneberger",
         "Kathryn Tunyasuvunakool",
         "Russ Bates",
-        "Augustin \u017d\u00eddek",
+        "Augustin Žídek",
         "Anna Potapenko",
         "Alex Bridgland",
         "Clemens Meyer",
@@ -126,7 +154,21 @@
       "corrections": [
         "Completed and standardized the bibliography, including verified journal coordinates and PMID; earlier narrative-only citations now have full entries where needed."
       ],
-      "journal": "Nature"
+      "journal": "Nature",
+      "rechecks": [
+        {
+          "review_date": "2026-10-21",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/34265844/",
+          "access_level": "abstract",
+          "verified_fields": [
+            "article title",
+            "issue year",
+            "DOI"
+          ],
+          "finding": "Title, issue year and DOI agree with the cited item. The abstract was re-read for the limited claim used in this project.",
+          "limits": "No full-text reappraisal or new systematic search is claimed; earlier access records are preserved."
+        }
+      ]
     },
     {
       "id": "pmid:34791371",
@@ -143,7 +185,7 @@
         "Oana Stroe",
         "Gemma Wood",
         "Agata Laydon",
-        "Augustin \u017d\u00eddek",
+        "Augustin Žídek",
         "Tim Green",
         "Kathryn Tunyasuvunakool",
         "Stig Petersen",
@@ -181,7 +223,21 @@
       "corrections": [
         "Completed and standardized the bibliography, including verified journal coordinates and PMID; earlier narrative-only citations now have full entries where needed."
       ],
-      "journal": "Nucleic Acids Research"
+      "journal": "Nucleic Acids Research",
+      "rechecks": [
+        {
+          "review_date": "2026-10-21",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/34791371/",
+          "access_level": "metadata_only",
+          "verified_fields": [
+            "article title",
+            "issue year",
+            "DOI"
+          ],
+          "finding": "Title, issue year and DOI agree with the cited item. This pass did not appraise the article body.",
+          "limits": "No full-text reappraisal or new systematic search is claimed; earlier access records are preserved."
+        }
+      ]
     },
     {
       "id": "pmid:37933859",
@@ -201,7 +257,7 @@
         "Oleg Kovalevskiy",
         "Kathryn Tunyasuvunakool",
         "Agata Laydon",
-        "Augustin \u017d\u00eddek",
+        "Augustin Žídek",
         "Hamish Tomlinson",
         "Dhavanthi Hariharan",
         "Josh Abrahamson",
@@ -232,7 +288,21 @@
       "corrections": [
         "Completed and standardized the bibliography, including verified journal coordinates and PMID; earlier narrative-only citations now have full entries where needed."
       ],
-      "journal": "Nucleic Acids Research"
+      "journal": "Nucleic Acids Research",
+      "rechecks": [
+        {
+          "review_date": "2026-10-21",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/37933859/",
+          "access_level": "metadata_only",
+          "verified_fields": [
+            "article title",
+            "issue year",
+            "DOI"
+          ],
+          "finding": "Title, issue year and DOI agree with the cited item. This pass did not appraise the article body.",
+          "limits": "No full-text reappraisal or new systematic search is claimed; earlier access records are preserved."
+        }
+      ]
     },
     {
       "id": "pmid:41273079",
@@ -255,7 +325,7 @@
         "Dariusz Lasecki",
         "Nick Dietrich",
         "Hamish Tomlinson",
-        "Augustin \u017d\u00eddek",
+        "Augustin Žídek",
         "Tim Green",
         "Oleg Kovalevskiy",
         "Andy Lau",
@@ -289,7 +359,21 @@
       "corrections": [
         "Completed and standardized the bibliography, including verified journal coordinates and PMID; earlier narrative-only citations now have full entries where needed."
       ],
-      "journal": "Nucleic Acids Research"
+      "journal": "Nucleic Acids Research",
+      "rechecks": [
+        {
+          "review_date": "2026-10-21",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/41273079/",
+          "access_level": "metadata_only",
+          "verified_fields": [
+            "article title",
+            "issue year",
+            "DOI"
+          ],
+          "finding": "Title, issue year and DOI agree with the cited item. This pass did not appraise the article body.",
+          "limits": "No full-text reappraisal or new systematic search is claimed; earlier access records are preserved."
+        }
+      ]
     },
     {
       "id": "pmid:37045837",
@@ -323,7 +407,21 @@
       "corrections": [
         "Completed and standardized the bibliography, including verified journal coordinates and PMID; earlier narrative-only citations now have full entries where needed."
       ],
-      "journal": "Scientific Data"
+      "journal": "Scientific Data",
+      "rechecks": [
+        {
+          "review_date": "2026-10-21",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/37045837/",
+          "access_level": "abstract",
+          "verified_fields": [
+            "article title",
+            "issue year",
+            "DOI"
+          ],
+          "finding": "Title, issue year and DOI agree with the cited item. The abstract was re-read for the limited claim used in this project.",
+          "limits": "No full-text reappraisal or new systematic search is claimed; earlier access records are preserved."
+        }
+      ]
     },
     {
       "id": "pmid:36038728",
@@ -355,7 +453,21 @@
       "corrections": [
         "Completed and standardized the bibliography, including verified journal coordinates and PMID; earlier narrative-only citations now have full entries where needed."
       ],
-      "journal": "Nature Methods"
+      "journal": "Nature Methods",
+      "rechecks": [
+        {
+          "review_date": "2026-10-21",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/36038728/",
+          "access_level": "metadata_only",
+          "verified_fields": [
+            "article title",
+            "issue year",
+            "DOI"
+          ],
+          "finding": "Title, issue year and DOI agree with the cited item. This pass did not appraise the article body.",
+          "limits": "No full-text reappraisal or new systematic search is claimed; earlier access records are preserved."
+        }
+      ]
     },
     {
       "id": "pmid:40604267",
@@ -386,7 +498,21 @@
       "corrections": [
         "Completed and standardized the bibliography, including verified journal coordinates and PMID; earlier narrative-only citations now have full entries where needed."
       ],
-      "journal": "Nature Protocols"
+      "journal": "Nature Protocols",
+      "rechecks": [
+        {
+          "review_date": "2026-10-21",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/40604267/",
+          "access_level": "metadata_only",
+          "verified_fields": [
+            "article title",
+            "issue year",
+            "DOI"
+          ],
+          "finding": "Title, issue year and DOI agree with the cited item. This pass did not appraise the article body.",
+          "limits": "No full-text reappraisal or new systematic search is claimed; earlier access records are preserved."
+        }
+      ]
     },
     {
       "id": "pmid:41580068",
@@ -431,7 +557,21 @@
       "corrections": [
         "Completed and standardized the bibliography, including verified journal coordinates and PMID; earlier narrative-only citations now have full entries where needed."
       ],
-      "journal": "Journal of Molecular Biology"
+      "journal": "Journal of Molecular Biology",
+      "rechecks": [
+        {
+          "review_date": "2026-10-21",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/41580068/",
+          "access_level": "metadata_only",
+          "verified_fields": [
+            "article title",
+            "issue year",
+            "DOI"
+          ],
+          "finding": "Title, issue year and DOI agree with the cited item. This pass did not appraise the article body.",
+          "limits": "No full-text reappraisal or new systematic search is claimed; earlier access records are preserved."
+        }
+      ]
     },
     {
       "id": "kabsch1976",
@@ -454,7 +594,7 @@
       "corrections": [],
       "volume": "32",
       "issue": "5",
-      "pages": "922\u2013923",
+      "pages": "922–923",
       "doi": "10.1107/S0567739476001873"
     },
     {
@@ -479,6 +619,15 @@
       "version": "entry 279; sequence 2",
       "alternate_urls": [
         "https://rest.uniprot.org/uniprotkb/P00918.json"
+      ],
+      "rechecks": [
+        {
+          "review_date": "2026-10-21",
+          "source_url": "https://rest.uniprot.org/uniprotkb/P00918.json",
+          "access_level": "official_documentation",
+          "finding": "Live official REST metadata still identifies human CA2, 260 residues, sequence version 2 and entry version 279. Function and zinc annotations were inspected; source data were not replaced.",
+          "limits": "Targeted source/version check, not independent validation of the project's scientific result."
+        }
       ]
     },
     {
@@ -486,7 +635,7 @@
       "source_type": "dataset",
       "title": "PDB 2CBA: carbonic anhydrase II",
       "authors": [
-        "K. H\u00e5kansson",
+        "K. Håkansson",
         "M. Carlsson",
         "L. A. Svensson",
         "A. Liljas"
@@ -497,7 +646,7 @@
       "access_level": "official_documentation",
       "metadata_status": "verified",
       "supported_claims": [
-        "1.54 \u00c5 X-ray entry, no reported mutations, deposited chemistry, residue identifiers and ligand context."
+        "1.54 Å X-ray entry, no reported mutations, deposited chemistry, residue identifiers and ligand context."
       ],
       "limitations": [
         "Documents source definitions or software behavior; does not independently validate this implementation."
@@ -510,6 +659,15 @@
         "https://data.rcsb.org/rest/v1/core/entry/2CBA",
         "https://data.rcsb.org/rest/v1/core/polymer_entity/2CBA/1",
         "https://data.rcsb.org/rest/v1/core/polymer_entity_instance/2CBA/A"
+      ],
+      "rechecks": [
+        {
+          "review_date": "2026-10-21",
+          "source_url": "https://www.rcsb.org/structure/2CBA",
+          "access_level": "official_documentation",
+          "finding": "Live official entry confirms human origin, X-ray diffraction, 1.54 A resolution, no reported mutations, 258 modeled of 260 deposited residues, and zinc as its one listed nonwater ligand.",
+          "limits": "Targeted source/version check, not independent validation of the project's scientific result."
+        }
       ]
     },
     {
@@ -537,6 +695,15 @@
         "https://alphafold.ebi.ac.uk/api/prediction/P00918",
         "https://alphafold.ebi.ac.uk/files/AF-P00918-F1-model_v6.pdb",
         "https://alphafold.ebi.ac.uk/files/AF-P00918-F1-confidence_v6.json"
+      ],
+      "rechecks": [
+        {
+          "review_date": "2026-10-21",
+          "source_url": "https://alphafold.ebi.ac.uk/api/prediction/P00918",
+          "access_level": "official_documentation",
+          "finding": "Live official API lists latestVersion 6, sequence positions 1-260 and modelCreatedDate 2025-08-01. It matches the version selected for this case; no general latest-database or accuracy claim follows.",
+          "limits": "Targeted source/version check, not independent validation of the project's scientific result."
+        }
       ]
     },
     {
@@ -598,7 +765,16 @@
         "Documents source definitions or software behavior; does not independently validate this implementation."
       ],
       "corrections": [],
-      "version": "PDBx/mmCIF V5"
+      "version": "PDBx/mmCIF V5",
+      "rechecks": [
+        {
+          "review_date": "2026-10-21",
+          "source_url": "https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/_atom_site.B_iso_or_equiv.html",
+          "access_level": "official_documentation",
+          "finding": "Official dictionary definition remains an isotropic or equivalent isotropic atomic displacement parameter. It is not a pLDDT confidence score.",
+          "limits": "Targeted source/version check, not independent validation of the project's scientific result."
+        }
+      ]
     },
     {
       "id": "missing-coordinates",
@@ -828,6 +1004,28 @@
         "Only rendered page shell was accessible in this recheck; the FAQ answers and reuse text were not exposed. Existing attribution and CC BY 4.0 notice remain unchanged."
       ],
       "corrections": []
+    },
+    {
+      "id": "python-symlink",
+      "source_type": "official_documentation",
+      "title": "Python 3.12 os.symlink documentation",
+      "authors": [
+        "Python Software Foundation"
+      ],
+      "year": null,
+      "url": "https://docs.python.org/3.12/library/os.html#os.symlink",
+      "checked_on": "2026-10-21",
+      "access_level": "official_documentation",
+      "metadata_status": "verified",
+      "supported_claims": [
+        "Symbolic-link creation on Windows depends on Developer Mode or the required privilege; unsupported creation can raise OSError."
+      ],
+      "limitations": [
+        "Capability handling applies only to link-specific tests. Numerical and ordinary file-safety assertions remain unconditional."
+      ],
+      "corrections": [
+        "Separated link-specific assertions into two tests and required link capability in Linux CI."
+      ]
     }
   ]
 }
