@@ -16,7 +16,7 @@ CAII is a useful teaching example because its sequence, chemistry, and experimen
 
 ## What the metal contributes
 
-CAII is a metalloenzyme: the native catalytic site contains zinc. Three histidine side chains coordinate the metal, with a water-derived ligand participating in the catalytic chemistry. The surrounding protein and solvent environment matters as well ([UniProt P00918](https://www.uniprot.org/uniprotkb/P00918/entry); [Håkansson et al., 1992](https://doi.org/10.1016/0022-2836%2892%2990531-n)).
+CAII is a metalloenzyme: the native catalytic site contains zinc. Three histidine side chains coordinate the metal, with a water-derived ligand participating in the catalytic chemistry. The surrounding protein and solvent environment also matter ([UniProt P00918](https://www.uniprot.org/uniprotkb/P00918/entry); [Håkansson et al., 1992](https://doi.org/10.1016/0022-2836%2892%2990531-n)).
 
 A drawing of the fold is therefore not the whole enzyme. Metal occupancy, water positions, protonation, and solution conditions can matter without producing a large change in the overall backbone. If a prediction omits zinc or water, that omission is a limitation of the represented model, not evidence that the biological protein lacks them. This comparison does not calculate catalytic rates or metal-binding affinity.
 

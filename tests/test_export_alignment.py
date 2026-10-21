@@ -11,6 +11,7 @@ import numpy as np
 from export_alignment import export_bundle, transform_pdb
 from structure_evidence import ValidationError, parse_pdb, sha256
 from test_structure_evidence import atom_line
+from symlink_support import create_symlink_or_skip
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -74,8 +75,11 @@ class ExportTests(unittest.TestCase):
             self.assertEqual(files, {p.name: p.read_bytes() for p in first.iterdir()})
             with self.assertRaisesRegex(ValidationError, "outside source"):
                 export_bundle(ROOT/"data", ROOT/"data/new-output")
+
+    def test_existing_broken_symlink_destination_is_protected(self):
+        with tempfile.TemporaryDirectory() as temp:
             link = Path(temp)/"broken-link"
-            link.symlink_to(Path(temp)/"absent-target", target_is_directory=True)
+            create_symlink_or_skip(self, link, Path(temp)/"absent-target", target_is_directory=True)
             with self.assertRaisesRegex(ValidationError, "already exists"):
                 export_bundle(ROOT/"data", link)
             self.assertTrue(link.is_symlink())

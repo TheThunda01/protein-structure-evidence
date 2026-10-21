@@ -32,6 +32,8 @@ python -m unittest discover -s tests -v
 
 All source snapshots are included; analysis runs offline after dependencies are installed. `make demo` and `make test` are equivalent shortcuts. The optional [retrieval script](scripts/fetch_data.py) accepts downloaded inputs only when their fingerprints match the recorded snapshot.
 
+Git attributes preserve source and saved-bundle bytes across checkouts, including on Windows. Re-saving those inputs with different line endings can correctly trigger a fingerprint failure.
+
 To inspect the fitted model in a molecular viewer, choose a new output directory:
 
 ```sh
@@ -97,6 +99,8 @@ This is a small, inspectable example for learning residue joins, numerical geome
 
 ## Documentation
 
+The [21 October 2026 maintenance and scientific review](docs/review-2026-10-21.md) records the latest checks and their limits. Earlier review records remain available below.
+
 [Glossary](docs/glossary.md) · [Assumptions and justifications](docs/assumptions.md) · [Reference audit](docs/reference-audit.json) · [Review record, 20 October 2026](docs/review-2026-10-20.md)
 
 | Guide | What it covers |
@@ -111,6 +115,6 @@ This is a small, inspectable example for learning residue joins, numerical geome
 
 ## Development and reuse
 
-The 35 tests check mapping, geometry, confidence semantics, failure cases, deterministic outputs, exported coordinates, and altered bundles. CI runs the analysis, export, and verification on Python 3.12. See [contributing](CONTRIBUTING.md) for development expectations.
+The 38 tests check mapping, geometry, confidence semantics, failure cases, deterministic outputs, exported coordinates, and altered bundles. Two tests specifically require symbolic-link creation and are reported as skipped when the account or filesystem cannot create links; unrelated checks still run. Linux CI requires those two tests to run, then runs the analysis, export, and verification on Python 3.12. See [contributing](CONTRIBUTING.md) for development expectations.
 
 Code is MIT licensed. Source data and derived model coordinates retain their [reuse conditions and attribution](data/README.md). No code was copied from related tools.

@@ -10,6 +10,7 @@ import unittest
 from export_alignment import export_bundle
 from structure_evidence import ValidationError
 from verify_alignment import MAX_FILE_BYTES, verify_bundle
+from symlink_support import create_symlink_or_skip
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -96,16 +97,12 @@ class VerificationTests(unittest.TestCase):
         with self.assertRaisesRegex(ValidationError, "pinned case"):
             verify_bundle(data, self.bundle)
 
-    def test_missing_extra_symlink_and_oversized_members_are_rejected(self):
+    def test_missing_extra_and_oversized_members_are_rejected(self):
         model = self.bundle / "aligned_prediction.pdb"
         raw = model.read_bytes()
         model.unlink()
         with self.assertRaises(ValidationError):
             verify_bundle(ROOT / "data", self.bundle)
-        model.symlink_to(ROOT / "examples/alignment/aligned_prediction.pdb")
-        with self.assertRaisesRegex(ValidationError, "regular file"):
-            verify_bundle(ROOT / "data", self.bundle)
-        model.unlink()
         model.write_bytes(raw)
         extra = self.bundle / "extra.txt"
         extra.write_text("unexpected")
@@ -114,6 +111,13 @@ class VerificationTests(unittest.TestCase):
         extra.unlink()
         model.write_bytes(b"x" * (MAX_FILE_BYTES + 1))
         with self.assertRaisesRegex(ValidationError, "2 MiB"):
+            verify_bundle(ROOT / "data", self.bundle)
+
+    def test_symlink_member_is_rejected(self):
+        model = self.bundle / "aligned_prediction.pdb"
+        model.unlink()
+        create_symlink_or_skip(self, model, ROOT / "examples/alignment/aligned_prediction.pdb")
+        with self.assertRaisesRegex(ValidationError, "regular file"):
             verify_bundle(ROOT / "data", self.bundle)
 
     def test_strict_json_and_receipt_fingerprints(self):

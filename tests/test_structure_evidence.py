@@ -1,7 +1,10 @@
 import copy
 import json
+import os
 from pathlib import Path
 import shutil
+import subprocess
+import sys
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -191,6 +194,18 @@ class RealSnapshotTests(unittest.TestCase):
             run(ROOT/"data",out,make_figures=False)
             self.assertFalse((out/"evidence_profiles.png").exists())
             self.assertFalse((out/"backbone_overlay.png").exists())
+
+    def test_cli_completes_with_legacy_windows_stdout_encoding(self):
+        with tempfile.TemporaryDirectory() as temp:
+            process = subprocess.run(
+                [sys.executable, str(ROOT/"analyze.py"), "--data-dir", str(ROOT/"data"),
+                 "--output-dir", temp, "--no-plots"],
+                env=dict(os.environ, PYTHONIOENCODING="cp1252", PYTHONUTF8="0"),
+                capture_output=True,
+            )
+            self.assertEqual(process.returncode, 0, process.stderr.decode("cp1252", errors="replace"))
+            self.assertIn(b"Compared 258 C-alpha pairs", process.stdout)
+            self.assertTrue((Path(temp)/"summary.json").is_file())
 
 
 if __name__ == "__main__":

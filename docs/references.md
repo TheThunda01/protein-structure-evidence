@@ -61,3 +61,9 @@ Checked on **20 October 2026**. The [reference audit](reference-audit.json) reco
 - UniProt Consortium. (n.d.). *UniProt license* [Official documentation]. [Source](https://www.uniprot.org/help/license). Existing source provenance records CC BY 4.0 for the bundled UniProt data. Live page returned a JavaScript fallback shell; license text could not be independently reread here. Existing license/provenance was preserved, not replaced.
 
 - EMBL-EBI. (n.d.). *AlphaFold Database frequently asked questions* [Official documentation]. [Source](https://alphafold.ebi.ac.uk/faq). Existing source provenance records the database reuse terms. Only rendered page shell was accessible in this recheck; the FAQ answers and reuse text were not exposed. Existing attribution and CC BY 4.0 notice remain unchanged.
+
+## Test-platform behavior
+
+- **Python Software Foundation. Python 3.12: os.symlink.** [Official documentation](https://docs.python.org/3.12/library/os.html#os.symlink), checked 21 October 2026. Documents the Windows capability requirement behind the two link-specific tests. It does not alter the structural calculation or establish viewer interoperability.
+
+- **Git project contributors. gitattributes: text and eol attributes.** [Official documentation](https://git-scm.com/docs/gitattributes), checked 21 October 2026. Explains why hash-locked source and saved-bundle bytes require an explicit checkout policy.
