@@ -22,11 +22,11 @@ A drawing of the fold is therefore not the whole enzyme. Metal occupancy, water 
 
 ## Experimental coordinates and predictions answer different questions
 
-An X-ray structure is an atomic model interpreted from diffraction data. The coordinates are supported to different degrees by the experiment, and their interpretation also depends on resolution, refinement, crystal conditions, and model validation. They are not a literal photograph of one freely moving molecule. [RCSB's validation guide](https://www.rcsb.org/docs/general-help/assessing-the-quality-of-3d-structures) explains why data-fit and geometry checks both matter.
+An X-ray structure is an atomic model interpreted from diffraction data. The experiment supports some coordinates more strongly than others. Their interpretation depends on resolution, refinement, crystal conditions, and model validation; they are not a photograph of one freely moving molecule. [RCSB's validation guide](https://www.rcsb.org/docs/general-help/assessing-the-quality-of-3d-structures) explains why data-fit and geometry checks both matter.
 
 An AlphaFold model is a computational prediction informed by learned structural patterns and its inputs. The original AlphaFold2 study established strong prediction performance in assessed settings, but did not establish that every model represents every functional state ([Jumper et al., 2021](https://doi.org/10.1038/s41586-021-03819-2)). A database prediction and a crystal structure are useful to compare precisely because their evidence and assumptions differ.
 
-One protein comparison is a case study, not a general accuracy benchmark. Without auditing training and template provenance, agreement with a known structure should not be presented as a fully independent prediction test.
+One protein comparison is a case study, not a general accuracy benchmark. Agreement with a known structure cannot establish an independent prediction test unless the training and template provenance has been audited.
 
 ## Confidence is not an experimental measurement
 
@@ -53,7 +53,11 @@ Report the atom selection and coverage alongside the number. Small RMSD supports
 
 ## The selected structures and numbering
 
-[2CBA chain A](https://www.rcsb.org/structure/2CBA) is a zinc-bound, 1.54 Å X-ray model with no reported amino-acid mutations. Its chemical representation nevertheless differs: the deposited 260-position polymer begins with an acetyl (ACE) cap rather than UniProt Met1; neither ACE1 nor Ser2 has a Cα coordinate. [SIFTS](https://www.ebi.ac.uk/pdbe/api/mappings/uniprot/2cba) maps entity positions 2–260 to UniProt 2–260, with 258 matched alpha-carbon (Cα) atoms available. Author numbering jumps from 125 to 127: author 127 corresponds to UniProt 126, so that jump is not a missing residue. [AF-P00918-F1 v6](../data/alphafold_P00918.json) was generated on 1 August 2025 using the AlphaFold Monomer v2.0 pipeline. Because 2CBA was available before AlphaFold2 training and the prediction’s exact training/template provenance has not been audited, overlap cannot be excluded; fitted RMSD is descriptive, not an independent generalization benchmark.
+[2CBA chain A](https://www.rcsb.org/structure/2CBA) is a zinc-bound, 1.54 Å X-ray model with no reported amino-acid mutations. Its chemical representation nevertheless differs: the deposited 260-position polymer begins with an acetyl (ACE) cap rather than UniProt Met1. Neither ACE1 nor Ser2 has a Cα coordinate.
+
+[SIFTS](https://www.ebi.ac.uk/pdbe/api/mappings/uniprot/2cba) maps entity positions 2–260 to UniProt 2–260, with 258 matched alpha-carbon (Cα) atoms available. Author numbering jumps from 125 to 127: author 127 corresponds to UniProt 126, so that jump is not a missing residue.
+
+[AF-P00918-F1 v6](../data/alphafold_P00918.json) was generated on 1 August 2025 using the AlphaFold Monomer v2.0 pipeline. Because 2CBA was available before AlphaFold2 training and the prediction’s exact training/template provenance has not been audited, overlap cannot be excluded. Fitted RMSD is descriptive, not an independent generalization benchmark.
 
 Figure 1 puts the two numbering systems next to each other. Following a vertical arrow is the correct join; equating the printed numbers would shift the comparison after the author-label gap.
 
@@ -61,7 +65,7 @@ Figure 1 puts the two numbering systems next to each other. Following a vertical
 
 **Figure 1. Residue correspondence is distinct from coordinate availability.** Original schematic derived from [the committed residue table](../results/residue_comparison.csv); intervening positions are omitted only from the drawing. The dashed arrow indicates a mapped residue without an experimental Cα. This is not a spatial structure diagram.
 
-After that correspondence is established, Figure 2 shows the matched backbone traces in one coordinate frame. The overlay is useful for seeing geometric agreement, while the residue-level profiles in **Figure 3 of the [README](../README.md#example-results)** retain differences that a single viewing angle can conceal.
+Once the residues are mapped, Figure 2 shows their backbone traces in one coordinate frame. The overlay shows geometric agreement. The residue-level profiles in **Figure 3 of the [README](../README.md#example-results)** reveal differences that a single viewing angle can conceal.
 
 ![Experimental and predicted matched Cα backbone traces after the specified rigid alignment](../results/backbone_overlay.png)
 
@@ -69,6 +73,6 @@ After that correspondence is established, Figure 2 shows the matched backbone tr
 
 ## What this project can reasonably conclude
 
-The analysis can document sequence correspondence, represented residues, local prediction confidence, and coordinate similarity for one chosen comparison. It can make gaps in the evidence visible. It cannot establish a reaction mechanism from the model alone, validate activity, rank inhibitors, or support clinical claims.
+The analysis documents sequence correspondence, represented residues, local prediction confidence, and coordinate similarity for one comparison. It also identifies gaps in that evidence. It cannot establish a reaction mechanism from the model alone, validate activity, rank inhibitors, or support clinical claims.
 
 The most useful result is an explicit account of what was compared and what remains uncertain. Source records and file versions should travel with that account. The [references](references.md) separate biochemical background, prediction methods, database documentation, and experimental-model interpretation.

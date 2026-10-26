@@ -4,9 +4,9 @@ Terminology: [glossary](glossary.md). Scientific and operational choices: [assum
 
 ## Background and rationale
 
-A protein structure is evidence about an atomic model, not a direct readout of everything a protein does. Experimental models, predicted coordinates, sequence annotations, and confidence scores answer related but different questions. This project brings those sources together for human carbonic anhydrase II, a familiar zinc-containing enzyme, so the assumptions are visible rather than hidden inside one similarity score.
+A protein structure describes an atomic model; it does not directly reveal everything a protein does. Experimental models, predicted coordinates, sequence annotations, and confidence scores answer related but different questions. This project compares those sources for human carbonic anhydrase II, a zinc-containing enzyme, and shows which assumptions lie behind a structural similarity score.
 
-The question is deliberately narrow: **which residues can be compared, how similar are their backbone positions after a rigid fit, and what does the available evidence leave unresolved?** The [biology guide](biology-and-concepts.md) explains the enzyme and the structural concepts in plain language.
+The project asks: **which residues can be compared, how similar are their backbone positions after a rigid fit, and what does the available evidence leave unresolved?** The [biology guide](biology-and-concepts.md) explains the enzyme and the structural concepts.
 
 ## What it does
 
@@ -14,9 +14,9 @@ The analysis compares a pinned [AlphaFold DB prediction](https://alphafold.ebi.a
 
 ## Why it matters
 
-This case has a useful complication: author numbering skips a number even though the canonical sequence does not. It also has a different N-terminal chemical state and positions without comparable experimental coordinates. Handling those details correctly matters more than producing an attractive overlay.
+This case shows why mapping must precede alignment. Author numbering skips a number even though the canonical sequence does not. The models also differ in their N-terminal chemical state, and some positions lack comparable experimental coordinates. An overlay alone can conceal these differences.
 
-The work demonstrates provenance tracking, careful joins between biological databases, numerical geometry, testing, and evidence-aware interpretation. It also shows why a low RMSD cannot be used as a shortcut to claims about activity or affinity.
+The project traces source records, joins biological databases, tests the geometry calculations, and states what the comparison can support. A low RMSD measures geometric agreement over selected atoms; it does not establish activity or affinity.
 
 ## Main themes
 

@@ -4,9 +4,9 @@ Terminology: [glossary](glossary.md). Scientific and operational choices: [assum
 
 ## Where this fits
 
-This repository is a worked example for inspecting an existing predicted structure against one experimentally determined model of the same human protein. It is useful when learning how database numbering, missing coordinates, fitting choices, and confidence affect an overlay. It does not accept arbitrary protein pairs or establish catalytic function.
+Use this example to compare an existing predicted structure with an experimental model of the same human protein. It shows how database numbering, missing coordinates, fitting choices, and confidence affect an overlay. It does not accept arbitrary protein pairs or establish catalytic function.
 
-The implementation now includes a viewer-oriented export. Saving the applied transform and its residue selection makes it possible to inspect the same fitted state elsewhere, rather than reconstructing the alignment by eye. This follows the general importance of interoperable residue mapping described by [Choudhary et al. (2023)](https://doi.org/10.1038/s41597-023-02101-6); the specific export design is an engineering choice here.
+The export saves the transformed coordinates and residue selection so that a molecular viewer can display the same fitted state. This avoids reconstructing the alignment by eye. The design follows the general importance of interoperable residue mapping described by [Choudhary et al. (2023)](https://doi.org/10.1038/s41597-023-02101-6); the specific export design is an engineering choice here.
 
 ## Input and output contract
 
@@ -26,7 +26,9 @@ In the transform equation, $`\mathbf{x}`$ is a coordinate row vector, $`R`$ is t
 
 The optional `--fit-min-plddt` is a number from 0 through 100 and uses the existing fit-selection behavior. At least three noncollinear selected Cα pairs are needed. All mapped pairs remain the evaluation set. Values are not searched for an apparently favorable RMSD.
 
-The export writes a new complete directory and refuses an existing destination or a destination inside source data. Validation failures exit with status 2. It never overwrites source coordinates. It rejects ANISOU, SIGATM, SIGUIJ, and MTRIX records because it does not transform their dependent quantities. It removes CRYST1, SCALE, and ORIGX records from this predicted model rather than carrying an old frame into a new one. The source model's unit cell is a placeholder, not a measured crystal cell. These record meanings and coordinate field widths come from the [wwPDB format specification](https://www.wwpdb.org/documentation/file-format-content/format33/sect8.html) and [coordinate section](https://www.wwpdb.org/documentation/file-format-content/format33/sect9.html).
+The export writes a complete new directory and refuses an existing destination or one inside source data. It never overwrites source coordinates. Validation failures exit with status 2.
+
+The exporter rejects ANISOU, SIGATM, SIGUIJ, and MTRIX records because it does not transform their dependent quantities. It removes CRYST1, SCALE, and ORIGX records from this predicted model to avoid carrying an old frame into a new one. The source model's unit cell is a placeholder, not a measured crystal cell. These record meanings and coordinate field widths come from the [wwPDB format specification](https://www.wwpdb.org/documentation/file-format-content/format33/sect8.html) and [coordinate section](https://www.wwpdb.org/documentation/file-format-content/format33/sect9.html).
 
 Coordinates use the PDB 8.3 fields, so saved values differ from full precision by at most 0.0005 Å per component, apart from floating-point tolerance. Coordinate overflow fails. The transform JSON retains full floating-point precision; a viewer's own fit may choose a different subset and produce a different overlay.
 
@@ -34,7 +36,9 @@ Coordinates use the PDB 8.3 fields, so saved values differ from full precision b
 
 Version 1 accepts only the model, transform, receipt, and an optional `README.md`; the optional README is not verified. Required members must be regular files, not symlinks, and at most 2 MiB each. Duplicate JSON keys, nonfinite values, unknown fields, and incorrect types fail. Status 0 means the checks passed; status 2 means validation failed. `--json` sends a structured report to stdout. That report includes current hashes of the three checked files and the fit/evaluation counts.
 
-Runtime version strings are unsigned claims. They are compared with the current environment and reported, not authenticated; `--strict-runtime` additionally fails when they differ. The verifier checks the current exporter and analysis code hashes, so a bundle from a changed implementation needs its corresponding reviewed checkout. It cannot establish who produced a mathematically consistent re-export or why they chose a valid cutoff. A checksum is not a digital signature ([Python hashing and authentication APIs](https://docs.python.org/3.12/library/hmac.html)).
+Runtime version strings are unsigned claims. The verifier compares them with the current environment and reports differences; `--strict-runtime` also fails when they differ. It checks the current exporter and analysis code hashes, so a bundle from a changed implementation needs its corresponding reviewed checkout.
+
+These checks do not authenticate the runtime metadata or establish who produced a mathematically consistent re-export or why they chose a valid cutoff. A checksum is not a digital signature ([Python hashing and authentication APIs](https://docs.python.org/3.12/library/hmac.html)).
 
 ## Worked use case
 
@@ -54,7 +58,7 @@ The default export records 258 fitted and evaluated positions and RMSD 0.5312317
 
 The code checks input identities and hashes, a proper rotation, available mapped atoms, and file-format limits. Tests also compare every exported atom against the recorded transform and check that its confidence and occupancy are unchanged.
 
-The operator still needs to keep the receipt with the exported model, run verification after moving files, inspect which positions entered the fit, and preserve [data attribution](../data/README.md). A passing report checks computational consistency, not authorship or an independently validated fitting method. Confirm source versions and chemistry before interpreting a different case outside this repository.
+Keep the receipt with the exported model, run verification after moving files, inspect which positions entered the fit, and preserve [data attribution](../data/README.md). A passing report checks computational consistency, not authorship or an independently validated fitting method. Confirm source versions and chemistry before interpreting a different case outside this repository.
 
 ## Known limits
 

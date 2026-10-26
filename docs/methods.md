@@ -2,13 +2,13 @@
 
 Terminology: [glossary](glossary.md). Scientific and operational choices: [assumptions](assumptions.md).
 
-For the new aligned-coordinate export, see the [input/output contract and failure behavior](practical-use.md). The [rapid review](literature-review.md) records the evidence and software inspection behind that addition. Exporting applies the already computed proper rigid transform to all predicted atoms and does not change the fit, the baseline results, or their scientific interpretation.
+The aligned-coordinate export applies the computed proper rigid transform to all predicted atoms. It preserves the fit, baseline results, and their scientific interpretation. See the [input/output contract and failure behavior](practical-use.md) for its requirements and the [rapid review](literature-review.md) for the evidence and software inspection behind it.
 
-The round-2 `verify_alignment.py` command additionally checks a bundle against an anchored source-manifest hash and a recomputed fit, then regenerates every exported atom. It uses the existing fitter, so this is a reproducibility check rather than independent algorithm validation. Its exact schema, tolerance, metadata boundaries and failure behavior are in the [practical-use contract](practical-use.md#input-and-output-contract). The [separate search update](search-update-02.json) preserves the original review log.
+The round-2 `verify_alignment.py` command checks a bundle against a fixed source-manifest hash, recomputes the fit, and regenerates every exported atom. It reuses the fitter, so it checks reproducibility rather than independently validating the algorithm. The [practical-use contract](practical-use.md#input-and-output-contract) specifies its schema, tolerance, metadata limits and failure behavior. The [separate search update](search-update-02.json) preserves the original review log.
 
 ## Fixed inputs, not an unrestricted structure matcher
 
-This analysis is deliberately specific to UniProt P00918, experimental 2CBA chain A, and AlphaFold DB model v6. Every source file is fingerprinted in `data/provenance.json`; analysis stops if a byte differs. JSON API snapshots were serialized with `json.dumps(parsed_json, indent=2)`; coordinate files and the AlphaFold confidence sidecar retain their downloaded bytes. A checksum establishes file identity, not scientific accuracy.
+This analysis accepts only UniProt P00918, experimental 2CBA chain A, and AlphaFold DB model v6. It checks every source file against its fingerprint in `data/provenance.json` and stops if a byte differs. JSON API snapshots were serialized with `json.dumps(parsed_json, indent=2)`; coordinate files and the AlphaFold confidence sidecar retain their downloaded bytes. A checksum establishes file identity, not scientific accuracy.
 
 The PDB entry belongs to a publication describing several chemical states. The selected entry contains zinc and no reported amino-acid mutations. It still differs chemically from the prediction: its deposited polymer sequence begins with an ACE group where the canonical sequence has Met1. “No reported mutation” is not “identical chemical state.”
 
@@ -36,10 +36,10 @@ Figure 1 makes the change in denominator visible: excluding one or two lower-con
 
 The AlphaFold confidence sidecar must cover the full canonical sequence, remain within 0–100, and match the prediction's Cα B-column values within rounding tolerance. Those values are labeled pLDDT. Experimental Cα B values are separately labeled in Å², never converted into pLDDT or combined with it. No predicted aligned error analysis is performed.
 
-For context, experimental zinc distances are calculated to the three histidine donor atoms listed in the RCSB neighbor annotation: His94 NE2, His96 NE2, and His119 ND1. These are coordinate distances, not inferred bond energies or measurements of catalytic activity. The prediction has no heteroatoms; no cofactor is added or transferred from the crystal.
+For context, the analysis calculates experimental zinc distances to the three histidine donor atoms listed in the RCSB neighbor annotation: His94 NE2, His96 NE2, and His119 ND1. These are coordinate distances, not inferred bond energies or measurements of catalytic activity. The prediction has no heteroatoms; the analysis neither adds a cofactor nor transfers one from the crystal.
 
 ## Limits of the comparison
 
 2CBA is a historical structure. Training or template overlap with AlphaFold cannot be excluded, so this is not an independent generalization benchmark. Fitted differences also mix prediction behavior, chemical-state differences, experimental environment and model uncertainty. Their causes are not identifiable here. The calculation does not test side-chain accuracy, dynamics, protonation, activity, affinity, clinical relevance, or a proposed mechanism.
 
-The figures are generated with Matplotlib. Numerical outputs are rounded to six decimal places for readable tables; fitting uses unrounded coordinates. Tests cover rigid transformations/reflections, mapping/numbering errors, alternate atoms, missing positions, checksums, fixed numerical results, and deterministic tabular output.
+Matplotlib generates the figures. The tables round numerical outputs to six decimal places; fitting uses unrounded coordinates. Tests cover rigid transformations/reflections, mapping/numbering errors, alternate atoms, missing positions, checksums, fixed numerical results, and deterministic tabular output.
