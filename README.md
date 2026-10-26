@@ -26,11 +26,11 @@ Use Python 3.12 from the repository root:
 
 ```sh
 python -m pip install -r requirements.txt
-python analyze.py
+python analyze.py --output-dir reproduced-results
 python -m unittest discover -s tests -v
 ```
 
-All source snapshots are included; analysis runs offline after dependencies are installed. `make demo` and `make test` are equivalent shortcuts. The optional [retrieval script](scripts/fetch_data.py) accepts downloaded inputs only when their fingerprints match the recorded snapshot.
+All source snapshots are included; analysis runs offline after dependencies are installed. The command above writes `reproduced-results/`, leaving the recorded `results/` available for comparison. `make test` runs the same test command; `make demo` uses the default output directory and regenerates `results/`. The optional [retrieval script](scripts/fetch_data.py) accepts downloaded inputs only when their fingerprints match the recorded snapshot.
 
 Git attributes preserve source and saved-bundle bytes across checkouts, including on Windows. Re-saving those inputs with different line endings can correctly trigger a fingerprint failure.
 

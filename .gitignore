@@ -5,3 +5,4 @@ __pycache__/
 .structure_results_*/
 .alignment_export_*/
 derived/
+reproduced-results/
