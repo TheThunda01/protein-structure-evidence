@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "chimerax_version": "1.12",
+  "fit": "Uses the verified saved transform; no fit or coordinate change in ChimeraX",
+  "verification": {
+    "schema_version": 1,
+    "verified": true,
+    "source_manifest_sha256": "03969a576ba2b0259fbadb568195a618f5931a519b18e8ae3359fbf3d6cd5527",
+    "verified_bundle_sha256": {
+      "aligned_prediction.pdb": "fe08d39f35b5afc9792a97ace7f314efcfa7f94dbfd958b3f6fa10f4ddb26b07",
+      "receipt.json": "3475bd70e052343a0c8cee4ce4847998b21cb8f95f3a1e4cd7e0f553f18c250e",
+      "transform.json": "9d9f1f9cec215d2564d13dc16a8dcc0080a9296eeea315dd617c79dcf7bb0bf7"
+    },
+    "predicted_atoms": 2073,
+    "fit_residues": 258,
+    "evaluation_residues": 258,
+    "fit_min_plddt": 0.0,
+    "numeric_recomputation_tolerance": 1e-10,
+    "recorded_runtime": {
+      "python": "3.12.14",
+      "numpy": "2.3.5"
+    },
+    "current_runtime": {
+      "python": "3.11.9",
+      "numpy": "1.26.4"
+    },
+    "runtime_matches_current": false,
+    "runtime_metadata_authenticated": false,
+    "strict_runtime_requested": false,
+    "limits": "Checks pinned-case file integrity and computational consistency; not authorship, a digital signature, independent method validation, or biological function. An optional README is not verified."
+  },
+  "models": [
+    {
+      "id": "1",
+      "atoms": 2280,
+      "residues": 479
+    },
+    {
+      "id": "2",
+      "atoms": 2073,
+      "residues": 260
+    }
+  ],
+  "source_sha256": {
+    "data/2cba.pdb": "7862c050b41ed8a867555699c6a0266c7997c06f7552593febf2af9c92c6e5a8",
+    "examples/alignment/aligned_prediction.pdb": "fe08d39f35b5afc9792a97ace7f314efcfa7f94dbfd958b3f6fa10f4ddb26b07"
+  },
+  "scope": "Visualization of one pinned pair; training/template overlap cannot be excluded. Confidence and experimental B factors remain distinct.",
+  "rendered": true,
+  "commands": [
+    "set bgColor white",
+    "camera ortho",
+    "lighting soft",
+    "graphics silhouettes true",
+    "hide atoms",
+    "cartoon #1/A",
+    "cartoon #2/A",
+    "color #1 #176b87",
+    "color #2 #d58027",
+    "show #1:ZN atoms",
+    "style #1:ZN sphere",
+    "color #1:ZN #7a477e",
+    "view orient",
+    "view #1,2",
+    "turn y 25",
+    "turn x -10",
+    "zoom 0.72",
+    "2dlabels create title text \"Carbonic anhydrase II: verified coordinate overlay\" xpos 0.03 ypos 0.93 size 24 color black",
+    "2dlabels create experiment text \"Teal: experimental 2CBA chain A\" xpos 0.03 ypos 0.08 size 19 color #176b87",
+    "2dlabels create prediction text \"Orange: aligned AlphaFold P00918 v6\" xpos 0.03 ypos 0.035 size 19 color #b36819",
+    "save \"<output>/overlay.png\" width 1400 height 1050 supersample 3",
+    "save \"<output>/inspection.cxs\""
+  ],
+  "image_sha256": "1a71975c97e731153f02f7f7dee21454445f5004d0e1b3289d50bbd08d4502b7"
+}
