@@ -22,6 +22,8 @@ The code maps depositor residue labels to the reference sequence using RCSB (Res
 
 An optional export saves the transformed prediction for external inspection, with explicit transform conventions, source hashes, and a receipt.
 
+An optional ChimeraX script verifies that saved bundle, opens both models without another fit, and saves a labeled view plus a native inspection session.
+
 Canonical positions 1–2 have no comparable experimental Cα coordinates. The Protein Data Bank (PDB) record declares an acetyl (ACE) cap instead of canonical Met1, and Ser2 is unmodeled. Later, author numbering jumps from 125 to 127 while canonical numbering remains continuous: author 127 maps to UniProt 126. An absent author number is not necessarily a missing amino acid.
 
 ## Quick start
@@ -89,6 +91,10 @@ Figure 3 keeps these evidence channels in separate panels rather than combining 
 ![Separate confidence, displacement, and experimental B-factor profiles](results/evidence_profiles.png)
 
 **Figure 3. Separate evidence profiles along the sequence.** The existing analysis plots pLDDT, experimental B factors, and fitted displacement from [the same residue table](results/residue_comparison.csv). Missing experimental coordinates remain missing; none of these panels measures protein activity.
+
+![ChimeraX cartoon overlay of experimental carbonic anhydrase II in teal and the verified aligned prediction in orange](docs/figures/chimerax-overlay.png)
+
+**Figure 4. Inspect the verified alignment in a molecular viewer.** ChimeraX opened the already transformed prediction alongside 2CBA chain A; no second fit was performed. Purple marks experimental zinc, which was not added to the prediction. Colors identify models, not confidence. Training/template overlap cannot be excluded. The [inspection guide](docs/chimerax-inspection.md), [script](tools/chimerax_inspection.py), and [render record](docs/figures/chimerax-overlay.json) connect this view to the saved input hashes and numerical checks.
 
 ## Practical use and limitations
 
