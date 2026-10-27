@@ -26,3 +26,7 @@ The project traces source records, joins biological databases, tests the geometr
 - **Limits:** report what is not represented or independently tested.
 
 The historical experimental structure may overlap AlphaFold training data or templates. This is a worked comparison, not an independent benchmark of prediction accuracy or a validation of biological function.
+
+## Where this fits in the portfolio
+
+This is a supporting study of what a model comparison can establish. It complements the featured [enzyme kinetics study](https://github.com/TheThunda01/enzyme-kinetics-workbench), which distinguishes a fitted curve from evidence about its parameters and mechanism. The studies use different proteins and inputs. The [portfolio guide](https://github.com/TheThunda01/TheThunda01/blob/main/PROJECT_GUIDE.md) places both alongside prediction checks and virtual measurement selection.
