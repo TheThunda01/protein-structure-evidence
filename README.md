@@ -1,6 +1,6 @@
 # Protein structure evidence
 
-**How much does a predicted protein structure tell us when we also have an experimental model?** This example compares two models of human carbonic anhydrase II. It maps corresponding residues, aligns their backbones, and displays predicted confidence separately from experimental displacement parameters.
+**Where does an AlphaFold prediction agree with an experimental structure, and where do they differ?** This case follows human carbonic anhydrase II from its residue labels to an overlay of the two backbones. Each point in the displacement plot represents the distance between a pair of matched alpha-carbon atoms after alignment.
 
 ## Why this project
 
@@ -53,6 +53,8 @@ The export refuses an existing destination. Verification reads the bundle, check
 
 ## Example results
 
+Across **258 matched Cα pairs**, the root-mean-square deviation was **0.531 Å**. At **residue 3**, the two coordinates were **6.499 Å** apart. Look up UniProt position 3 for the predicted confidence (pLDDT **69.06**) and experimental occupancy (**0.50**). These measurements describe the local disagreement. [Residue comparison](results/residue_comparison.csv) · [Evidence profiles](results/evidence_profiles.png)
+
 | Output | Purpose |
 | --- | --- |
 | [Report](results/report.md) / [summary JSON](results/summary.json) | Counts, fit settings, and descriptive results. |
@@ -62,8 +64,6 @@ The export refuses an existing destination. Verification reads the bundle, check
 | [Evidence profiles](results/evidence_profiles.png) / [backbone overlay](results/backbone_overlay.png) | Distinct evidence panels and matched Cα traces. |
 | [Exported model](examples/alignment/aligned_prediction.pdb), [transform](examples/alignment/transform.json), [receipt](examples/alignment/receipt.json) | Full predicted model in the experimental coordinate frame, plus reproducible fit selection and integrity metadata. |
 | [Verification report](examples/verification/report.json) | Read-only check of the saved bundle against pinned inputs; includes fit counts, file hashes, and runtime-metadata limits. |
-
-The default fit uses **258 Cα pairs**, with RMSD **0.531 Å**. The largest displacement is **6.499 Å** at canonical residue **3**, where predicted local distance difference test (pLDDT) confidence is **69.06** and experimental Cα occupancy is **0.50**. These observations describe the disagreement but do not establish its cause.
 
 Figure 1 explains why residue mapping comes before the structural fit. The numbering gap is a label difference; the first two positions lack comparable experimental Cα coordinates.
 
