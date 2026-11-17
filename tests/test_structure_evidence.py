@@ -186,6 +186,25 @@ class RealSnapshotTests(unittest.TestCase):
             verify_inputs(ROOT/"data")
             self.assertFalse(first["plots_generated"])
 
+    def test_interrupted_publication_restores_previous_files(self):
+        with tempfile.TemporaryDirectory() as temp:
+            out = Path(temp) / "results"
+            run(ROOT / "data", out, make_figures=False)
+            (out / "backbone_overlay.png").write_bytes(b"previous figure")
+            (out / "notes.txt").write_text("keep my notes")
+            before = {p.name: p.read_bytes() for p in out.iterdir()}
+            replace = os.replace
+
+            def fail_at_summary(source, target):
+                if source.name == "summary.json" and source.parent.name != "previous":
+                    raise OSError("could not publish summary")
+                replace(source, target)
+
+            with patch("analyze.os.replace", side_effect=fail_at_summary):
+                with self.assertRaisesRegex(OSError, "could not publish summary"):
+                    run(ROOT / "data", out, fit_min_plddt=90, make_figures=False)
+            self.assertEqual(before, {p.name: p.read_bytes() for p in out.iterdir()})
+
     def test_no_plots_does_not_leave_stale_figures(self):
         with tempfile.TemporaryDirectory() as temp:
             out=Path(temp)

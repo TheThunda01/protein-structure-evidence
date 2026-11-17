@@ -4,10 +4,12 @@ import argparse
 import csv
 import json
 import os
+import shutil
 from pathlib import Path
 import tempfile
 
 import numpy as np
+from filelock import FileLock
 
 from structure_evidence import ValidationError, comparison, sha256
 
@@ -43,6 +45,13 @@ def figures(result, directory):
     axes[0].axhline(70, color="#aaaaaa", linestyle="--", lw=.7)
     axes[0].axhline(90, color="#aaaaaa", linestyle="--", lw=.7)
     axes[1].plot(positions, values("ca_displacement_A"), color="#c26020", lw=1.2)
+    peak = max((r for r in rows if r["ca_displacement_A"] is not None),
+               key=lambda r: r["ca_displacement_A"])
+    position, distance = peak["uniprot_position"], peak["ca_displacement_A"]
+    axes[1].scatter(position, distance, s=24, color="#753610", zorder=3)
+    axes[1].annotate(f"Residue {position} · {distance:.2f} Å",
+                     xy=(position, distance), xytext=(12, -12),
+                     textcoords="offset points", color="#753610")
     axes[1].set(ylabel="Cα displacement (Å)\nafter rigid fitting", ylim=(0, None))
     axes[2].plot(positions, values("experimental_ca_b_factor_A2"), color="#7151a0", lw=1.2)
     axes[2].set(ylabel="Experimental Cα B\n(Å²)", xlabel="UniProt P00918 residue position", ylim=(0, None))
@@ -67,6 +76,40 @@ def figures(result, directory):
     ax.view_init(elev=20, azim=-63)
     fig.savefig(directory / "backbone_overlay.png", dpi=160, metadata={"Software": "protein-structure-evidence"})
     plt.close(fig)
+
+
+def publish(directory, output_dir):
+    """Replace the generated files together, preserving any unrelated files."""
+    output_dir = output_dir.resolve()
+    staged = {path.name: path for path in directory.iterdir()}
+    managed = sorted(set(staged) | {"evidence_profiles.png", "backbone_overlay.png"})
+    backup = directory / "previous"
+    backup.mkdir()
+    with FileLock(output_dir.parent / f".{output_dir.name}.publish.lock"):
+        output_dir.mkdir(parents=True, exist_ok=True)
+        for name in managed:
+            previous = output_dir / name
+            if previous.is_symlink() or previous.is_file():
+                shutil.copy2(previous, backup / name, follow_symlinks=False)
+            elif previous.exists():
+                raise ValidationError(f"Expected an output file at {previous}")
+        changed = []
+        try:
+            for name in managed:
+                destination = output_dir / name
+                if name in staged:
+                    os.replace(staged[name], destination)
+                else:
+                    destination.unlink(missing_ok=True)
+                changed.append(name)
+        except OSError:
+            for name in reversed(changed):
+                previous = backup / name
+                if previous.is_symlink() or previous.exists():
+                    os.replace(previous, output_dir / name)
+                else:
+                    (output_dir / name).unlink(missing_ok=True)
+            raise
 
 
 def run(data_dir, output_dir, fit_min_plddt=0.0, make_figures=True):
@@ -95,12 +138,7 @@ def run(data_dir, output_dir, fit_min_plddt=0.0, make_figures=True):
         (directory / "report.md").write_text("\n".join(lines), encoding="utf-8")
         if make_figures:
             figures(result, directory)
-        output_dir.mkdir(parents=True, exist_ok=True)
-        for source in directory.iterdir():
-            os.replace(source, output_dir / source.name)
-        if not make_figures:
-            for name in ("evidence_profiles.png", "backbone_overlay.png"):
-                (output_dir / name).unlink(missing_ok=True)
+        publish(directory, output_dir)
     return summary
 
 

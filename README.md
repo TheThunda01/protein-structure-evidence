@@ -6,7 +6,7 @@
 
 This supports [From biological measurements to better experiments](https://github.com/TheThunda01/TheThunda01/blob/main/PROJECT_GUIDE.md) by separating structural agreement from evidence of function, and showing why mapping and comparison choices matter.
 
-An attractive structural overlay can hide differences between two models. This example shows the residue correspondence, source records, and fitting choices behind the image. Start with the [project context](docs/project-context.md) or [biology guide](docs/biology-and-concepts.md).
+The two backbones almost coincide after alignment. The displacement plot picks out residue 3, where the models still differ by about 6.5 Å. The residue table lets you trace that point back to its coordinates and experimental occupancy. Start with the [project context](docs/project-context.md) or [biology guide](docs/biology-and-concepts.md).
 
 This educational case study was developed with AI assistance and checked with executable examples. It is not a new structure determination or a functional validation study.
 

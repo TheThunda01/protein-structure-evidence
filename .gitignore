@@ -6,3 +6,4 @@ __pycache__/
 .alignment_export_*/
 derived/
 reproduced-results/
+.*.publish.lock
